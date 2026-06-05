@@ -1,0 +1,238 @@
+{
+  "id": 13,
+  "title": "要换车",
+  "theme": "交通・必要③",
+  "grammar": [
+    "双賓文（二重目的語文）",
+    "能願動詞「会」",
+    "数量詞が定語となる場合"
+  ],
+  "hsk_level": 2,
+
+  "scene_description": "茶館を出た後、飛虎が乗り合い馬車の乗り換えを提案。老王はここで一時別れて商談へ。時刻表もマップもない中、御者に直行便の有無を確認し、荷物を運んでくれた服务員から道案内も得られた。しかし飛虎が「切符代はお前が払え」と言い出し、健がしぶしぶ三人分15文を払う羽目に。馬車が動き出すと、飛虎がぽつりと「龍泉城に知り合いがいるかもしれない」と言った。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson13/panel_01.jpg",
+      "caption": "茶館を出て馬車乗り場へ。老王とここで一時お別れ。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson13/panel_02.jpg",
+      "caption": "御者に直行便の有無を確認する健。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson13/panel_03.jpg",
+      "caption": "「三人分お前が払え」という飛虎に目を丸くする健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson13/panel_04.jpg",
+      "caption": "馬車が動き出す。飛虎が「知り合いがいるかもしれない」とぽつり。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "要换马车。",
+      "pinyin": "Yào huàn mǎchē.",
+      "japanese": "馬車を乗り換えます。",
+      "audio": "/audio/lesson13/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "你会说普通话吗？",
+      "pinyin": "Nǐ huì shuō pǔtōnghuà ma?",
+      "japanese": "標準語は話せますか？",
+      "audio": "/audio/lesson13/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "有没有直接的车？",
+      "pinyin": "Yǒu méiyǒu zhíjiē de chē?",
+      "japanese": "直行便はありますか？",
+      "audio": "/audio/lesson13/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "一班直达，一班要换一次车。",
+      "pinyin": "Yī bān zhídá, yī bān yào huàn yī cì chē.",
+      "japanese": "1本直行、1本は途中乗り換えあり。",
+      "audio": "/audio/lesson13/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "我帮你们搬行李！",
+      "pinyin": "Wǒ bāng nǐmen bān xíngli!",
+      "japanese": "荷物をお持ちします！",
+      "audio": "/audio/lesson13/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "你给他们三张票的钱。",
+      "pinyin": "Nǐ gěi tāmen sān zhāng piào de qián.",
+      "japanese": "お前が三人分の切符代を払え。",
+      "audio": "/audio/lesson13/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "一张五文钱，三张一共十五文。",
+      "pinyin": "Yī zhāng wǔ wén qián, sān zhāng yīgòng shíwǔ wén.",
+      "japanese": "1枚5文、3枚で合計15文です。",
+      "audio": "/audio/lesson13/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "下次你来付！",
+      "pinyin": "Xià cì nǐ lái fù!",
+      "japanese": "次はあなたが払ってください！",
+      "audio": "/audio/lesson13/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "要换马车。那边有两班车，选哪一班？",
+      "pinyin": "Yào huàn mǎchē. Nàbiān yǒu liǎng bān chē, xuǎn nǎ yī bān?",
+      "japanese": "馬車を乗り換える。あちらに2本の便がある、どれにする？",
+      "audio": "/audio/lesson13/conv_01.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "请问，你会说普通话吗？",
+      "pinyin": "Qǐngwèn, nǐ huì shuō pǔtōnghuà ma?",
+      "japanese": "すみません、標準語は話せますか？",
+      "audio": "/audio/lesson13/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "御者",
+      "is_learner": false,
+      "chinese": "会！你们去哪儿？",
+      "pinyin": "Huì! Nǐmen qù nǎr?",
+      "japanese": "話せます！どちらへ？",
+      "audio": "/audio/lesson13/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我们要去龙泉城。有没有直接的车？",
+      "pinyin": "Wǒmen yào qù Lóngquán Chéng. Yǒu méiyǒu zhíjiē de chē?",
+      "japanese": "龍泉城へ行きたいです。直行便はありますか？",
+      "audio": "/audio/lesson13/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "御者",
+      "is_learner": false,
+      "chinese": "有！一班直达，一班要换一次车。",
+      "pinyin": "Yǒu! Yī bān zhídá, yī bān yào huàn yī cì chē.",
+      "japanese": "あります！1本直行、1本は途中乗り換えあり。",
+      "audio": "/audio/lesson13/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "服务员",
+      "is_learner": false,
+      "chinese": "我帮你们搬行李！",
+      "pinyin": "Wǒ bāng nǐmen bān xíngli!",
+      "japanese": "荷物をお持ちします！",
+      "audio": "/audio/lesson13/conv_06.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "谢谢！你懂这里的路吗？",
+      "pinyin": "Xièxiè! Nǐ dǒng zhèlǐ de lù ma?",
+      "japanese": "ありがとう！この道のことわかりますか？",
+      "audio": "/audio/lesson13/conv_07.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c8",
+      "speaker": "服务员",
+      "is_learner": false,
+      "chinese": "懂！龙泉城的路我最清楚！",
+      "pinyin": "Dǒng! Lóngquán Chéng de lù wǒ zuì qīngchǔ!",
+      "japanese": "わかりますよ！龍泉城への道なら一番詳しい！",
+      "audio": "/audio/lesson13/conv_08.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c9",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "你给他们三张票的钱。",
+      "pinyin": "Nǐ gěi tāmen sān zhāng piào de qián.",
+      "japanese": "お前が三人分の切符代を払え。",
+      "audio": "/audio/lesson13/conv_09.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c10",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "……三张票，多少钱？",
+      "pinyin": "……Sān zhāng piào, duōshao qián?",
+      "japanese": "……3枚の切符、いくらですか？",
+      "audio": "/audio/lesson13/conv_10.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c11",
+      "speaker": "御者",
+      "is_learner": false,
+      "chinese": "一张五文钱，三张一共十五文。",
+      "pinyin": "Yī zhāng wǔ wén qián, sān zhāng yīgòng shíwǔ wén.",
+      "japanese": "1枚5文、3枚で合計15文です。",
+      "audio": "/audio/lesson13/conv_11.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c12",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "好……给你十五文钱。下次飞虎你来付！",
+      "pinyin": "Hǎo……gěi nǐ shíwǔ wén qián. Xià cì Fēi Hǔ nǐ lái fù!",
+      "japanese": "わかった……15文。次は飛虎が払ってください！",
+      "audio": "/audio/lesson13/conv_12.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c13",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……考虑一下。",
+      "pinyin": "……Kǎolǜ yīxià.",
+      "japanese": "……考えておく。",
+      "audio": "/audio/lesson13/conv_13.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「给你十五文钱」——これが双賓文！「動詞＋人＋もの」のSVOO構造。英語と同じじゃないか。「我告诉你一件事」「他教我中文」、全部この型。双賓文チートスキル、解放された。「懂（dǒng）わかる」「服务员（fúwùyuán）店員」がスキル登録。飛虎が払わない件は……デバフ扱いで記録する。",
+
+  "study_notes": [
+    "双賓文（二重目的語文）：「動詞＋人＋もの」＝人にものを〜する",
+    "能願動詞「会」：「会说普通话」＝標準語が話せる（習得した能力）",
+    "数量詞が定語：「一班车」＝1本の便、「三张票」＝3枚の切符",
+    "「一共」＝合計で",
+    "【新出未使用語彙】懂（dǒng）わかる、服务员（fúwùyuán）店員・スタッフ"
+  ]
+}

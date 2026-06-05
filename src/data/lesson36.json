@@ -1,0 +1,45 @@
+{
+  "id": 36,
+  "title": "我要回国了",
+  "theme": "お別れ",
+  "grammar": [
+    "「了」の用法の総まとめ"
+  ],
+  "hsk_level": 4,
+  "scene_description": "元気を取り戻した健。宿の中庭で星空を眺めながら「帰国条件：言語習得レベルMAX」というスキルUIの文字を改めて見つめる。飛虎に「帰国しなければならない」と初めて打ち明けると、飛虎は静かに「中国語のためか」と理解し「しっかり学べばいい」「練習を手伝う」と言う。玲も加わり「一緒に出発！」と決意が固まる。飛虎が「一緒に旅する」と言った直後、スキルUIに「隠しクエスト：解放」の文字が浮かんだ。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson36/panel_01.jpg", "caption": "中庭で星空を眺める健。「帰還条件：言語習得レベルMAX」の文字が浮かぶ。"},
+    {"panel_id": 2, "image": "/images/lesson36/panel_02.jpg", "caption": "「帰国しないといけない」と初めて飛虎に打ち明ける健。"},
+    {"panel_id": 3, "image": "/images/lesson36/panel_03.jpg", "caption": "「しっかり学べばいい。練習を手伝う」と言う飛虎。健が感動。"},
+    {"panel_id": 4, "image": "/images/lesson36/panel_04.jpg", "caption": "玲も加わり「一緒に出発！」スキルUIに「隠しクエスト：解放」が浮かぶ。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "我突然想到一件事……我要回国了。", "pinyin": "Wǒ tūrán xiǎng dào yī jiàn shì…… wǒ yào huí guó le.", "japanese": "突然あることを考えてしまって……私は帰国しなければならないんです。", "audio": "/audio/lesson36/shadow_01.mp3"},
+    {"id": "s2", "chinese": "我一直担心自己能不能回去。", "pinyin": "Wǒ yīzhí dānxīn zìjǐ néng bu néng huí qù.", "japanese": "帰れるかどうかずっと心配していました。", "audio": "/audio/lesson36/shadow_02.mp3"},
+    {"id": "s3", "chinese": "如果学不好中文，就回不去了……", "pinyin": "Rúguǒ xué bu hǎo zhōngwén, jiù huí bu qù le……", "japanese": "もし中国語が上達しなければ、帰れなくなる……", "audio": "/audio/lesson36/shadow_03.mp3"},
+    {"id": "s4", "chinese": "我需要学会中文，才能回家。", "pinyin": "Wǒ xūyào xué huì zhōngwén, cái néng huí jiā.", "japanese": "中国語を習得して初めて、家に帰れるんです。", "audio": "/audio/lesson36/shadow_04.mp3"},
+    {"id": "s5", "chinese": "原来如此。那就好好学吧。", "pinyin": "Yuánlái rúcǐ. Nà jiù hǎohǎo xué ba.", "japanese": "なるほど。それならしっかり学べばいい。", "audio": "/audio/lesson36/shadow_05.mp3"},
+    {"id": "s6", "chinese": "我们一起旅行，我可以帮你练习。", "pinyin": "Wǒmen yīqǐ lǚxíng, wǒ kěyǐ bāng nǐ liànxí.", "japanese": "一緒に旅をしながら練習を手伝いましょう。", "audio": "/audio/lesson36/shadow_06.mp3"},
+    {"id": "s7", "chinese": "我们决定了，一起出发！", "pinyin": "Wǒmen juédìng le, yīqǐ chūfā!", "japanese": "決めた、一緒に出発します！", "audio": "/audio/lesson36/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "健", "is_learner": true, "chinese": "飞虎，我突然想到一件事……我要回国了。", "pinyin": "Fēi Hǔ, wǒ tūrán xiǎng dào yī jiàn shì…… wǒ yào huí guó le.", "japanese": "飛虎、突然あることを考えてしまって……私は帰国しなければならないんです。", "audio": "/audio/lesson36/conv_01.mp3", "panel_id": 2},
+    {"id": "c2", "speaker": "飛虎", "is_learner": false, "chinese": "回国？你的故乡在哪儿？", "pinyin": "Huí guó? Nǐ de gùxiāng zài nǎr?", "japanese": "帰国？あなたの故郷はどこですか？", "audio": "/audio/lesson36/conv_02.mp3", "panel_id": 2},
+    {"id": "c3", "speaker": "健", "is_learner": true, "chinese": "……很远的地方。我一直担心自己能不能回去。如果学不好中文，就回不去了……", "pinyin": "……Hěn yuǎn de dìfang. Wǒ yīzhí dānxīn zìjǐ néng bu néng huí qù. Rúguǒ xué bu hǎo zhōngwén, jiù huí bu qù le……", "japanese": "……とても遠いところです。帰れるかどうかずっと心配していました。もし中国語が上達しなければ、帰れなくなる……", "audio": "/audio/lesson36/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "飛虎", "is_learner": false, "chinese": "你学中文是为了回去吗？", "pinyin": "Nǐ xué zhōngwén shì wèile huí qù ma?", "japanese": "中国語を学んでいるのは、帰るためですか？", "audio": "/audio/lesson36/conv_04.mp3", "panel_id": 3},
+    {"id": "c5", "speaker": "健", "is_learner": true, "chinese": "……对。我需要学会中文，才能回家。", "pinyin": "……Duì. Wǒ xūyào xué huì zhōngwén, cái néng huí jiā.", "japanese": "……そうです。中国語を習得して初めて、家に帰れるんです。", "audio": "/audio/lesson36/conv_05.mp3", "panel_id": 3},
+    {"id": "c6", "speaker": "飛虎", "is_learner": false, "chinese": "原来如此。那就好好学吧。", "pinyin": "Yuánlái rúcǐ. Nà jiù hǎohǎo xué ba.", "japanese": "なるほど。それならしっかり学べばいい。", "audio": "/audio/lesson36/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "健", "is_learner": true, "chinese": "飞虎，你……谢谢你。", "pinyin": "Fēi Hǔ, nǐ……xièxiè nǐ.", "japanese": "飛虎……ありがとう。", "audio": "/audio/lesson36/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "飛虎", "is_learner": false, "chinese": "不用谢。我们一起旅行，我可以帮你练习。", "pinyin": "Bú yòng xiè. Wǒmen yīqǐ lǚxíng, wǒ kěyǐ bāng nǐ liànxí.", "japanese": "お礼は不要です。一緒に旅をしながら練習を手伝いましょう。", "audio": "/audio/lesson36/conv_08.mp3", "panel_id": 4},
+    {"id": "c9", "speaker": "玲", "is_learner": false, "chinese": "什么？你们在聊什么？我也要参加！", "pinyin": "Shénme? Nǐmen zài liáo shénme? Wǒ yě yào cānjiā!", "japanese": "何？何を話してるの？私も参加したい！", "audio": "/audio/lesson36/conv_09.mp3", "panel_id": 4},
+    {"id": "c10", "speaker": "健", "is_learner": true, "chinese": "我们决定了，一起出发！", "pinyin": "Wǒmen juédìng le, yīqǐ chūfā!", "japanese": "決めた、一緒に出発します！", "audio": "/audio/lesson36/conv_10.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "「了」がトリプルスキルで来た！「要回国了」（変化の了）・「决定了」（完了の了）・「想到了」（動態助詞の了）——全部同じ一文字で意味が違う。「如果（rúguǒ）もし〜なら」「意思（yìsi）意味」がスキル登録。「如果学不好，就回不去了」——この一文で健の全てが説明できた。飛虎のクールな励まし……これ確実にフラグだろ。主人公ムーブ、俺じゃなくて飛虎だったのか。",
+  "study_notes": [
+    "「了」の用法①：語気助詞「了」→状況の変化（「要回国了」）",
+    "「了」の用法②：動態助詞「了」→動作の完了（「决定了」「想到了」）",
+    "「突然」（tūrán）：「突然・急に」",
+    "「担心」（dānxīn）：「心配する」",
+    "【新出未使用語彙】如果（rúguǒ）もし〜なら、意思（yìsi）意味・意思"
+  ]
+}

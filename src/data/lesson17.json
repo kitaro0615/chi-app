@@ -1,0 +1,218 @@
+{
+  "id": 17,
+  "title": "去见识动物",
+  "theme": "約束②",
+  "grammar": [
+    "選択疑問文",
+    "動作方式を表す連動句",
+    "趨向補語①"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "道中の小村で旅芸人の一座が「珍獣見物」の幕を張っていた。鈴鐺が健の袖を引っ張り、完全に寄り道イベント発生。「外で待つ」と言っていた飛虎もしぶしぶ入場。大きな羽を持つ鳥が飛び上がり、こちらに走ってきたとき、健が逃げようとするのを飛虎が「動くな」と制して冷静に対処。実は一番先に飛び込んできたのは飛虎だった。珍獣館を出ると、飛虎が「この先に知っている場所がある」と低い声でつぶやいた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson17/panel_01.jpg",
+      "caption": "「珍獣見物」の看板に目を輝かせる鈴鐺。袖を引っ張られる健。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson17/panel_02.jpg",
+      "caption": "「外で待つ」と言う飛虎を玲が引っ張って一緒に入場。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson17/panel_03.jpg",
+      "caption": "大きな鳥が走ってきて後退りする健。飛虎が冷静に制する。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson17/panel_04.jpg",
+      "caption": "珍獣館を出た飛虎が「この先に知っている場所がある」とつぶやく。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "那里有珍兽馆！去还是不去？",
+      "pinyin": "Nàlǐ yǒu zhēn shòu guǎn! Qù háishi bú qù?",
+      "japanese": "あそこに珍獣館がある！行く？行かない？",
+      "audio": "/audio/lesson17/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "走进去看看！",
+      "pinyin": "Zǒu jìnqù kànkan!",
+      "japanese": "入って見てみよう！",
+      "audio": "/audio/lesson17/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "我在外面等。",
+      "pinyin": "Wǒ zài wàimiàn děng.",
+      "japanese": "外で待ちます。",
+      "audio": "/audio/lesson17/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "我们有兴趣参观珍兽馆！可以进去吗？",
+      "pinyin": "Wǒmen yǒu xìngqù cānguān zhēn shòu guǎn! Kěyǐ jìnqù ma?",
+      "japanese": "珍獣館を見学したいです！入れますか？",
+      "audio": "/audio/lesson17/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "那只鸟飞起来了！又大又漂亮！",
+      "pinyin": "Nà zhī niǎo fēi qǐlái le! Yòu dà yòu piàoliang!",
+      "japanese": "あの鳥が飛び上がった！大きくてきれい！",
+      "audio": "/audio/lesson17/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "它跑过来了！快跑！",
+      "pinyin": "Tā pǎo guòlái le! Kuài pǎo!",
+      "japanese": "こっちに走ってきた！逃げて！",
+      "audio": "/audio/lesson17/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "别动。它只是好奇。站稳，别跑。",
+      "pinyin": "Bié dòng. Tā zhǐshì hàoqí. Zhàn wěn, bié pǎo.",
+      "japanese": "動くな。ただ好奇心があるだけだ。しっかり立て。",
+      "audio": "/audio/lesson17/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "你跑进来得真快……",
+      "pinyin": "Nǐ pǎo jìnlái de zhēn kuài……",
+      "japanese": "飛び込んできたの早すぎる……",
+      "audio": "/audio/lesson17/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "健！那里有珍兽馆！去还是不去？",
+      "pinyin": "Jiàn! Nàlǐ yǒu zhēn shòu guǎn! Qù háishi bú qù?",
+      "japanese": "健！あそこに珍獣館がある！行く？行かない？",
+      "audio": "/audio/lesson17/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "珍兽馆？是什么动物？走进去看看！",
+      "pinyin": "Zhēn shòu guǎn? Shì shénme dòngwù? Zǒu jìnqù kànkan!",
+      "japanese": "珍獣館？どんな動物がいるの？入って見てみよう！",
+      "audio": "/audio/lesson17/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……你们去吧。我在外面等。",
+      "pinyin": "……Nǐmen qù ba. Wǒ zài wàimiàn děng.",
+      "japanese": "……お前たちで行け。俺は外で待つ。",
+      "audio": "/audio/lesson17/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "飞虎也进来嘛！走进去，一起看！",
+      "pinyin": "Fēi Hǔ yě jìnlái ma! Zǒu jìnqù, yīqǐ kàn!",
+      "japanese": "飛虎も入ってよ！一緒に！",
+      "audio": "/audio/lesson17/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……好。",
+      "pinyin": "……Hǎo.",
+      "japanese": "……わかった。",
+      "audio": "/audio/lesson17/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我们有兴趣参观珍兽馆！可以进去吗？",
+      "pinyin": "Wǒmen yǒu xìngqù cānguān zhēn shòu guǎn! Kěyǐ jìnqù ma?",
+      "japanese": "珍獣館を見学したいです！入れますか？",
+      "audio": "/audio/lesson17/conv_06.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c7",
+      "speaker": "係の人",
+      "is_learner": false,
+      "chinese": "当然可以！欢迎参观！",
+      "pinyin": "Dāngrán kěyǐ! Huānyíng cānguān!",
+      "japanese": "もちろん！ようこそ！",
+      "audio": "/audio/lesson17/conv_07.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c8",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "哇！那只鸟飞起来了！又大又漂亮！",
+      "pinyin": "Wā! Nà zhī niǎo fēi qǐlái le! Yòu dà yòu piàoliang!",
+      "japanese": "わあ！あの鳥が飛び上がった！大きくてきれい！",
+      "audio": "/audio/lesson17/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "大！它跑过来了！快跑！",
+      "pinyin": "Dà! Tā pǎo guòlái le! Kuài pǎo!",
+      "japanese": "大きい！こっちに走ってきた！逃げて！",
+      "audio": "/audio/lesson17/conv_09.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c10",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "别动。它只是好奇。站稳，别跑。",
+      "pinyin": "Bié dòng. Tā zhǐshì hàoqí. Zhàn wěn, bié pǎo.",
+      "japanese": "動くな。ただ好奇心があるだけだ。しっかり立て。",
+      "audio": "/audio/lesson17/conv_10.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c11",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "……飞虎真厉害。你跑进来得真快……",
+      "pinyin": "……Fēi Hǔ zhēn lìhài. Nǐ pǎo jìnlái de zhēn kuài……",
+      "japanese": "……飛虎、すごい。飛び込んできたの早すぎる……",
+      "audio": "/audio/lesson17/conv_11.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「飞起来」「跑过来」「跑进来」——趨向補語の連続攻撃。「来」「去」「起来」「过来」「进来」。動きの方向が全部補語で表せる。スポーツ実況もできる。これ覚えたらチート確定スキルだ。「兴趣（xìngqù）興味」「参观（cānguān）見学する」がスキル登録。飛虎、外で待つって言ってたのに一番先に飛び込んできた。ツンデレの教科書かな。",
+
+  "study_notes": [
+    "選択疑問文：「去还是不去？」＝行くか行かないか？",
+    "動作方式の連動句：「走进去看看」＝入って見てみる",
+    "趨向補語①：「飞起来」「跑过来」「跑进来」＝飛び上がる・走ってくる・走り込む",
+    "「又大又漂亮」＝大きくてきれい（「又A又B」）",
+    "【新出未使用語彙】兴趣（xìngqù）興味、参观（cānguān）見学する"
+  ]
+}

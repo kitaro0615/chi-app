@@ -1,0 +1,46 @@
+{
+  "id": 28,
+  "title": "今天比昨天冷",
+  "theme": "比較",
+  "grammar": [
+    "「比」比較文",
+    "数量補語",
+    "「多」による概数表現"
+  ],
+  "hsk_level": 4,
+  "scene_description": "飛龍の療養を確認した翌日、一行は山越えの旅へ出発。昨日より明らかに気温が低下しており、鈴鐺が用意した防寒装備を頼りに真剣な話し合い。自分のコートが薄くて「凍死するかも」と嘆く健に鈴鐺が厚手のコートを貸してくれる。老王は山道の険しさに少しペースが落ちながらも皆で支え合って進む。山の中腹で休憩していると、飛虎が「この先の岩場、誰かが通った跡がある」と小声で言った。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson28/panel_01.jpg", "caption": "山越えスタート。昨日より気温が急落。防寒装備を確認する一行。"},
+    {"panel_id": 2, "image": "/images/lesson28/panel_02.jpg", "caption": "「凍死するかも」と嘆く健に鈴鐺が厚手のコートを貸してくれる。"},
+    {"panel_id": 3, "image": "/images/lesson28/panel_03.jpg", "caption": "山道に苦戦する老王。「ゆっくり行こう」と飛虎。"},
+    {"panel_id": 4, "image": "/images/lesson28/panel_04.jpg", "caption": "中腹で休憩中、「誰かが通った跡がある」と小声で言う飛虎。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "今天比昨天冷多了！", "pinyin": "Jīntiān bǐ zuótiān lěng duō le!", "japanese": "今日は昨日よりずっと寒い！", "audio": "/audio/lesson28/shadow_01.mp3"},
+    {"id": "s2", "chinese": "山里气温比山下低差不多十度左右。", "pinyin": "Shān lǐ qìwēn bǐ shān xià dī chàbuduō shí dù zuǒyòu.", "japanese": "山の中は麓よりだいたい10度くらい低い。", "audio": "/audio/lesson28/shadow_02.mp3"},
+    {"id": "s3", "chinese": "我的外套比你的薄多了……", "pinyin": "Wǒ de wàitào bǐ nǐ de báo duō le……", "japanese": "私のコートはあなたのよりずっと薄い……", "audio": "/audio/lesson28/shadow_03.mp3"},
+    {"id": "s4", "chinese": "这件比你那件厚一倍。穿上试试。", "pinyin": "Zhè jiàn bǐ nǐ nà jiàn hòu yī bèi. Chuān shàng shì shi.", "japanese": "これはあなたのより二倍厚いから。着てみて。", "audio": "/audio/lesson28/shadow_04.mp3"},
+    {"id": "s5", "chinese": "爬山比你们慢一些……", "pinyin": "Páshān bǐ nǐmen màn yīxiē……", "japanese": "山登りがみんなより少し遅い……", "audio": "/audio/lesson28/shadow_05.mp3"},
+    {"id": "s6", "chinese": "山顶大概还有三十多里路。", "pinyin": "Shāndǐng dàgài hái yǒu sānshí duō lǐ lù.", "japanese": "山頂まだ三十余り里ある。", "audio": "/audio/lesson28/shadow_06.mp3"},
+    {"id": "s7", "chinese": "没关系，我们走慢一点儿。", "pinyin": "Méi guānxi, wǒmen zǒu màn yīdiǎnr.", "japanese": "構わない、ゆっくり行こう。", "audio": "/audio/lesson28/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "鈴鐺", "is_learner": false, "chinese": "今天比昨天冷多了！昨天是十五度，今天只有八度。", "pinyin": "Jīntiān bǐ zuótiān lěng duō le! Zuótiān shì shíwǔ dù, jīntiān zhǐ yǒu bā dù.", "japanese": "今日は昨日よりずっと寒い！昨日は15度、今日は8度しかない。", "audio": "/audio/lesson28/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "飛虎", "is_learner": false, "chinese": "山里气温比山下低差不多十度左右。要多穿几件衣服。", "pinyin": "Shān lǐ qìwēn bǐ shān xià dī chàbuduō shí dù zuǒyòu. Yào duō chuān jǐ jiàn yīfu.", "japanese": "山の中は麓よりだいたい10度くらい低い。多めに着ること。", "audio": "/audio/lesson28/conv_02.mp3", "panel_id": 1},
+    {"id": "c3", "speaker": "健", "is_learner": true, "chinese": "我的外套比你的薄多了……我可能会冻死。", "pinyin": "Wǒ de wàitào bǐ nǐ de báo duō le…… wǒ kěnéng huì dòng sǐ.", "japanese": "私のコートはあなたのよりずっと薄い……凍死するかも。", "audio": "/audio/lesson28/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "鈴鐺", "is_learner": false, "chinese": "给你这件，比你那件厚一倍。穿上试试。", "pinyin": "Gěi nǐ zhè jiàn, bǐ nǐ nà jiàn hòu yī bèi. Chuān shàng shì shi.", "japanese": "これを着て、あなたのより二倍厚いから。着てみて。", "audio": "/audio/lesson28/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "健", "is_learner": true, "chinese": "哇，暖多了！谢谢铃铛！", "pinyin": "Wā, nuǎn duō le! Xièxiè Líng Dāng!", "japanese": "わあ、ずっと暖かい！鈴鐺ありがとう！", "audio": "/audio/lesson28/conv_05.mp3", "panel_id": 2},
+    {"id": "c6", "speaker": "老王", "is_learner": false, "chinese": "这里的路比我想象的难走多了。我年纪大，爬山比你们慢一些……", "pinyin": "Zhèlǐ de lù bǐ wǒ xiǎngxiàng de nán zǒu duō le. Wǒ niánjì dà, páshān bǐ nǐmen màn yīxiē……", "japanese": "この道は想像よりずっと歩きにくい。年をとったから、山登りがみんなより少し遅い……", "audio": "/audio/lesson28/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "飛虎", "is_learner": false, "chinese": "没关系，我们走慢一点儿。山顶大概还有三十多里路。", "pinyin": "Méi guānxi, wǒmen zǒu màn yīdiǎnr. Shāndǐng dàgài hái yǒu sānshí duō lǐ lù.", "japanese": "構わない、ゆっくり行こう。山頂まだ三十余り里ある。", "audio": "/audio/lesson28/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "健", "is_learner": true, "chinese": "三十多里！比我打过最难的BOSS战还要漫长……", "pinyin": "Sānshí duō lǐ! Bǐ wǒ dǎ guò zuì nán de BOSS zhàn hái yào màncháng……", "japanese": "三十余り里！今まで戦った最難関ボス戦より長い……", "audio": "/audio/lesson28/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "鈴鐺", "is_learner": false, "chinese": "你说的BOSS是什么？比妖怪还厉害吗？", "pinyin": "Nǐ shuō de BOSS shì shénme? Bǐ yāoguài hái lìhài ma?", "japanese": "BOSSって何？妖怪よりすごいの？", "audio": "/audio/lesson28/conv_09.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "「比」の比較文の自由度高い！「A比B＋形容詞」に数量補語をつけるだけで「一倍厚い」「三倍強い」も言えちゃう。RPGの戦力比較を全部中国語で表現できる。「三十多里」の「多」は「〜以上」のざっくり概数。ダメージ表示みたいに使える。「爬山（páshān）山登りをする」「轻松（qīngsōng）気楽な」がスキル登録。老王のHPゲージが心配になってきた。",
+  "study_notes": [
+    "「A比B＋形容詞」：AはBより〜。「今天比昨天冷」",
+    "数量補語：「厚一倍（二倍厚い）」「慢一些（少し遅い）」「强三倍（三倍強い）」",
+    "「比〜多了」：〜よりずっと〜だ（程度差が大きい）",
+    "「多」による概数：「三十多里（三十余り里）」",
+    "【新出未使用語彙】爬山（páshān）山登りをする、轻松（qīngsōng）気楽な"
+  ]
+}

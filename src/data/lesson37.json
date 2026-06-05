@@ -1,0 +1,45 @@
+{
+  "id": 37,
+  "title": "真舍不得你们走",
+  "theme": "送別の宴",
+  "grammar": [
+    "感情を表す構文"
+  ],
+  "hsk_level": 4,
+  "scene_description": "雲霞鎮を発つ前夜、薬婆が送別の宴を開いてくれた。玲は翌日ここに残ることが決まっており、健も「別れたくない」と素直に言う。老王が珍しく損得抜きで「この旅で出会えたことが最大の収穫」と語り、飛虎が「必ず戻ってくる」と珍しく感情を表に出す。飛虎の顔が赤くなるのを見て健が感動し薬婆が笑う。乾杯の後、薬婆が健を手招きして「渡しておきたいものがある」と言った。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson37/panel_01.jpg", "caption": "薬婆が開いた送別の宴。玲が「行ってほしくない」と目を潤ませる。"},
+    {"panel_id": 2, "image": "/images/lesson37/panel_02.jpg", "caption": "老王が「この出会いがどんな商談より価値がある」と珍しく純粋に感動。"},
+    {"panel_id": 3, "image": "/images/lesson37/panel_03.jpg", "caption": "「必ず戻ってくる」と言う飛虎。顔が赤くなる飛虎に健が感動。"},
+    {"panel_id": 4, "image": "/images/lesson37/panel_04.jpg", "caption": "「友情のために乾杯！」乾杯後、薬婆が健を手招きする。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "我真的舍不得你们走。", "pinyin": "Wǒ zhēn de shěbude nǐmen zǒu.", "japanese": "本当に行ってほしくない気持ちでいっぱい。", "audio": "/audio/lesson37/shadow_01.mp3"},
+    {"id": "s2", "chinese": "我也舍不得你，玲。你真的不一起去吗？", "pinyin": "Wǒ yě shěbude nǐ, Líng. Nǐ zhēn de bù yīqǐ qù ma?", "japanese": "私もあなたと別れたくないよ、玲。本当に来ないの？", "audio": "/audio/lesson37/shadow_02.mp3"},
+    {"id": "s3", "chinese": "我会一直想着你们的。", "pinyin": "Wǒ huì yīzhí xiǎngzhe nǐmen de.", "japanese": "ずっと思っています。", "audio": "/audio/lesson37/shadow_03.mp3"},
+    {"id": "s4", "chinese": "这次旅程最大的收获，就是认识了你们！", "pinyin": "Zhè cì lǚchéng zuìdà de gǎnxiǎng, jiùshì rèndshi le nǐmen!", "japanese": "この旅の最大の収穫は、あなたたちと知り合えたことだ！", "audio": "/audio/lesson37/shadow_04.mp3"},
+    {"id": "s5", "chinese": "玲，我们一定会回来的。", "pinyin": "Líng, wǒmen yīdìng huì huílai de.", "japanese": "玲、必ず戻ってくる。", "audio": "/audio/lesson37/shadow_05.mp3"},
+    {"id": "s6", "chinese": "你说出这种话，真让人感动！", "pinyin": "Nǐ shuō chū zhè zhǒng huà, zhēn ràng rén gǎndòng!", "japanese": "そんなことを言うなんて、本当に感動！", "audio": "/audio/lesson37/shadow_06.mp3"},
+    {"id": "s7", "chinese": "感情好丰富的年轻人！来，为我们的友谊干杯！", "pinyin": "Gǎnqíng hǎo fēngfù de niánqīngrén! Lái, wèi wǒmen de yǒuyì gānbēi!", "japanese": "感情豊かな若者たち！友情のために乾杯！", "audio": "/audio/lesson37/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "薬婆", "is_learner": false, "chinese": "来，大家喝一杯！感谢你们来到雲霞鎮！", "pinyin": "Lái, dàjiā hē yī bēi! Gǎnxiè nǐmen lái dào Yún Xiá Zhèn!", "japanese": "さあ、みんなで一杯！来てくれてありがとう！", "audio": "/audio/lesson37/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "玲", "is_learner": false, "chinese": "健，你明天就出发了，我真的舍不得你们走。", "pinyin": "Jiàn, nǐ míngtiān jiù chūfā le, wǒ zhēn de shěbude nǐmen zǒu.", "japanese": "健、明日もう出発するのね。行ってほしくない気持ちでいっぱい。", "audio": "/audio/lesson37/conv_02.mp3", "panel_id": 1},
+    {"id": "c3", "speaker": "健", "is_learner": true, "chinese": "我也舍不得你，玲。你真的不一起去吗？", "pinyin": "Wǒ yě shěbude nǐ, Líng. Nǐ zhēn de bù yīqǐ qù ma?", "japanese": "私もあなたと別れたくないよ、玲。本当に来ないの？", "audio": "/audio/lesson37/conv_03.mp3", "panel_id": 1},
+    {"id": "c4", "speaker": "玲", "is_learner": false, "chinese": "我有义务留在这里照顾奶奶……但我会一直想着你们的。", "pinyin": "Wǒ yǒu yìwù liú zài zhèlǐ zhàogù nǎinai……dàn wǒ huì yīzhí xiǎngzhe nǐmen de.", "japanese": "おばあちゃんを世話する義務があって……でもずっと思っています。", "audio": "/audio/lesson37/conv_04.mp3", "panel_id": 1},
+    {"id": "c5", "speaker": "老王", "is_learner": false, "chinese": "说真的，这次旅程最大的收获，就是认识了你们！比我做成的任何生意都珍贵！", "pinyin": "Shuō zhēn de, zhè cì lǚchéng zuìdà de gǎnxiǎng, jiùshì rèndshi le nǐmen! Bǐ wǒ zuòchéng de rènhé shēngyi dōu zhēnguì!", "japanese": "本当のことを言うと、この旅の最大の収穫はあなたたちと知り合えたこと！どんな商談より大切だ！", "audio": "/audio/lesson37/conv_05.mp3", "panel_id": 2},
+    {"id": "c6", "speaker": "飛虎", "is_learner": false, "chinese": "玲，我们一定会回来的。", "pinyin": "Líng, wǒmen yīdìng huì huílai de.", "japanese": "玲、必ず戻ってくる。", "audio": "/audio/lesson37/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "健", "is_learner": true, "chinese": "哇，飞虎，你说出这种话，真让人感动！", "pinyin": "Wā, Fēi Hǔ, nǐ shuō chū zhè zhǒng huà, zhēn ràng rén gǎndòng!", "japanese": "飛虎がそんなことを言うなんて、本当に感動！", "audio": "/audio/lesson37/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "飛虎", "is_learner": false, "chinese": "……说什么胡话。", "pinyin": "……Shuō shénme húhuà.", "japanese": "……何を言っているんだ。", "audio": "/audio/lesson37/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "薬婆", "is_learner": false, "chinese": "感情好丰富的年轻人！来，为我们的友谊干杯！", "pinyin": "Gǎnqíng hǎo fēngfù de niánqīngrén! Lái, wèi wǒmen de yǒuyì gānbēi!", "japanese": "感情豊かな若者たち！友情のために乾杯！", "audio": "/audio/lesson37/conv_09.mp3", "panel_id": 4},
+    {"id": "c10", "speaker": "全員", "is_learner": false, "chinese": "干杯！", "pinyin": "Gānbēi!", "japanese": "乾杯！", "audio": "/audio/lesson37/conv_10.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "「舍不得」——「手放せない・惜しい」。RPGで大事なNPCとの別れシーンで必ず使う感情表現、まさにこれじゃないか。老王が「感想」を語った……いつも損得計算なのに、今日は珍しく純粋に感動してた。このシーン、脚本家のバフがかかってる。「告别（gàobié）別れを告げる」「感想（gǎnxiǎng）感想」がスキル登録。飛虎の「必ず戻ってくる」……主人公ムーブが炸裂してた。",
+  "study_notes": [
+    "「舍不得」：「〜するのが惜しい・手放せない」（別れの感情）",
+    "「让人感动」：「人を感動させる」（让＋人＋感情動詞）",
+    "「感情」（gǎnqíng）：感情・気持ち",
+    "「义务」（yìwù）：義務",
+    "【新出未使用語彙】告别（gàobié）別れを告げる、感想（gǎnxiǎng）感想"
+  ]
+}

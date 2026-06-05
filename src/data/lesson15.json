@@ -1,0 +1,181 @@
+{
+  "id": 15,
+  "title": "我要照张相",
+  "theme": "写真・必要⑤",
+  "grammar": [
+    "是字句②",
+    "結果補語",
+    "介詞「给」"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "隣町最後の夜、四人で広場に集まった。スマホを取り出すも電池切れで完全に使えない。広場の端に肖像画を描く絵師の露店を見つけ、鈴鐺の提案で四人の似顔絵を描いてもらうことに。絵師に並んで立ちながら「異世界での初めて」を噛み締める健。絵師が筆を置いてこう言った——「旅人さん、この絵を描いていて変なことに気づいた」",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson15/panel_01.jpg",
+      "caption": "隣町最後の夜。広場に集まる四人。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson15/panel_02.jpg",
+      "caption": "スマホを取り出す健。電池切れで玲に変な形と言われる。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson15/panel_03.jpg",
+      "caption": "絵師の露店で四人の肖像画を依頼する飛虎。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson15/panel_04.jpg",
+      "caption": "筆を置いた絵師が「変なことに気づいた」と言う。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "让那个画师给我们画！",
+      "pinyin": "Ràng nàge huàshī gěi wǒmen huà!",
+      "japanese": "あの絵師に描いてもらいましょう！",
+      "audio": "/audio/lesson15/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "是从日本带来的工具。",
+      "pinyin": "Shì cóng Rìběn dài lái de gōngjù.",
+      "japanese": "日本から持ってきた道具です。",
+      "audio": "/audio/lesson15/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "本来可以照相片，现在不行了。",
+      "pinyin": "Běnlái kěyǐ zhào zhàopiàn, xiànzài bù xíng le.",
+      "japanese": "写真が撮れたはずなのに、今は使えません。",
+      "audio": "/audio/lesson15/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "给我们四个人画一张像。",
+      "pinyin": "Gěi wǒmen sì gè rén huà yī zhāng xiàng.",
+      "japanese": "四人の肖像画を一枚お願いします。",
+      "audio": "/audio/lesson15/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "请你们站好。画完了给你们看。",
+      "pinyin": "Qǐng nǐmen zhàn hǎo. Huàwán le gěi nǐmen kàn.",
+      "japanese": "きちんと立って。描き終わったらお見せします。",
+      "audio": "/audio/lesson15/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "这是你第一次画像吗？",
+      "pinyin": "Zhè shì nǐ dìyī cì huàxiàng ma?",
+      "japanese": "似顔絵は初めてですか？",
+      "audio": "/audio/lesson15/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "异世界里的第一次，很特别。",
+      "pinyin": "Yìshìjiè lǐ de dìyī cì, hěn tèbié.",
+      "japanese": "異世界での初めて、特別ですね。",
+      "audio": "/audio/lesson15/shadow_07.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "我们去画像吧！让那个画师给我们画！",
+      "pinyin": "Wǒmen qù huàxiàng ba! Ràng nàge huàshī gěi wǒmen huà!",
+      "japanese": "似顔絵を描いてもらいましょう！あの絵師に！",
+      "audio": "/audio/lesson15/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "哦，对了。我有这个，是从日本带来的工具。但是……没有能量了。",
+      "pinyin": "Ó, duìle. Wǒ yǒu zhège, shì cóng Rìběn dài lái de gōngjù. Dànshì……méiyǒu néngliàng le.",
+      "japanese": "あ、そうだ。これ日本から持ってきた道具。でも……電力がなくて。",
+      "audio": "/audio/lesson15/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "那是什么？好奇怪的形状。",
+      "pinyin": "Nà shì shénme? Hǎo qíguài de xíngzhuàng.",
+      "japanese": "それは何？変な形だよ！",
+      "audio": "/audio/lesson15/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "是照相用的……已经没用了。本来可以照相片，现在不行了。",
+      "pinyin": "Shì zhàoxiàng yòng de……yǐjīng méi yòng le. Běnlái kěyǐ zhào zhàopiàn, xiànzài bù xíng le.",
+      "japanese": "写真を撮るものです……もう使えないです。写真が撮れたはずなのに。",
+      "audio": "/audio/lesson15/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "劳驾，给我们四个人画一张像。",
+      "pinyin": "Láojià, gěi wǒmen sì gè rén huà yī zhāng xiàng.",
+      "japanese": "すみません、四人の肖像画を一枚お願いします。",
+      "audio": "/audio/lesson15/conv_05.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c6",
+      "speaker": "絵師",
+      "is_learner": false,
+      "chinese": "好！请你们站好。画完了给你们看。",
+      "pinyin": "Hǎo! Qǐng nǐmen zhàn hǎo. Huàwán le gěi nǐmen kàn.",
+      "japanese": "承知しました！きちんと立って。描き終わったらお見せします。",
+      "audio": "/audio/lesson15/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "是不是很好玩？这是你第一次画像吗？",
+      "pinyin": "Shì bu shì hěn hǎowán? Zhè shì nǐ dìyī cì huàxiàng ma?",
+      "japanese": "楽しくない？似顔絵は初めて？",
+      "audio": "/audio/lesson15/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "是的，第一次！……异世界里的第一次，很特别。",
+      "pinyin": "Shì de, dì yī cì!……Yìshìjiè lǐ de dìyī cì, hěn tèbié.",
+      "japanese": "はい、初めてです！……異世界での初めて、特別ですね。",
+      "audio": "/audio/lesson15/conv_08.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "スマホ、ずっとポケットにあったのに電力切れで完全に板と化した。ただの板を異世界で持ち歩いてた。「给你看」「给我们画」——「给」は方向の介詞。「誰かのために」「誰かに向けて」のバフ効果がある。「照片（zhàopiàn）写真」がスキル登録。電力さえあれば「照片」が撮れたのに……無念すぎる。",
+
+  "study_notes": [
+    "是字句②：「这是从○○带来的」＝これは○○から持ってきたものです",
+    "結果補語：「画完了」＝描き終わった、「站好」＝きちんと立つ",
+    "介詞「给」：「给你看」＝あなたに見せる、「给我们画」＝私たちのために描く",
+    "「第一次」＝初めて",
+    "【新出未使用語彙】照片（zhàopiàn）写真"
+  ]
+}

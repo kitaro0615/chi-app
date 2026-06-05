@@ -1,0 +1,200 @@
+{
+  "id": 14,
+  "title": "我要去换钱",
+  "theme": "両替・必要④",
+  "grammar": [
+    "兼語句",
+    "語気助詞「了」②"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "切符代で銅銭を使い果たした健。玲から「老王が伝言を頼んでいた」と近くに両替所があると教わる。老王の先読みの凄さに驚きつつ、飛虎の案内で銭荘へ。手持ちのものを銅銭300文に両替することに成功。「銀行」という単語を使ったら「銭荘」と教えてもらう一幕も。銭荘を出た瞬間、玲が「飛虎、さっきから変じゃない？」と健の耳に囁いた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson14/panel_01.jpg",
+      "caption": "財布を見て青ざめる健。「銅銭がほぼゼロ……」"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson14/panel_02.jpg",
+      "caption": "玲から老王の伝言を聞いて驚く健。「さすが老王……」"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson14/panel_03.jpg",
+      "caption": "銭荘で両替に挑戦。「銀行」と言ったら「銭荘」と教えてもらう。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson14/panel_04.jpg",
+      "caption": "銭荘を出た瞬間、玲が「飛虎、変じゃない？」と健に囁く。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "我没钱了。怎么办？",
+      "pinyin": "Wǒ méi qián le. Zěnme bàn?",
+      "japanese": "お金がなくなった。どうしよう？",
+      "audio": "/audio/lesson14/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "老王让我告诉你，附近有换钱的地方。",
+      "pinyin": "Lǎo Wáng ràng wǒ gàosu nǐ, fùjìn yǒu huàn qián de dìfang.",
+      "japanese": "老王から聞いてたんだけど、近くに両替所があるって。",
+      "audio": "/audio/lesson14/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "走，我带你们去。",
+      "pinyin": "Zǒu, wǒ dài nǐmen qù.",
+      "japanese": "行くぞ、案内する。",
+      "audio": "/audio/lesson14/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "我要用这个换铜钱。能换多少？",
+      "pinyin": "Wǒ yào yòng zhège huàn tóng qián. Néng huàn duōshao?",
+      "japanese": "これを銅銭に替えたい。どのくらい替えられますか？",
+      "audio": "/audio/lesson14/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "这个可以换三百文铜钱。好吗？",
+      "pinyin": "Zhège kěyǐ huàn sānbǎi wén tóng qián. Hǎo ma?",
+      "japanese": "300文の銅銭に替えられます。よろしいですか？",
+      "audio": "/audio/lesson14/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "这里有没有银行？",
+      "pinyin": "Zhèlǐ yǒu méiyǒu yínháng?",
+      "japanese": "ここに銀行はありますか？",
+      "audio": "/audio/lesson14/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "换好了！",
+      "pinyin": "Huàn hǎo le!",
+      "japanese": "両替できました！",
+      "audio": "/audio/lesson14/shadow_07.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "玲，我没钱了。怎么办？",
+      "pinyin": "Líng, wǒ méi qián le. Zěnme bàn?",
+      "japanese": "玲、お金がなくなった。どうしよう？",
+      "audio": "/audio/lesson14/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "哎，真的吗！老王让我告诉你，附近有换钱的地方。",
+      "pinyin": "Āi, zhēn de ma! Lǎo Wáng ràng wǒ gàosu nǐ, fùjìn yǒu huàn qián de dìfang.",
+      "japanese": "えっ、本当！老王から聞いてたんだけど、近くに両替所があるって。",
+      "audio": "/audio/lesson14/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "老王让你告诉我！？……さすが老王……",
+      "pinyin": "Lǎo Wáng ràng nǐ gàosu wǒ!?……",
+      "japanese": "老王があなたに伝えさせたの！？さすが老王……",
+      "audio": "/audio/lesson14/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "走，我带你们去。",
+      "pinyin": "Zǒu, wǒ dài nǐmen qù.",
+      "japanese": "行くぞ、案内する。",
+      "audio": "/audio/lesson14/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "両替所の人",
+      "is_learner": false,
+      "chinese": "你好！你要换什么钱？",
+      "pinyin": "Nǐ hǎo! Nǐ yào huàn shénme qián?",
+      "japanese": "いらっしゃい！どのようなお金に替えますか？",
+      "audio": "/audio/lesson14/conv_05.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c6",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我要用这个换铜钱。能换多少？",
+      "pinyin": "Wǒ yào yòng zhège huàn tóng qián. Néng huàn duōshao?",
+      "japanese": "これを銅銭に替えたい。どのくらい替えられますか？",
+      "audio": "/audio/lesson14/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "両替所の人",
+      "is_learner": false,
+      "chinese": "这个可以换三百文铜钱。好吗？",
+      "pinyin": "Zhège kěyǐ huàn sānbǎi wén tóng qián. Hǎo ma?",
+      "japanese": "300文の銅銭に替えられます。よろしいですか？",
+      "audio": "/audio/lesson14/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "这里有没有银行？这里的银行怎么叫？",
+      "pinyin": "Zhèlǐ yǒu méiyǒu yínháng? Zhèlǐ de yínháng zěnme jiào?",
+      "japanese": "ここに銀行はありますか？ここの銀行ってどう呼ぶんですか？",
+      "audio": "/audio/lesson14/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "両替所の人",
+      "is_learner": false,
+      "chinese": "就叫钱庄！这里就是钱庄！",
+      "pinyin": "Jiù jiào qiánzhuāng! Zhèlǐ jiùshì qiánzhuāng!",
+      "japanese": "銭荘と言います！ここがそれです！",
+      "audio": "/audio/lesson14/conv_09.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c10",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "好！谢谢，换好了！",
+      "pinyin": "Hǎo! Xièxiè, huàn hǎo le!",
+      "japanese": "はい！ありがとう、両替できました！",
+      "audio": "/audio/lesson14/conv_10.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「老王让玲告诉我」——これが兼語句！「让＋人＋動詞」で「誰かに〜させる」が一発で言える。老王、出発前にちゃんと玲に両替所の情報を預けてた。先輩プレイヤーのサポートスキル、エグすぎる。「银行（yínháng）銀行」がスキル登録。この世界では「钱庄（qiánzhuāng）銭荘」って言うらしい。現地対応版。",
+
+  "study_notes": [
+    "兼語句：「让＋人＋動詞」＝人に～させる（使役）",
+    "「老王让我告诉你」＝老王が私にあなたへ伝えるよう言った",
+    "語気助詞「了」②：「换好了」＝両替できた（完了の「了」）",
+    "「能换多少？」＝どのくらい替えられますか？",
+    "【新出未使用語彙】银行（yínháng）銀行"
+  ]
+}

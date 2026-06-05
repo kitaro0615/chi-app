@@ -1,0 +1,197 @@
+{
+  "id": 10,
+  "title": "（移動・交通）",
+  "theme": "移動・交通",
+  "grammar": [
+    "連動句①",
+    "語気助詞「吧」"
+  ],
+  "hsk_level": 2,
+
+  "scene_description": "修練場での会話をきっかけに飛虎との関係が溶けてきた翌朝、飛虎が「隣町の市に行かないか」と誘いに来た。玲も合流し三人で出発。老王の店に寄ると偶然老王も同じ方向に出発予定と判明。馬を見て引きつる健は迷わず馬車を選択。後ろから鈴鐺が走って追いかけてきてパーティ全員集合。村を出た馬車の中で飛虎が静かに言った——「隣町に行く本当の理由は、別にある」",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson10/panel_01.jpg",
+      "caption": "飛虎が玲の家を訪ねてくる。好感度イベント発生に内心喜ぶ健。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson10/panel_02.jpg",
+      "caption": "老王の店で偶然鉢合わせ。馬を前に引きつる健。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson10/panel_03.jpg",
+      "caption": "後ろから走って追いかけてくる鈴鐺。パーティ全員集合！"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson10/panel_04.jpg",
+      "caption": "馬車が村を出た瞬間、「本当の理由は別にある」と静かに言う飛虎。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "你们要去哪儿？",
+      "pinyin": "Nǐmen yào qù nǎr?",
+      "japanese": "どこへ行くんですか？",
+      "audio": "/audio/lesson10/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "你们骑马还是坐马车？",
+      "pinyin": "Nǐmen qí mǎ háishi zuò mǎchē?",
+      "japanese": "馬に乗りますか、馬車に乗りますか？",
+      "audio": "/audio/lesson10/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "我不会骑马……我坐马车吧。",
+      "pinyin": "Wǒ bù huì qí mǎ……Wǒ zuò mǎchē ba.",
+      "japanese": "馬に乗れません……馬車に乗ります。",
+      "audio": "/audio/lesson10/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "虽然路有点儿远，一起坐吧！",
+      "pinyin": "Suīrán lù yǒudiǎnr yuǎn, yīqǐ zuò ba!",
+      "japanese": "道は少し遠いが、みんなで乗れ！",
+      "audio": "/audio/lesson10/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "我们坐马车去隔壁镇，好吗？",
+      "pinyin": "Wǒmen zuò mǎchē qù gébì zhèn, hǎo ma?",
+      "japanese": "馬車で隣町に行きましょう、いいですか？",
+      "audio": "/audio/lesson10/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "怎么去？多长时间？",
+      "pinyin": "Zěnme qù? Duō cháng shíjiān?",
+      "japanese": "どうやって行きますか？どのくらいかかりますか？",
+      "audio": "/audio/lesson10/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "走大路，大概两个小时。",
+      "pinyin": "Zǒu dà lù, dàgài liǎng gè xiǎoshí.",
+      "japanese": "大通りを行って約2時間です。",
+      "audio": "/audio/lesson10/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "等等我！我也要唱歌去！",
+      "pinyin": "Děngděng wǒ! Wǒ yě yào chànggē qù!",
+      "japanese": "待ってー！私も歌いながら行く！",
+      "audio": "/audio/lesson10/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "哎，你们要去哪儿？",
+      "pinyin": "Āi, nǐmen yào qù nǎr?",
+      "japanese": "どこへ行くんだ？",
+      "audio": "/audio/lesson10/conv_01.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c2",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "去隔壁镇上。你呢，老王？",
+      "pinyin": "Qù gébì zhènshàng. Nǐ ne, Lǎo Wáng?",
+      "japanese": "隣町の市に行く。老王は？",
+      "audio": "/audio/lesson10/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "我也去！去那边谈生意，今天出发。你们骑马还是坐马车？",
+      "pinyin": "Wǒ yě qù! Qù nàbiān tán shēngyi, jīntiān chūfā. Nǐmen qí mǎ háishi zuò mǎchē?",
+      "japanese": "私も行く！商談があって今日出発。馬か馬車か？",
+      "audio": "/audio/lesson10/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我不会骑马……我坐马车吧。",
+      "pinyin": "Wǒ bù huì qí mǎ……Wǒ zuò mǎchē ba.",
+      "japanese": "馬に乗れません……馬車に乗ります。",
+      "audio": "/audio/lesson10/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "哈哈！没问题！虽然路有点儿远，一起坐吧！",
+      "pinyin": "Hāhā! Méi wèntí! Suīrán lù yǒudiǎnr yuǎn, yīqǐ zuò ba!",
+      "japanese": "問題ない！道は少し遠いが、みんなで乗れ！",
+      "audio": "/audio/lesson10/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "我们坐马车去隔壁镇，好吗？",
+      "pinyin": "Wǒmen zuò mǎchē qù gébì zhèn, hǎo ma?",
+      "japanese": "馬車で隣町に行きましょう、いいですか？",
+      "audio": "/audio/lesson10/conv_06.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "好！怎么去？多长时间？",
+      "pinyin": "Hǎo! Zěnme qù? Duō cháng shíjiān?",
+      "japanese": "はい！どうやって？どのくらい？",
+      "audio": "/audio/lesson10/conv_07.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c8",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "走大路，大概两个小时。走，走！出发！",
+      "pinyin": "Zǒu dà lù, dàgài liǎng gè xiǎoshí. Zǒu, zǒu! Chūfā!",
+      "japanese": "大通りを行って約2時間。行くぞ！出発！",
+      "audio": "/audio/lesson10/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "等等我！我也要唱歌去！",
+      "pinyin": "Děngděng wǒ! Wǒ yě yào chànggē qù!",
+      "japanese": "待ってー！私も歌いながら行く！",
+      "audio": "/audio/lesson10/conv_09.mp3",
+      "panel_id": 3
+    }
+  ],
+
+  "ken_monologue": "連動句！「坐马车去隔壁镇」＝馬車に乗って隣町に行く。「手段→目的」の順に動詞を並べるだけ。シンプルすぎてチート感ある。鈴鐺が「唱歌去！」って走ってきた。これ、「歌を歌いながら行く」連動句の現場使用例じゃん。教科書いらずだ。「虽然（suīrán）〜だが」「唱歌（chànggē）歌を歌う」がスキル登録。冒険パーティ、ついに全員集合！",
+
+  "study_notes": [
+    "連動句：「動詞A＋（目的語）＋動詞B」＝AしてBする（手段→目的の順）",
+    "「坐马车去○○」＝馬車に乗って○○へ行く",
+    "「怎么去？」＝どうやって行きますか？",
+    "「多长时间？」＝どのくらいかかりますか？",
+    "【新出未使用語彙】虽然（suīrán）〜だが、唱歌（chànggē）歌を歌う"
+  ]
+}

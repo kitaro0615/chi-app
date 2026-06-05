@@ -1,0 +1,45 @@
+{
+  "id": 31,
+  "title": "那儿的风景美极了",
+  "theme": "旅行①",
+  "grammar": [
+    "趨向補語③（複合趨向補語）",
+    "「不是……吗？」反語文"
+  ],
+  "hsk_level": 4,
+  "scene_description": "陳先生の碧玉谷トークが熱を帯びてきた。「瀑布から水が飛び流れ落ちてきて、谷底から雲霧が立ち上ってくる」——その描写に全員が前のめり。飛虎が「一直探してたじゃないか」と反語で結論を出し、老王も疲れながらも「美しければ行く価値がある」と乗り気に。陳先生から山道の山洞（地下城！）の情報を聞いてHP全回復する健。地図を借りて出発。陳先生が地図を渡す際「ひとつだけ注意がある」と静かに言った。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson31/panel_01.jpg", "caption": "碧玉谷の絶景を熱く語る陳先生。全員が前のめりに。"},
+    {"panel_id": 2, "image": "/images/lesson31/panel_02.jpg", "caption": "「一直探してたじゃないか」と静かに結論を出す飛虎。"},
+    {"panel_id": 3, "image": "/images/lesson31/panel_03.jpg", "caption": "「山洞＝地下城！」と興奮する健。「腿が痛いって言ってたじゃん」と鈴鐺。"},
+    {"panel_id": 4, "image": "/images/lesson31/panel_04.jpg", "caption": "地図を手渡す陳先生。「ひとつだけ注意がある」と静かに言う。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "那儿的风景美极了！", "pinyin": "Nàr de fēngjǐng měi jí le!", "japanese": "あそこの景色は最高に美しい！", "audio": "/audio/lesson31/shadow_01.mp3"},
+    {"id": "s2", "chinese": "瀑布从山顶飞流下来，云雾从谷底升上来。", "pinyin": "Pùbù cóng shāndǐng fēi liú xià lái, yúnwù cóng gǔdǐ shēng shàng lái.", "japanese": "滝が山頂から飛び流れ落ちてきて、雲霧が谷底から立ち上ってくる。", "audio": "/audio/lesson31/shadow_02.mp3"},
+    {"id": "s3", "chinese": "我们不是一直在找值得去的地方吗？", "pinyin": "Wǒmen bù shì yīzhí zài zhǎo zhídé qù de dìfang ma?", "japanese": "ずっと行く価値のある場所を探してたじゃないか？", "audio": "/audio/lesson31/shadow_03.mp3"},
+    {"id": "s4", "chinese": "就算累也值得！", "pinyin": "Jiùsuàn lèi yě zhídé!", "japanese": "疲れても行く価値がある！", "audio": "/audio/lesson31/shadow_04.mp3"},
+    {"id": "s5", "chinese": "可以从里面穿过去。走进去之前要小心。", "pinyin": "Kěyǐ cóng lǐmiàn chuān guò qù. Zǒu jìn qù zhīqián yào xiǎoxīn.", "japanese": "中を通り抜けていける。歩いて入る前に気をつけて。", "audio": "/audio/lesson31/shadow_05.mp3"},
+    {"id": "s6", "chinese": "你不是说腿很累吗？刚才还说走不动了。", "pinyin": "Nǐ bù shì shuō tuǐ hěn lèi ma? Gāngcái hái shuō zǒu bu dòng le.", "japanese": "腿が疲れたって言ってたじゃないか？さっきまで歩けないって言ってたでしょ。", "audio": "/audio/lesson31/shadow_06.mp3"},
+    {"id": "s7", "chinese": "现在我满血复活了！地图能借我们带走吗？", "pinyin": "Xiànzài wǒ mǎn xuè fù huó le! Dìtú néng jiè wǒmen dài zǒu ma?", "japanese": "今はHP全回復した！地図を借りて持って行っていいですか？", "audio": "/audio/lesson31/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "陳先生", "is_learner": false, "chinese": "那儿的风景美极了！不是我夸张，是真的！瀑布从山顶飞流下来，云雾从谷底升上来。", "pinyin": "Nàr de fēngjǐng měi jí le! Bù shì wǒ kuāzhāng, shì zhēn de! Pùbù cóng shāndǐng fēi liú xià lái, yúnwù cóng gǔdǐ shēng shàng lái.", "japanese": "あそこの景色は最高に美しい！大げさじゃなくて本当に！滝が山頂から飛び流れ落ちてきて、雲霧が谷底から立ち上ってくる。", "audio": "/audio/lesson31/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "鈴鐺", "is_learner": false, "chinese": "哇！风很大，天空也很蓝。想象一下，瀑布飞流下来——那个画面！", "pinyin": "Wā! Fēng hěn dà, tiānkōng yě hěn lán. Xiǎngxiàng yīxià, pùbù fēi liú xià lái——nàge huàmiàn!", "japanese": "わあ！風が強くて空も青い。想像してみて、滝が飛び流れ落ちてくる——あの景色！", "audio": "/audio/lesson31/conv_02.mp3", "panel_id": 1},
+    {"id": "c3", "speaker": "飛虎", "is_learner": false, "chinese": "我们不是一直在找值得去的地方吗？这不就是了？", "pinyin": "Wǒmen bù shì yīzhí zài zhǎo zhídé qù de dìfang ma? Zhè bù jiù shì le?", "japanese": "ずっと行く価値のある場所を探してたじゃないか？これがそれじゃないか？", "audio": "/audio/lesson31/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "老王", "is_learner": false, "chinese": "说得对。不过，路好走吗？我的腿走得够累了……但如果风景真的美，就算累也值得！", "pinyin": "Shuō de duì. Búguò, lù hǎo zǒu ma? Wǒ de tuǐ zǒu de gòu lèi le……dàn rúguǒ fēngjǐng zhēn de měi, jiùsuàn lèi yě zhídé!", "japanese": "おっしゃる通り。でも道は歩きやすい？足が疲れるほど歩いた……でも景色が本当に美しいなら、疲れても行く価値がある！", "audio": "/audio/lesson31/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "陳先生", "is_learner": false, "chinese": "路上有个山洞，可以从里面穿过去。石头路有点滑，走进去之前要小心。", "pinyin": "Lù shàng yǒu ge shāndòng, kěyǐ cóng lǐmiàn chuān guò qù. Shítou lù yǒudiǎn huá, zǒu jìn qù zhīqián yào xiǎoxīn.", "japanese": "道中に山洞があって、中を通り抜けていける。石畳が少し滑るから、入る前に気をつけて。", "audio": "/audio/lesson31/conv_05.mp3", "panel_id": 3},
+    {"id": "c6", "speaker": "健", "is_learner": true, "chinese": "山洞……那不是游戏里的地下城吗！？终于来了！这个展开！", "pinyin": "Shāndòng…… nà bù shì yóuxì lǐ de dìxiàchéng ma!? Zhōngyú lái le! Zhège zhǎnkāi!", "japanese": "山洞……ゲームの地下城じゃないか！？ついに来た！この展開！", "audio": "/audio/lesson31/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "鈴鐺", "is_learner": false, "chinese": "健，你不是说腿很累吗？刚才还说走不动了。", "pinyin": "Jiàn, nǐ bù shì shuō tuǐ hěn lèi ma? Gāngcái hái shuō zǒu bu dòng le.", "japanese": "健、腿が疲れたって言ってたじゃないか？さっきまで歩けないって言ってたでしょ。", "audio": "/audio/lesson31/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "健", "is_learner": true, "chinese": "那是之前！现在我满血复活了！陈先生，地图能借我们带走吗？", "pinyin": "Nà shì zhīqián! Xiànzài wǒ mǎn xuè fù huó le! Chén Xiānsheng, dìtú néng jiè wǒmen dài zǒu ma?", "japanese": "それは前の話！今はHP全回復した！陳先生、地図を借りて持って行っていいですか？", "audio": "/audio/lesson31/conv_08.mp3", "panel_id": 4},
+    {"id": "c9", "speaker": "陳先生", "is_learner": false, "chinese": "当然可以。一路小心，平安回来！", "pinyin": "Dāngrán kěyǐ. Yīlù xiǎoxīn, píng'ān huí lái!", "japanese": "もちろん。道中気をつけて、無事に戻ってきて！", "audio": "/audio/lesson31/conv_09.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "複合趨向補語！「飞流下来（飛び流れ落ちてくる）」「穿过去（通り抜けていく）」——動きの方向と近遠が同時に言えるチートスキル。「不是〜吗？」の反語文はツッコミ芸人フォーマット。铃铛に「腿が痛いって言ってたじゃないか」ってやられた。完全に図星。「风（fēng）風」「天空（tiānkōng）空」がスキル登録。碧玉谷の絶景描写で出番が来た。",
+  "study_notes": [
+    "複合趨向補語：動詞＋方向動詞＋来／去。「飞流下来」「穿过去」「带走」",
+    "来／去の使い分け：話者に近づく＝来、遠ざかる＝去",
+    "「不是〜吗？」：反語文。確認・指摘・驚きを表す",
+    "值得（zhídé）：〜に値する。「值得去的地方（行く価値のある場所）」",
+    "【新出未使用語彙】风（fēng）風、天空（tiānkōng）空"
+  ]
+}

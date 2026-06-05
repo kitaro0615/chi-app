@@ -1,0 +1,203 @@
+{
+  "id": 1,
+  "title": "你好",
+  "theme": "問候①",
+  "grammar": [
+    "声母・韻母①",
+    "ピンイン",
+    "声調",
+    "軽声",
+    "変調"
+  ],
+  "hsk_level": 1,
+
+  "scene_description": "草むらに倒れていた健は、スマホを握ったまま見知らぬ異世界「中原大陸」に転生していることに気づく。電波もWi-Fiもゼロ。頭の中にSFっぽい「言語習得システム」のUIがポップアップし、中国語を学ぶことでスキルポイントが貯まると判明。途方に暮れていたところ、草むらの奥から明るい声が飛んできた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson01/panel_01.jpg",
+      "caption": "草むらで目覚めた健。スマホには電波ゼロ。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson01/panel_02.jpg",
+      "caption": "頭の中に「言語習得システム」が起動する。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson01/panel_03.jpg",
+      "caption": "村娘の玲が笑顔で声をかけてくる。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson01/panel_04.jpg",
+      "caption": "玲が差し出した器を受け取る健。スキルUIに文字が浮かぶ。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "japanese": "こんにちは！",
+      "audio": "/audio/lesson01/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "我叫○○。",
+      "pinyin": "Wǒ jiào ○○.",
+      "japanese": "私は○○といいます。",
+      "audio": "/audio/lesson01/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "你叫什么名字？",
+      "pinyin": "Nǐ jiào shénme míngzi?",
+      "japanese": "あなたの名前は何ですか？",
+      "audio": "/audio/lesson01/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "你是哪国人？",
+      "pinyin": "Nǐ shì nǎ guó rén?",
+      "japanese": "どこの国の人ですか？",
+      "audio": "/audio/lesson01/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "我是日本人。",
+      "pinyin": "Wǒ shì Rìběn rén.",
+      "japanese": "私は日本人です。",
+      "audio": "/audio/lesson01/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "你们有菜和水吗？",
+      "pinyin": "Nǐmen yǒu cài hé shuǐ ma?",
+      "japanese": "料理と水はありますか？",
+      "audio": "/audio/lesson01/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "今天的菜很好吃！",
+      "pinyin": "Jīntiān de cài hěn hǎochī!",
+      "japanese": "今日の料理はとてもおいしい！",
+      "audio": "/audio/lesson01/shadow_07.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "japanese": "こんにちは！",
+      "audio": "/audio/lesson01/conv_01.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "你……好？",
+      "pinyin": "Nǐ……hǎo?",
+      "japanese": "こ、こんにちは？",
+      "audio": "/audio/lesson01/conv_02.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c3",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "我叫玲。你叫什么名字？",
+      "pinyin": "Wǒ jiào Líng. Nǐ jiào shénme míngzi?",
+      "japanese": "私は玲といいます。あなたの名前は？",
+      "audio": "/audio/lesson01/conv_03.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我叫……健。",
+      "pinyin": "Wǒ jiào……Jiàn.",
+      "japanese": "私は……健です。",
+      "audio": "/audio/lesson01/conv_04.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c5",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "健！你好，你好！",
+      "pinyin": "Jiàn! Nǐ hǎo, nǐ hǎo!",
+      "japanese": "健！よろしく、よろしく！",
+      "audio": "/audio/lesson01/conv_05.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c6",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "你是哪国人？",
+      "pinyin": "Nǐ shì nǎ guó rén?",
+      "japanese": "どこの国の人ですか？",
+      "audio": "/audio/lesson01/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我是日本人。",
+      "pinyin": "Wǒ shì Rìběn rén.",
+      "japanese": "私は日本人です。",
+      "audio": "/audio/lesson01/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "日本？那很远啊！",
+      "pinyin": "Rìběn? Nà hěn yuǎn a!",
+      "japanese": "日本？それは遠いですね！",
+      "audio": "/audio/lesson01/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "是啊，很远……你们有菜和水吗？",
+      "pinyin": "Shì a, hěn yuǎn……nǐmen yǒu cài hé shuǐ ma?",
+      "japanese": "そうですね、遠い……料理と水はありますか？",
+      "audio": "/audio/lesson01/conv_09.mp3",
+      "panel_id": 4
+    },
+    {
+      "id": "c10",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "有！今天的菜很好吃！",
+      "pinyin": "Yǒu! Jīntiān de cài hěn hǎochī!",
+      "japanese": "あります！今日の料理はとてもおいしい！",
+      "audio": "/audio/lesson01/conv_10.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「你好」はレベル1の攻撃魔法。でも侮れない――コミュニケーションの扉を開ける最強の一言。声調って四種類あって、「妈麻马骂（māmámǎmà）」全部意味が違う。ラスボスステージの予感しかない。……あと「好吃（hǎochī）おいしい」「水（shuǐ）水」「菜（cài）料理」がスキル登録された。空腹って偉大。",
+
+  "study_notes": [
+    "「你好」＝こんにちは（基本の挨拶）",
+    "「我叫○○」＝私は○○といいます（自己紹介）",
+    "「你是哪国人？」＝どこの国の人ですか？",
+    "「有菜和水吗？」＝料理と水はありますか？（有字句の先取り）",
+    "【新出未使用語彙】菜（cài）料理、水（shuǐ）水、好吃（hǎochī）おいしい"
+  ]
+}

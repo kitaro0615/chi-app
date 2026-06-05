@@ -1,0 +1,46 @@
+{
+  "id": 34,
+  "title": "我头疼",
+  "theme": "診察",
+  "grammar": [
+    "主謂述語文",
+    "様態補語"
+  ],
+  "hsk_level": 4,
+  "scene_description": "宿の翌朝、健が激しい頭痛と発熱で目覚めた。飛虎が薬婆のところへ連れて行ってくれる。「いつから？」「食べた？」と丁寧に診察する薬婆に、様態補語を使いながら症状を正確に伝える健。「よく眠れなかった」「ほとんど食べなかった」——スキルが実戦で機能している。草薬の処方と一日三回の指示をもらい回復の見込みが立つ。草薬を渡しながら薬婆が「あんた、普通の旅人じゃないね」とつぶやいた。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson34/panel_01.jpg", "caption": "頭痛と発熱でふらつく健。飛虎が薬婆のところへ連れて行く。"},
+    {"panel_id": 2, "image": "/images/lesson34/panel_02.jpg", "caption": "「どこが悪い？いつから？」と丁寧に診察する薬婆。"},
+    {"panel_id": 3, "image": "/images/lesson34/panel_03.jpg", "caption": "「よく眠れなかった、ほとんど食べなかった」と症状を伝える健。"},
+    {"panel_id": 4, "image": "/images/lesson34/panel_04.jpg", "caption": "草薬を渡しながら「普通の旅人じゃないね」とつぶやく薬婆。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "怎么了？哪里不舒服？", "pinyin": "Zěnme le? Nǎlǐ bù shūfu?", "japanese": "どうしましたか？どこか具合が悪いですか？", "audio": "/audio/lesson34/shadow_01.mp3"},
+    {"id": "s2", "chinese": "我头疼，而且感冒感得很难受。", "pinyin": "Wǒ tóuténg, érqiě gǎnmào gǎn de hěn nánshòu.", "japanese": "頭が痛くて、しかも風邪でとてもつらいです。", "audio": "/audio/lesson34/shadow_02.mp3"},
+    {"id": "s3", "chinese": "从昨晚开始，睡得很不好。", "pinyin": "Cóng zuówǎn kāishǐ, shuì de hěn bù hǎo.", "japanese": "昨夜から始まりました。よく眠れませんでした。", "audio": "/audio/lesson34/shadow_03.mp3"},
+    {"id": "s4", "chinese": "我胃口不好，吃得很少。", "pinyin": "Wǒ wèikǒu bù hǎo, chī de hěn shǎo.", "japanese": "食欲がなくて、ほとんど食べていません。", "audio": "/audio/lesson34/shadow_04.mp3"},
+    {"id": "s5", "chinese": "你的情况不太严重，但需要好好休息。", "pinyin": "Nǐ de qíngkuàng bú tài yánzhòng, dàn xūyào hǎohǎo xiūxi.", "japanese": "症状はそれほど深刻ではありませんが、しっかり休む必要があります。", "audio": "/audio/lesson34/shadow_05.mp3"},
+    {"id": "s6", "chinese": "要按时喝，一天三次。", "pinyin": "Yào ànshí hē, yī tiān sān cì.", "japanese": "時間を守って一日三回飲んでください。", "audio": "/audio/lesson34/shadow_06.mp3"},
+    {"id": "s7", "chinese": "我一定按时喝！", "pinyin": "Wǒ yīdìng ànshí hē!", "japanese": "必ず時間通りに飲みます！", "audio": "/audio/lesson34/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "薬婆", "is_learner": false, "chinese": "怎么了？哪里不舒服？", "pinyin": "Zěnme le? Nǎlǐ bù shūfu?", "japanese": "どうしましたか？どこか具合が悪いですか？", "audio": "/audio/lesson34/conv_01.mp3", "panel_id": 2},
+    {"id": "c2", "speaker": "健", "is_learner": true, "chinese": "我头疼，而且感冒感得很难受。", "pinyin": "Wǒ tóuténg, érqiě gǎnmào gǎn de hěn nánshòu.", "japanese": "頭が痛くて、しかも風邪でとてもつらいです。", "audio": "/audio/lesson34/conv_02.mp3", "panel_id": 2},
+    {"id": "c3", "speaker": "薬婆", "is_learner": false, "chinese": "从什么时候开始的？", "pinyin": "Cóng shénme shíhou kāishǐ de?", "japanese": "いつから始まりましたか？", "audio": "/audio/lesson34/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "健", "is_learner": true, "chinese": "从昨晚开始，睡得很不好。", "pinyin": "Cóng zuówǎn kāishǐ, shuì de hěn bù hǎo.", "japanese": "昨夜から始まりました。よく眠れませんでした。", "audio": "/audio/lesson34/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "薬婆", "is_learner": false, "chinese": "你吃东西了吗？吃得多不多？", "pinyin": "Nǐ chī dōngxi le ma? Chī de duō bu duō?", "japanese": "何か食べましたか？たくさん食べましたか？", "audio": "/audio/lesson34/conv_05.mp3", "panel_id": 3},
+    {"id": "c6", "speaker": "健", "is_learner": true, "chinese": "没有。我胃口不好，吃得很少。", "pinyin": "Méiyǒu. Wǒ wèikǒu bù hǎo, chī de hěn shǎo.", "japanese": "いいえ。食欲がなくて、ほとんど食べていません。", "audio": "/audio/lesson34/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "薬婆", "is_learner": false, "chinese": "嗯，你的情况不太严重，但需要好好休息。", "pinyin": "Ń, nǐ de qíngkuàng bú tài yánzhòng, dàn xūyào hǎohǎo xiūxi.", "japanese": "症状はそれほど深刻ではありませんが、しっかり休む必要があります。", "audio": "/audio/lesson34/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "玲", "is_learner": false, "chinese": "药婆，他需要吃什么药？", "pinyin": "Yàopó, tā xūyào chī shénme yào?", "japanese": "薬婆、何の薬が必要ですか？", "audio": "/audio/lesson34/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "薬婆", "is_learner": false, "chinese": "我给你准备一些草药。记住，要按时喝，一天三次。", "pinyin": "Wǒ gěi nǐ zhǔnbèi yīxiē cǎoyào. Jìzhù, yào ànshí hē, yī tiān sān cì.", "japanese": "草薬を用意します。時間を守って一日三回飲んでください。", "audio": "/audio/lesson34/conv_09.mp3", "panel_id": 4},
+    {"id": "c10", "speaker": "健", "is_learner": true, "chinese": "谢谢药婆！我一定按时喝！", "pinyin": "Xièxiè Yàopó! Wǒ yīdìng ànshí hē!", "japanese": "ありがとうございます！必ず時間通りに飲みます！", "audio": "/audio/lesson34/conv_10.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "主謂述語文——「我头疼」は「私は、頭が痛い」。主語の中に主語と述語が入れ子になってる。RPGのステータス画面みたいな構造だ。様態補語の「〜得很…」、レベルの細かい状態報告に使える。「睡得很不好（よく眠れなかった）」「吃得很少（ほとんど食べなかった）」。「感冒（gǎnmào）風邪」「难受（nánshòu）つらい・気分が悪い」がスキル登録。異世界でも体調管理は最優先クエストだ。",
+  "study_notes": [
+    "主謂述語文：「我头疼」＝「私は頭が痛い」（主語の中に主述関係）",
+    "様態補語：「動詞＋得＋形容詞」で動作の様子を表す（睡得很不好、吃得很少）",
+    "「而且」（érqiě）：「そのうえ・しかも」",
+    "「严重」（yánzhòng）：「深刻な・重大な」",
+    "【新出未使用語彙】感冒（gǎnmào）風邪を引く、难受（nánshòu）つらい・気分が悪い"
+  ]
+}

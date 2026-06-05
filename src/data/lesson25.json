@@ -1,0 +1,173 @@
+{
+  "id": 25,
+  "title": "这张画儿真美",
+  "theme": "称賛",
+  "grammar": [
+    "「又……又……」",
+    "「要是……就……」"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "三人は再び回廊の絵の前に立った。武人が山を背に立つ絵——昨日とは違う目で見える。飛虎が「この山を知っている」と口にし、「要是……就……」で仮定を語り合いながら絵に隠された手がかりを探る。「もし一日早く着いていたら」という健の惜しむ言葉。飛虎が「出発しよう」と告げた瞬間、第2章が始まった感があった。絵の前を離れようとした瞬間、隅に小さな文字が刻まれているのに健は気づいた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson25/panel_01.jpg",
+      "caption": "回廊の絵の前に再び立つ三人。飛虎がじっと絵を見つめる。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson25/panel_02.jpg",
+      "caption": "「父は先生が背が高くがっしりしていると言っていた」と語る飛虎。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson25/panel_03.jpg",
+      "caption": "「もし手がかりを残したなら、必ずこの絵の中に」と言う飛虎。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson25/panel_04.jpg",
+      "caption": "「出発しよう」と告げる飛虎。立ち去る直前、絵の隅の文字に気づく健。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "这张画儿真美。又大又精致。",
+      "pinyin": "Zhè zhāng huàr zhēn měi. Yòu dà yòu jīngzhì.",
+      "japanese": "この絵、本当に美しい。大きくて精巧ですね。",
+      "audio": "/audio/lesson25/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "他又高又壮，眼睛很厉害。",
+      "pinyin": "Tā yòu gāo yòu zhuàng, yǎnjīng hěn lìhài.",
+      "japanese": "背が高くがっしりしていて、目が鋭いです。",
+      "audio": "/audio/lesson25/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "要是我早一天到，就能见到他了……",
+      "pinyin": "Yàoshi wǒ zǎo yī tiān dào, jiù néng jiàndào tā le……",
+      "japanese": "もし一日早く着いていたら、会えたのに……",
+      "audio": "/audio/lesson25/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "要是他留下了线索，一定在这张画里。",
+      "pinyin": "Yàoshi tā liú xia le xiànsuǒ, yīdìng zài zhè zhāng huà lǐ.",
+      "japanese": "もし先生が手がかりを残したなら、必ずこの絵の中にある。",
+      "audio": "/audio/lesson25/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "画里的山，是不是真实存在的地方？",
+      "pinyin": "Huà lǐ de shān, shì bu shì zhēnshí cúnzài de dìfang?",
+      "japanese": "絵の中の山、実在する場所じゃないかな？",
+      "audio": "/audio/lesson25/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "我认识这座山。然后……我们出发吧。",
+      "pinyin": "Wǒ rènshi zhè zuò shān. Ránhòu……wǒmen chūfā ba.",
+      "japanese": "この山を知っている。そして……出発しよう。",
+      "audio": "/audio/lesson25/shadow_06.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "这张画儿真美。又大又精致。",
+      "pinyin": "Zhè zhāng huàr zhēn měi. Yòu dà yòu jīngzhì.",
+      "japanese": "この絵、本当に美しい。大きくて精巧ですね。",
+      "audio": "/audio/lesson25/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "是啊。画里的人是云海先生吗？",
+      "pinyin": "Shì a. Huà lǐ de rén shì Yúnhǎi xiānsheng ma?",
+      "japanese": "そうですね。絵の中の人が云海先生ですか？",
+      "audio": "/audio/lesson25/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……应该是。父亲说他又高又壮，眼睛很厉害。",
+      "pinyin": "……Yīnggāi shì. Fùqīn shuō tā yòu gāo yòu zhuàng, yǎnjīng hěn lìhài.",
+      "japanese": "……おそらく。父は先生が背が高くがっしりしていて、目が鋭いと言っていた。",
+      "audio": "/audio/lesson25/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "要是我早一天到，就能见到他了……",
+      "pinyin": "Yàoshi wǒ zǎo yī tiān dào, jiù néng jiàndào tā le……",
+      "japanese": "もし一日早く着いていたら、会えたのに……",
+      "audio": "/audio/lesson25/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "要是哥哥参加了比赛，会不会遇到什么线索呢……",
+      "pinyin": "Yàoshi gēgē cānjiā le bǐsài, huì bu huì yùdào shénme xiànsuǒ ne……",
+      "japanese": "お兄さんが試合に出ていたら、何か手がかりに出会えたかな……",
+      "audio": "/audio/lesson25/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "要是他留下了线索，一定在这张画里。",
+      "pinyin": "Yàoshi tā liú xia le xiànsuǒ, yīdìng zài zhè zhāng huà lǐ.",
+      "japanese": "もし先生が手がかりを残したなら、必ずこの絵の中にある。",
+      "audio": "/audio/lesson25/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "飞虎……画里的山，是不是真实存在的地方？",
+      "pinyin": "Fēi Hǔ……huà lǐ de shān, shì bu shì zhēnshí cúnzài de dìfang?",
+      "japanese": "飛虎……絵の中の山、実在する場所じゃないかな？",
+      "audio": "/audio/lesson25/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……我认识这座山。然后……我们出发吧。",
+      "pinyin": "……Wǒ rènshi zhè zuò shān. Ránhòu……wǒmen chūfā ba.",
+      "japanese": "……この山を知っている。そして……出発しよう。",
+      "audio": "/audio/lesson25/conv_08.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「又大又精致」「又高又壮」——「又A又B」でAでありBでもあると一気に言える。連続バフ表現だ。「要是……就……」は仮定の構文。「もし一日早く着いていたら」……惜しい。一日の差のデバフが痛すぎる。「发现（fāxiàn）発見する」はスキル登録済。「然后（ránhòu）それから」がスキル登録。飛虎が「出発しよう」と言った瞬間——第2章が始まった。",
+
+  "study_notes": [
+    "「又……又……」＝AでありBでもある（並列・強調）",
+    "「要是……就……」＝もし〜なら〜だ（仮定）",
+    "「应该是」＝おそらく〜だ",
+    "「一定」＝必ず、きっと",
+    "【新出未使用語彙】然后（ránhòu）それから・その後"
+  ]
+}

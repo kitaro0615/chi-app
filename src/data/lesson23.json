@@ -1,0 +1,188 @@
+{
+  "id": 23,
+  "title": "对不起",
+  "theme": "謝罪",
+  "grammar": [
+    "形容詞「好」が結果補語となる場合",
+    "副詞「就」「才」",
+    "趨向補語②"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "飛虎との対話に没頭して気づいたら夜。玲との月見台の約束をすっかり忘れていた健。広場に戻ると玲が一人で腕を組んで立っていた——悲しそうな目で。「飛虎のことばかり」と声を高くする玲に、健が真剣な顔で謝罪する。「声から怒ってるのがわかる」という一言で玲の表情が少し和らぎ、「月はまだ出てる、上って見る？」と誘ってくれた。月見台の上で並んで座っていると、玲が「ここに来た本当の理由を知ってる？」と静かに聞いた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson23/panel_01.jpg",
+      "caption": "夜の月見台前。腕を組んで立つ玲。青ざめる健。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson23/panel_02.jpg",
+      "caption": "「飛虎のことばかり！」と声を高くする玲。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson23/panel_03.jpg",
+      "caption": "真剣な顔で「私が間違ってた。許してもらえますか？」と謝る健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson23/panel_04.jpg",
+      "caption": "月見台の上で並んで座る二人。玲が「本当の理由を知ってる？」と問う。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "对不起！我忘了！",
+      "pinyin": "Duìbuqǐ! Wǒ wàng le!",
+      "japanese": "ごめんなさい！忘れてた！",
+      "audio": "/audio/lesson23/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "你就知道飞虎，飞虎，飞虎……",
+      "pinyin": "Nǐ jiù zhīdào Fēi Hǔ, Fēi Hǔ, Fēi Hǔ……",
+      "japanese": "飛虎のことばかりじゃない……",
+      "audio": "/audio/lesson23/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "我们约好了，我才知道这件事很重要！",
+      "pinyin": "Wǒmen yuē hǎo le, wǒ cái zhīdào zhè jiàn shì hěn zhòngyào!",
+      "japanese": "約束してたから大切さがわかってる！",
+      "audio": "/audio/lesson23/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "对不起。我做错了。",
+      "pinyin": "Duìbuqǐ. Wǒ zuò cuò le.",
+      "japanese": "ごめんなさい。私が間違ってた。",
+      "audio": "/audio/lesson23/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "你的声音听起来很生气，我能理解。",
+      "pinyin": "Nǐ de shēngyīn tīng qǐlái hěn shēngqì, wǒ néng lǐjiě.",
+      "japanese": "声から怒ってるのがわかる。理解できます。",
+      "audio": "/audio/lesson23/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "你能原谅我吗？",
+      "pinyin": "Nǐ néng yuánliàng wǒ ma?",
+      "japanese": "許してもらえますか？",
+      "audio": "/audio/lesson23/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "下次不许忘。月亮还在，上去看吗？",
+      "pinyin": "Xià cì bùxǔ wàng. Yuèliang hái zài, shàngqù kàn ma?",
+      "japanese": "次は絶対忘れないで。月はまだ出てるから、上って見る？",
+      "audio": "/audio/lesson23/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "好！走上去！月亮还没下去呢！",
+      "pinyin": "Hǎo! Zǒu shàngqù! Yuèliang hái méi xiàqù ne!",
+      "japanese": "うん！上に行こう！月はまだ沈んでいない！",
+      "audio": "/audio/lesson23/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "……已经九点了。",
+      "pinyin": "……Yǐjīng jiǔ diǎn le.",
+      "japanese": "……もう9時です。",
+      "audio": "/audio/lesson23/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "对不起！对不起！我忘了！和飞虎说话……",
+      "pinyin": "Duìbuqǐ! Duìbuqǐ! Wǒ wàng le! Hé Fēi Hǔ shuōhuà……",
+      "japanese": "ごめんなさい！忘れてた！飛虎と話していて……",
+      "audio": "/audio/lesson23/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "你就知道飞虎，飞虎，飞虎……",
+      "pinyin": "Nǐ jiù zhīdào Fēi Hǔ, Fēi Hǔ, Fēi Hǔ……",
+      "japanese": "飛虎のことばかりじゃない……",
+      "audio": "/audio/lesson23/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "不是的！我们约好了，我才知道这件事很重要！今天只是——",
+      "pinyin": "Bú shì de! Wǒmen yuē hǎo le, wǒ cái zhīdào zhè jiàn shì hěn zhòngyào! Jīntiān zhǐshì——",
+      "japanese": "違います！約束してたから大切さがわかってる！今日はただ——",
+      "audio": "/audio/lesson23/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "就是就是！就知道说「只是」！",
+      "pinyin": "Jiùshì jiùshì! Jiù zhīdào shuō \"zhǐshì\"!",
+      "japanese": "「ただ」しか言わない！",
+      "audio": "/audio/lesson23/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "玲，对不起。我做错了。你的声音听起来很生气，我能理解。你能原谅我吗？",
+      "pinyin": "Líng, duìbuqǐ. Wǒ zuò cuò le. Nǐ de shēngyīn tīng qǐlái hěn shēngqì, wǒ néng lǐjiě. Nǐ néng yuánliàng wǒ ma?",
+      "japanese": "玲、ごめんなさい。私が間違ってた。声から怒ってるのがわかる。許してもらえますか？",
+      "audio": "/audio/lesson23/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "……下次不许忘。月亮还在，上去看吗？",
+      "pinyin": "……Xià cì bùxǔ wàng. Yuèliang hái zài, shàngqù kàn ma?",
+      "japanese": "……次は絶対忘れないで。月はまだ出てるから、上って見る？",
+      "audio": "/audio/lesson23/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "好！走上去！月亮还没下去呢！",
+      "pinyin": "Hǎo! Zǒu shàngqù! Yuèliang hái méi xiàqù ne!",
+      "japanese": "うん！上に行こう！月はまだ沈んでいない！",
+      "audio": "/audio/lesson23/conv_08.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「约好了」の「好」は結果補語。「约好」＝ちゃんと約束できた。「好」は「完了・成立」を示す最強補語だ。「就」は即時性（「飞虎ばかり」）、「才」は条件の後（「今になってやっとわかった」）。使い分けが大事。「声音（shēngyīn）声・音」「生气（shēngqì）怒る」がスキル登録。玲の声のトーンで全部バレてた……。",
+
+  "study_notes": [
+    "「好」が結果補語：「约好了」＝ちゃんと約束した、「做好」＝うまくやった",
+    "副詞「就」：即時・限定（「就知道飞虎」＝飛虎のことばかり）",
+    "副詞「才」：ようやく・条件（「才知道」＝ようやくわかった）",
+    "趨向補語②：「走上去」＝上っていく、「下去」＝下っていく",
+    "【新出未使用語彙】声音（shēngyīn）声・音、生气（shēngqì）怒る"
+  ]
+}

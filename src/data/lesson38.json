@@ -1,0 +1,47 @@
+{
+  "id": 38,
+  "title": "这儿托运行李吗",
+  "theme": "荷物預け",
+  "grammar": [
+    "「把」字句の応用",
+    "可能補語②"
+  ],
+  "hsk_level": 4,
+  "scene_description": "玲と別れ旅を再開した一行が龍門関の大きな関所にさしかかった。荷物検査でスマホが発覚するピンチ。飛虎が機転を利かせて「俺の袋に入れろ」と小声で指示し、「放得进去？（入れられる？）」「放得进去（入れられる）」と可能補語をリアルタイムで交わしながら無事に乗り切る。関所を抜けた後、飛虎に感謝する健に「もっとしっかり隠しておけ」とため息をつく飛虎。飛虎が言い終えた直後、係員が「ちょっと待て」と振り返った。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson38/panel_01.jpg", "caption": "龍門関の大きな関所。荷物検査でスマホ発覚のピンチ。"},
+    {"panel_id": 2, "image": "/images/lesson38/panel_02.jpg", "caption": "飛虎が小声で「俺の袋に入れろ」と指示。「入れられる？」「入れられる」"},
+    {"panel_id": 3, "image": "/images/lesson38/panel_03.jpg", "caption": "係員に「禁止品はないか？」と問われ「ただの旅人です」と答える健。"},
+    {"panel_id": 4, "image": "/images/lesson38/panel_04.jpg", "caption": "関所を抜けて一安心。「もっとしっかり隠しておけ」と飛虎。係員が振り返る。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "把你们的行李放在这里，让我检查一下。", "pinyin": "Bǎ nǐmen de xíngli fàng zài zhèlǐ, ràng wǒ jiǎnchá yīxià.", "japanese": "荷物をここに置いて、検査させなさい。", "audio": "/audio/lesson38/shadow_01.mp3"},
+    {"id": "s2", "chinese": "把那个东西先放到我的袋子里。", "pinyin": "Bǎ nàge dōngxi xiān fàng dào wǒ de dàizi lǐ.", "japanese": "あれをまず私の袋の中に入れて。", "audio": "/audio/lesson38/shadow_02.mp3"},
+    {"id": "s3", "chinese": "放得进去吗？", "pinyin": "Fàng de jìnqu ma?", "japanese": "入れられますか？", "audio": "/audio/lesson38/shadow_03.mp3"},
+    {"id": "s4", "chinese": "放得进去。别慌。", "pinyin": "Fàng de jìnqu. Bié huāng.", "japanese": "入れられる。焦るな。", "audio": "/audio/lesson38/shadow_04.mp3"},
+    {"id": "s5", "chinese": "你们这里有没有违禁物品？", "pinyin": "Nǐmen zhèlǐ yǒu méiyǒu wéijìn wùpǐn?", "japanese": "禁止品はありますか？", "audio": "/audio/lesson38/shadow_05.mp3"},
+    {"id": "s6", "chinese": "没有！我们只是普通的旅行者。", "pinyin": "Méiyǒu! Wǒmen zhǐshì pǔtōng de lǚxíngzhě.", "japanese": "ありません！ただの旅人です。", "audio": "/audio/lesson38/shadow_06.mp3"},
+    {"id": "s7", "chinese": "你把我的东西保护得很好！谢谢！", "pinyin": "Nǐ bǎ wǒ de dōngxi bǎohù de hěn hǎo! Xièxiè!", "japanese": "しっかり守ってくれた！ありがとう！", "audio": "/audio/lesson38/shadow_07.mp3"},
+    {"id": "s8", "chinese": "以后把那个东西藏好一点儿。", "pinyin": "Yǐhòu bǎ nàge dōngxi cáng hǎo yīdiǎnr.", "japanese": "今後はそれをもっとしっかり隠しておきなさい。", "audio": "/audio/lesson38/shadow_08.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "係員", "is_learner": false, "chinese": "停！把你们的行李放在这里，让我检查一下。", "pinyin": "Tíng! Bǎ nǐmen de xíngli fàng zài zhèlǐ, ràng wǒ jiǎnchá yīxià.", "japanese": "止まれ！荷物をここに置いて、検査させなさい。", "audio": "/audio/lesson38/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "健", "is_learner": true, "chinese": "完了，手机可能被发现……关键是这里没法解释。", "pinyin": "Wánle, shǒujī kěnéng bèi fāxiàn……guānjiàn shì zhèlǐ méifǎ jiěshì.", "japanese": "やばい、スマホが発見されるかも……問題は説明できないってことだ。", "audio": "/audio/lesson38/conv_02.mp3", "panel_id": 2},
+    {"id": "c3", "speaker": "飛虎", "is_learner": false, "chinese": "把那个东西先放到我的袋子里。", "pinyin": "Bǎ nàge dōngxi xiān fàng dào wǒ de dàizi lǐ.", "japanese": "あれをまず私の袋の中に入れて。", "audio": "/audio/lesson38/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "健", "is_learner": true, "chinese": "放得进去吗？", "pinyin": "Fàng de jìnqu ma?", "japanese": "入れられますか？", "audio": "/audio/lesson38/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "飛虎", "is_learner": false, "chinese": "放得进去。别慌。", "pinyin": "Fàng de jìnqu. Bié huāng.", "japanese": "入れられる。焦るな。", "audio": "/audio/lesson38/conv_05.mp3", "panel_id": 2},
+    {"id": "c6", "speaker": "係員", "is_learner": false, "chinese": "你们这里有没有违禁物品？", "pinyin": "Nǐmen zhèlǐ yǒu méiyǒu wéijìn wùpǐn?", "japanese": "禁止品はありますか？", "audio": "/audio/lesson38/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "健", "is_learner": true, "chinese": "没有！我们只是普通的旅行者。", "pinyin": "Méiyǒu! Wǒmen zhǐshì pǔtōng de lǚxíngzhě.", "japanese": "ありません！ただの旅人です。", "audio": "/audio/lesson38/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "係員", "is_learner": false, "chinese": "把大件行李放到那边。", "pinyin": "Bǎ dàjiàn xíngli fàng dào nàbiān.", "japanese": "大きい荷物はあちらに置いてください。", "audio": "/audio/lesson38/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "健", "is_learner": true, "chinese": "飞虎！你把我的东西保护得很好！谢谢！", "pinyin": "Fēi Hǔ! Nǐ bǎ wǒ de dōngxi bǎohù de hěn hǎo! Xièxiè!", "japanese": "飛虎！しっかり守ってくれた！ありがとう！", "audio": "/audio/lesson38/conv_09.mp3", "panel_id": 4},
+    {"id": "c10", "speaker": "飛虎", "is_learner": false, "chinese": "以后把那个东西藏好一点儿。", "pinyin": "Yǐhòu bǎ nàge dōngxi cáng hǎo yīdiǎnr.", "japanese": "今後はそれをもっとしっかり隠しておきなさい。", "audio": "/audio/lesson38/conv_10.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "「把」字句、実戦で使ったわ！「把〜放到…」「把〜保护得很好」——ステルスミッションで必須のスキルセット。可能補語「放得进去」「放不进去」——プラスとマイナスを瞬時に使い分けた。関所突破クリア！「关键（guānjiàn）重要な・キーポイント」「最后（zuìhòu）最後に」がスキル登録。飛虎、クールキャラなのに助けてくれる——仲間フラグ確定だよ。",
+  "study_notes": [
+    "「把」字句の応用：「把＋目的語＋動詞＋場所補語」（処置を表す）",
+    "可能補語②：「動詞＋得/不＋結果/方向補語」（例：放得进去／放不进去）",
+    "「保护」（bǎohù）：「保護する」",
+    "「行李」（xíngli）：「荷物」",
+    "【新出未使用語彙】关键（guānjiàn）重要な、最后（zuìhòu）最後に"
+  ]
+}

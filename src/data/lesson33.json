@@ -1,0 +1,48 @@
+{
+  "id": 33,
+  "title": "有空房间吗",
+  "theme": "旅行③",
+  "grammar": [
+    "存在文の応用",
+    "疑問詞の用法"
+  ],
+  "hsk_level": 4,
+  "scene_description": "宿場町「雲霞鎮」にたどり着いた一行。三階建ての立派な宾馆で宿探し。健が存在文を駆使して「空き部屋は？広い部屋は？風呂は？」と次々に確認。老王が価格交渉に割り込み、飛虎が「先に見せて」と実用的な一言。無事に部屋を確保してベッドに腰を下ろした瞬間、床下から何かを引きずるような音がした。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson33/panel_01.jpg", "caption": "宿場町「雲霞鎮」の立派な宾馆。フロントで宿探しスタート。"},
+    {"panel_id": 2, "image": "/images/lesson33/panel_02.jpg", "caption": "「広い部屋はある？」と次々に確認する健。老王が価格交渉に割り込む。"},
+    {"panel_id": 3, "image": "/images/lesson33/panel_03.jpg", "caption": "「先に見せて」と飛虎。廊下の突き当たりに風呂があると確認。"},
+    {"panel_id": 4, "image": "/images/lesson33/panel_04.jpg", "caption": "ベッドに腰を下ろした瞬間、床下から引きずるような音が……"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "请问，这里有空房间吗？", "pinyin": "Qǐngwèn, zhèlǐ yǒu kōng fángjiān ma?", "japanese": "すみません、空き部屋はありますか？", "audio": "/audio/lesson33/shadow_01.mp3"},
+    {"id": "s2", "chinese": "有没有大一点儿的房间？", "pinyin": "Yǒu méiyǒu dà yīdiǎnr de fángjiān?", "japanese": "もう少し広い部屋はありますか？", "audio": "/audio/lesson33/shadow_02.mp3"},
+    {"id": "s3", "chinese": "楼上有一间，但是条件比较简单。", "pinyin": "Lóu shàng yǒu yī jiān, dànshì tiáojiàn bǐjiào jiǎndān.", "japanese": "上の階に一室あります。ただし設備はやや簡素です。", "audio": "/audio/lesson33/shadow_03.mp3"},
+    {"id": "s4", "chinese": "多少钱一晚上？", "pinyin": "Duōshao qián yī wǎnshang?", "japanese": "一泊いくらですか？", "audio": "/audio/lesson33/shadow_04.mp3"},
+    {"id": "s5", "chinese": "五十文。包括早饭。", "pinyin": "Wǔshí wén. Bāokuò zǎofàn.", "japanese": "50文です。朝食込みです。", "audio": "/audio/lesson33/shadow_05.mp3"},
+    {"id": "s6", "chinese": "那房间在哪儿？能不能先看看？", "pinyin": "Nà fángjiān zài nǎr? Néng bu néng xiān kànkan?", "japanese": "その部屋はどこですか？先に見せてもらえますか？", "audio": "/audio/lesson33/shadow_06.mp3"},
+    {"id": "s7", "chinese": "房间里有没有洗澡的地方？", "pinyin": "Fángjiān lǐ yǒu méiyǒu xǐzǎo de dìfang?", "japanese": "部屋にお風呂はありますか？", "audio": "/audio/lesson33/shadow_07.mp3"},
+    {"id": "s8", "chinese": "有，在走廊的尽头。", "pinyin": "Yǒu, zài zǒuláng de jìntóu.", "japanese": "あります。廊下の突き当たりにあります。", "audio": "/audio/lesson33/shadow_08.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "健", "is_learner": true, "chinese": "你好！请问，这里有空房间吗？", "pinyin": "Nǐ hǎo! Qǐngwèn, zhèlǐ yǒu kōng fángjiān ma?", "japanese": "こんにちは！すみません、空き部屋はありますか？", "audio": "/audio/lesson33/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "宿主", "is_learner": false, "chinese": "有，你们几个人？", "pinyin": "Yǒu, nǐmen jǐ ge rén?", "japanese": "あります。何名ですか？", "audio": "/audio/lesson33/conv_02.mp3", "panel_id": 1},
+    {"id": "c3", "speaker": "健", "is_learner": true, "chinese": "三个人。有没有大一点儿的房间？", "pinyin": "Sān ge rén. Yǒu méiyǒu dà yīdiǎnr de fángjiān?", "japanese": "3人です。もう少し広い部屋はありますか？", "audio": "/audio/lesson33/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "宿主", "is_learner": false, "chinese": "有。楼上有一间，但是条件比较简单。", "pinyin": "Yǒu. Lóu shàng yǒu yī jiān, dànshì tiáojiàn bǐjiào jiǎndān.", "japanese": "あります。上の階に一室あります。ただし設備はやや簡素です。", "audio": "/audio/lesson33/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "老王", "is_learner": false, "chinese": "哦！这宾馆看起来不错嘛！简单没关系，多少钱一晚上？我来谈谈价钱。", "pinyin": "Ó! Zhè bīnguǎn kàn qǐlái búcuò ma! Jiǎndān méi guānxi, duōshao qián yī wǎnshang? Wǒ lái tántán jiàqián.", "japanese": "宾馆、見た感じ悪くない！簡素でも構わない、一泊いくら？値段交渉しましょう。", "audio": "/audio/lesson33/conv_05.mp3", "panel_id": 2},
+    {"id": "c6", "speaker": "宿主", "is_learner": false, "chinese": "五十文。包括早饭。", "pinyin": "Wǔshí wén. Bāokuò zǎofàn.", "japanese": "50文です。朝食込みです。", "audio": "/audio/lesson33/conv_06.mp3", "panel_id": 2},
+    {"id": "c7", "speaker": "飛虎", "is_learner": false, "chinese": "那房间在哪儿？能不能先看看？", "pinyin": "Nà fángjiān zài nǎr? Néng bu néng xiān kànkan?", "japanese": "その部屋はどこですか？先に見せてもらえますか？", "audio": "/audio/lesson33/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "宿主", "is_learner": false, "chinese": "当然可以。跟我来吧。", "pinyin": "Dāngrán kěyǐ. Gēn wǒ lái ba.", "japanese": "もちろん。ついてきてください。", "audio": "/audio/lesson33/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "健", "is_learner": true, "chinese": "房间里有没有洗澡的地方？", "pinyin": "Fángjiān lǐ yǒu méiyǒu xǐzǎo de dìfang?", "japanese": "部屋にお風呂はありますか？", "audio": "/audio/lesson33/conv_09.mp3", "panel_id": 3},
+    {"id": "c10", "speaker": "宿主", "is_learner": false, "chinese": "有，在走廊的尽头。", "pinyin": "Yǒu, zài zǒuláng de jìntóu.", "japanese": "あります。廊下の突き当たりにあります。", "audio": "/audio/lesson33/conv_10.mp3", "panel_id": 3},
+    {"id": "c11", "speaker": "健", "is_learner": true, "chinese": "好，那我们就住这里吧！", "pinyin": "Hǎo, nà wǒmen jiù zhù zhèlǐ ba!", "japanese": "よし、ここに泊まります！", "audio": "/audio/lesson33/conv_11.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "存在文コンボ、ガチで使えた！「有没有」って聞くだけで宿探しクリアできるとか、ほぼRPGの宿屋イベントじゃん。疑問詞「哪儿」も完璧に決まった。「那（あれ）」と「哪（どこ）」の混同……前は詰んでたのに今は余裕。レベルアップしてる。「楼（lóu）階・ビル」「宾馆（bīnguǎn）ホテル」がスキル登録。老王の価格交渉スキルは別格だった。",
+  "study_notes": [
+    "存在文の応用：「〜里有…」で場所＋存在を表す",
+    "「有没有」：正反疑問文の形で「〜がありますか？」",
+    "疑問詞「哪儿」：場所を尋ねる（「那」との区別に注意）",
+    "「包括」（bāokuò）：含む。「包括早饭」で朝食込み",
+    "【新出未使用語彙】楼（lóu）階・ビル、宾馆（bīnguǎn）ホテル"
+  ]
+}

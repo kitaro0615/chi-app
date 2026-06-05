@@ -1,0 +1,45 @@
+{
+  "id": 35,
+  "title": "你好点儿了吗",
+  "theme": "見舞い",
+  "grammar": [
+    "程度補語の応用",
+    "「一点儿」"
+  ],
+  "hsk_level": 4,
+  "scene_description": "薬を飲んで一日休んだ翌日、玲がお見舞いに来た。「かなりよくなったけど少し頭痛が残ってる」と健が正直に答える。飛虎も覗き込み、普段クールなのに表情が少し柔らかい。玲が外の新鮮な空気をアピールし、健も「気分がずっとよくなった」と笑顔。薬婆が様子を見に来て「明日には完全によくなる」と太鼓判を押す。「完全によくなったら話がある」と薬婆が健だけに耳打ちした。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson35/panel_01.jpg", "caption": "お見舞いに来た玲。窓の外の青い空と新鮮な空気。"},
+    {"panel_id": 2, "image": "/images/lesson35/panel_02.jpg", "caption": "「かなりよくなった、少し頭痛が残ってる」と答える健。飛虎も覗き込む。"},
+    {"panel_id": 3, "image": "/images/lesson35/panel_03.jpg", "caption": "「気分がずっとよくなった！景色もよく見える」と笑顔になる健。"},
+    {"panel_id": 4, "image": "/images/lesson35/panel_04.jpg", "caption": "「明日には完全に回復」と太鼓判を押す薬婆。健に耳打ちする。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "你好点儿了吗？", "pinyin": "Nǐ hǎo diǎnr le ma?", "japanese": "少しよくなりましたか？", "audio": "/audio/lesson35/shadow_01.mp3"},
+    {"id": "s2", "chinese": "好多了，谢谢你！但是还有一点儿头疼。", "pinyin": "Hǎo duō le, xièxie nǐ! Dànshì hái yǒu yīdiǎnr tóuténg.", "japanese": "かなりよくなりました！でも少し頭痛がまだ残ってます。", "audio": "/audio/lesson35/shadow_02.mp3"},
+    {"id": "s3", "chinese": "能，但是吃得比昨天少一点儿。", "pinyin": "Néng, dànshì chī de bǐ zuótiān shǎo yīdiǎnr.", "japanese": "取れます。でも昨日より少し少ないです。", "audio": "/audio/lesson35/shadow_03.mp3"},
+    {"id": "s4", "chinese": "一点一点地来嘛！", "pinyin": "Yī diǎn yī diǎn de lái ma!", "japanese": "少しずつやっていけばいいじゃない！", "audio": "/audio/lesson35/shadow_04.mp3"},
+    {"id": "s5", "chinese": "心情好多了！今天的风景也比昨天看起来美多了。", "pinyin": "Xīnqíng hǎo duō le! Jīntiān de fēngjǐng yě bǐ zuótiān kàn qǐlái měi duō le.", "japanese": "気分がずっとよくなりました！今日の景色も昨日よりずっとよく見えます。", "audio": "/audio/lesson35/shadow_05.mp3"},
+    {"id": "s6", "chinese": "今天看起来精神好多了。", "pinyin": "Jīntiān kàn qǐlái jīngshén hǎo duō le.", "japanese": "今日は元気そうにずっとよく見えます。", "audio": "/audio/lesson35/shadow_06.mp3"},
+    {"id": "s7", "chinese": "明天应该就完全好了。再多休息一点儿。", "pinyin": "Míngtiān yīnggāi jiù wánquán hǎo le. Zài duō xiūxi yīdiǎnr.", "japanese": "明日には完全によくなるでしょう。もう少し休んでください。", "audio": "/audio/lesson35/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "玲", "is_learner": false, "chinese": "健，你好点儿了吗？", "pinyin": "Jiàn, nǐ hǎo diǎnr le ma?", "japanese": "健、少しよくなりましたか？", "audio": "/audio/lesson35/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "健", "is_learner": true, "chinese": "好多了，谢谢你！但是还有一点儿头疼。", "pinyin": "Hǎo duō le, xièxie nǐ! Dànshì hái yǒu yīdiǎnr tóuténg.", "japanese": "かなりよくなりました！でも少し頭痛がまだ残ってます。", "audio": "/audio/lesson35/conv_02.mp3", "panel_id": 2},
+    {"id": "c3", "speaker": "飛虎", "is_learner": false, "chinese": "能吃东西了吗？", "pinyin": "Néng chī dōngxi le ma?", "japanese": "食事は取れますか？", "audio": "/audio/lesson35/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "健", "is_learner": true, "chinese": "能，但是吃得比昨天少一点儿。", "pinyin": "Néng, dànshì chī de bǐ zuótiān shǎo yīdiǎnr.", "japanese": "取れます。でも昨日より少し少ないです。", "audio": "/audio/lesson35/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "玲", "is_learner": false, "chinese": "没关系！一点一点地来嘛！心情好一点儿了吗？外面的环境很好，空气也很新鲜！", "pinyin": "Méi guānxi! Yī diǎn yī diǎn de lái ma! Xīnqíng hǎo yīdiǎnr le ma? Wàimiàn de huánjìng hěn hǎo, kōngqì yě hěn xīnxiān!", "japanese": "構わない！少しずつやっていけばいい！気分は少しよくなった？外の環境がいいし、空気も新鮮！", "audio": "/audio/lesson35/conv_05.mp3", "panel_id": 3},
+    {"id": "c6", "speaker": "健", "is_learner": true, "chinese": "嗯，心情好多了！今天的风景也比昨天看起来美多了。", "pinyin": "Ń, xīnqíng hǎo duō le! Jīntiān de fēngjǐng yě bǐ zuótiān kàn qǐlái měi duō le.", "japanese": "うん、気分がずっとよくなりました！今日の景色も昨日よりずっとよく見えます。", "audio": "/audio/lesson35/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "薬婆", "is_learner": false, "chinese": "好，今天看起来精神好多了。", "pinyin": "Hǎo, jīntiān kàn qǐlái jīngshén hǎo duō le.", "japanese": "いい、今日は元気そうにずっとよく見えます。", "audio": "/audio/lesson35/conv_07.mp3", "panel_id": 4},
+    {"id": "c8", "speaker": "健", "is_learner": true, "chinese": "药婆，谢谢您！您的草药太有效了！", "pinyin": "Yàopó, xièxiè nín! Nín de cǎoyào tài yǒuxiào le!", "japanese": "薬婆、ありがとうございます！草薬が本当によく効きました！", "audio": "/audio/lesson35/conv_08.mp3", "panel_id": 4},
+    {"id": "c9", "speaker": "薬婆", "is_learner": false, "chinese": "明天应该就完全好了。再多休息一点儿。", "pinyin": "Míngtiān yīnggāi jiù wánquán hǎo le. Zài duō xiūxi yīdiǎnr.", "japanese": "明日には完全によくなるでしょう。もう少し休んでください。", "audio": "/audio/lesson35/conv_09.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "「好点儿了吗」——「好」＋程度補語で回復状況を一発で聞ける。「一点儿」で少し、「多了」でずいぶん。回復ゲージの目盛りを言語化するやつだ。「环境（huánjìng）環境」「空气（kōngqì）空気」がスキル登録。玲が「外の環境がいい」って言ったのに、起き上がれなかった自分に自己ツッコミ中。補語の組み合わせで表現が無限に広がる。スキルツリーの自由度が高すぎる。",
+  "study_notes": [
+    "程度補語の応用：「好多了」（ずっとよくなった）「好点儿了」（少しよくなった）",
+    "「一点儿」：「少し」。「比〜少一点儿」で「〜より少し少ない」",
+    "「心情」（xīnqíng）：「気分・気持ち」",
+    "「完全」（wánquán）：「完全に」",
+    "【新出未使用語彙】环境（huánjìng）環境、空气（kōngqì）空気"
+  ]
+}

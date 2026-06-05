@@ -1,0 +1,200 @@
+{
+  "id": 12,
+  "title": "喝什么茶",
+  "theme": "買い物・必要②",
+  "grammar": [
+    "語気助詞「了」①",
+    "「还是」"
+  ],
+  "hsk_level": 2,
+
+  "scene_description": "老王から伝言を受けた直後、市場の入口から鈴鐺が息を切らして登場。健・玲・飛虎・老王・鈴鐺の全員が市場で勢揃いする。老王の「おごりだ！」の一言で茶館へ移動。メニューで「緑茶か花茶か」の選択に悩む健に鈴鐺が花茶を猛プッシュ。和やかな時間が流れる中、茶を飲み終えた飛虎が静かに立ち上がって「次の目的地へ向かう」と告げた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson12/panel_01.jpg",
+      "caption": "市場に息を切らして現れる鈴鐺。全員集合！"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson12/panel_02.jpg",
+      "caption": "老王の「おごりだ！」で茶館へ向かう一行。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson12/panel_03.jpg",
+      "caption": "「緑茶か花茶か」メニューを前に悩む健と鈴鐺。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson12/panel_04.jpg",
+      "caption": "茶を飲み終えた飛虎が静かに立ち上がり「次の目的地へ」と告げる。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "我来了！",
+      "pinyin": "Wǒ lái le!",
+      "japanese": "来たよ！",
+      "audio": "/audio/lesson12/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "好久不见！",
+      "pinyin": "Hǎojiǔ bújiàn!",
+      "japanese": "久しぶり！",
+      "audio": "/audio/lesson12/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "走，去茶馆，我请客！",
+      "pinyin": "Zǒu, qù cháguǎn, wǒ qǐngkè!",
+      "japanese": "行こう、茶館へ、私のおごりだ！",
+      "audio": "/audio/lesson12/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "喝什么茶？绿茶还是花茶？",
+      "pinyin": "Hē shénme chá? Lǜchá háishi huāchá?",
+      "japanese": "何のお茶？緑茶？それとも花茶？",
+      "audio": "/audio/lesson12/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "哪个好喝？",
+      "pinyin": "Nǎge hǎohē?",
+      "japanese": "どっちがおいしいですか？",
+      "audio": "/audio/lesson12/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "你喝了吗？",
+      "pinyin": "Nǐ hē le ma?",
+      "japanese": "飲んだことある？",
+      "audio": "/audio/lesson12/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "我还没喝过。那我要花茶！",
+      "pinyin": "Wǒ hái méi hē guò. Nà wǒ yào huāchá!",
+      "japanese": "ないです。じゃあ花茶で！",
+      "audio": "/audio/lesson12/shadow_07.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "你们好！我来了！",
+      "pinyin": "Nǐmen hǎo! Wǒ lái le!",
+      "japanese": "みんな！来たよ！",
+      "audio": "/audio/lesson12/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "谢谢你转告了。",
+      "pinyin": "Xièxiè nǐ zhuǎngào le.",
+      "japanese": "伝えてくれてありがとう。",
+      "audio": "/audio/lesson12/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "没事！走，去茶馆，我请客！",
+      "pinyin": "Méishi! Zǒu, qù cháguǎn, wǒ qǐngkè!",
+      "japanese": "なんでもない！茶館へ行こう、私のおごりだ！",
+      "audio": "/audio/lesson12/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "你们来隔壁镇了！好久不见！",
+      "pinyin": "Nǐmen lái gébì zhèn le! Hǎojiǔ bújiàn!",
+      "japanese": "隣町に来たんですね！久しぶり！",
+      "audio": "/audio/lesson12/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "是啊！今天来这里，真开心！",
+      "pinyin": "Shì a! Jīntiān lái zhèlǐ, zhēn kāixīn!",
+      "japanese": "そうなの！今日ここに来て、本当に嬉しい！",
+      "audio": "/audio/lesson12/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "喝什么茶？绿茶还是花茶？",
+      "pinyin": "Hē shénme chá? Lǜchá háishi huāchá?",
+      "japanese": "何のお茶？緑茶？それとも花茶？",
+      "audio": "/audio/lesson12/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "绿茶还是花茶……哪个好喝？",
+      "pinyin": "Lǜchá háishi huāchá……nǎge hǎohē?",
+      "japanese": "緑茶か花茶か……どっちがおいしいですか？",
+      "audio": "/audio/lesson12/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "花茶！花茶很香！你喝了吗？",
+      "pinyin": "Huāchá! Huāchá hěn xiāng! Nǐ hē le ma?",
+      "japanese": "花茶！花茶はいい香り！飲んだことある？",
+      "audio": "/audio/lesson12/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "没有，我还没喝过。那我要花茶！",
+      "pinyin": "Méiyǒu, wǒ hái méi hē guò. Nà wǒ yào huāchá!",
+      "japanese": "ないです。じゃあ花茶で！",
+      "audio": "/audio/lesson12/conv_09.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c10",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "这茶馆热闹，生意好！下次我也来做买卖！",
+      "pinyin": "Zhè cháguǎn rènao, shēngyi hǎo! Xià cì wǒ yě lái zuò mǎimài!",
+      "japanese": "茶館、にぎやかで商売繁盛！次は俺もここで商売するか！",
+      "audio": "/audio/lesson12/conv_10.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「A还是B？」は選択疑問文の核。「どちらかを選べ」を迫る強制力がある。ゲームの二択イベントだ。語気助詞「了」は変化のシグナル。「来了！」＝来た（状況が変わった）。日本語の「よ」に近い感覚。「热闹（rènao）にぎやか」「快乐（kuàilè）楽しい」がスキル登録。老王、商売の嗅覚が異常に鋭い。",
+
+  "study_notes": [
+    "語気助詞「了」①：文末につけて変化・完了の気持ち（「来了！」「好了！」）",
+    "「A还是B？」＝AですかそれともBですか？（選択疑問文）",
+    "「好久不见」＝久しぶり",
+    "「我请客」＝私のおごりです",
+    "【新出未使用語彙】热闹（rènao）にぎやか、快乐（kuàilè）楽しい"
+  ]
+}

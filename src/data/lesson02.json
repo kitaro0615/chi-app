@@ -1,0 +1,194 @@
+{
+  "id": 2,
+  "title": "你身体好吗",
+  "theme": "問候②",
+  "grammar": [
+    "声母・韻母②",
+    "ピンイン②"
+  ],
+  "hsk_level": 1,
+
+  "scene_description": "翌朝、玲が健を村の広場へ連れ出した。村人たちが次々に声をかけてくる中、頭の中のシステムが「体調を尋ねる表現」をHUDに表示。朝は少し肌寒く、上午の風が草をなびかせている。村人との挨拶をなんとかこなしていたが、老婆さんの「ご飯は食べた？」の一言でお腹の空きがバレてしまう。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson02/panel_01.jpg",
+      "caption": "玲に連れられ、村の広場へ向かう健。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson02/panel_02.jpg",
+      "caption": "村人Aに体調を聞かれ、えいやと返事する健。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson02/panel_03.jpg",
+      "caption": "老婆さんに「ご飯食べた？」と聞かれ、お腹を押さえる健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson02/panel_04.jpg",
+      "caption": "「行きましょう！」と玲が食事へ引っ張っていく。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "你身体好吗？",
+      "pinyin": "Nǐ shēntǐ hǎo ma?",
+      "japanese": "体の具合はよいですか？",
+      "audio": "/audio/lesson02/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "我很好，谢谢。你呢？",
+      "pinyin": "Wǒ hěn hǎo, xièxie. Nǐ ne?",
+      "japanese": "元気です、ありがとう。あなたは？",
+      "audio": "/audio/lesson02/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "我也很好！",
+      "pinyin": "Wǒ yě hěn hǎo!",
+      "japanese": "私も元気です！",
+      "audio": "/audio/lesson02/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "你累吗？",
+      "pinyin": "Nǐ lèi ma?",
+      "japanese": "疲れていますか？",
+      "audio": "/audio/lesson02/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "不累。",
+      "pinyin": "Bú lèi.",
+      "japanese": "疲れていません。",
+      "audio": "/audio/lesson02/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "今天天气很热。",
+      "pinyin": "Jīntiān tiānqì hěn rè.",
+      "japanese": "今日の天気はとても暑いですね。",
+      "audio": "/audio/lesson02/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "你吃饭了吗？",
+      "pinyin": "Nǐ chī fàn le ma?",
+      "japanese": "ご飯は食べましたか？",
+      "audio": "/audio/lesson02/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "没吃。",
+      "pinyin": "Méi chī.",
+      "japanese": "食べていません。",
+      "audio": "/audio/lesson02/shadow_08.mp3"
+    },
+    {
+      "id": "s9",
+      "chinese": "我们去吃饭！",
+      "pinyin": "Wǒmen qù chī fàn!",
+      "japanese": "食事に行きましょう！",
+      "audio": "/audio/lesson02/shadow_09.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "村人A",
+      "is_learner": false,
+      "chinese": "你好！你身体好吗？",
+      "pinyin": "Nǐ hǎo! Nǐ shēntǐ hǎo ma?",
+      "japanese": "こんにちは！体の具合はよいですか？",
+      "audio": "/audio/lesson02/conv_01.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我……很好，谢谢。你呢？",
+      "pinyin": "Wǒ……hěn hǎo, xièxie. Nǐ ne?",
+      "japanese": "元気です、ありがとう。あなたは？",
+      "audio": "/audio/lesson02/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "村人A",
+      "is_learner": false,
+      "chinese": "我也很好！",
+      "pinyin": "Wǒ yě hěn hǎo!",
+      "japanese": "私も元気です！",
+      "audio": "/audio/lesson02/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "健，你累吗？今天天气很热。",
+      "pinyin": "Jiàn, nǐ lèi ma? Jīntiān tiānqì hěn rè.",
+      "japanese": "健、疲れていますか？今日の天気はとても暑いですね。",
+      "audio": "/audio/lesson02/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "不，不累。但是，上午……我没睡好。",
+      "pinyin": "Bù, bú lèi. Dànshì, shàngwǔ……wǒ méi shuì hǎo.",
+      "japanese": "いいえ、疲れていません。でも、午前中は……よく眠れませんでした。",
+      "audio": "/audio/lesson02/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "村人B",
+      "is_learner": false,
+      "chinese": "你吃饭了吗？",
+      "pinyin": "Nǐ chī fàn le ma?",
+      "japanese": "ご飯は食べましたか？",
+      "audio": "/audio/lesson02/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "没……没吃。",
+      "pinyin": "Méi……méi chī.",
+      "japanese": "食べ……ていません。",
+      "audio": "/audio/lesson02/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "哎呀！来，我们去吃饭！",
+      "pinyin": "Āiyā! Lái, wǒmen qù chī fàn!",
+      "japanese": "あらあら！さあ、食事に行きましょう！",
+      "audio": "/audio/lesson02/conv_08.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「身体好吗」「很好」「你呢」の三点セットで体調会話は攻略完了！まさかのご飯フラグ。「没吃」ってうっかり言ったらバレた。正直モードが勝手に発動している。「天气（tiānqì）天気」「热（rè）暑い」「上午（shàngwǔ）午前」もスキル登録。生活感が出てきた。",
+
+  "study_notes": [
+    "「你身体好吗？」＝体の具合はいいですか？（丁寧な問候）",
+    "「我很好，谢谢。你呢？」＝元気です、ありがとう。あなたは？",
+    "「不累」＝疲れていない（「不＋形容詞」で否定）",
+    "「你吃饭了吗？」「没吃」＝食べましたか？／食べていない",
+    "【新出未使用語彙】天气（tiānqì）天気、热（rè）暑い、上午（shàngwǔ）午前"
+  ]
+}

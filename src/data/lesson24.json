@@ -1,0 +1,187 @@
+{
+  "id": 24,
+  "title": "真遗憾，我没见到他",
+  "theme": "残念",
+  "grammar": [
+    "動詞「让」を用いた兼語句",
+    "「是不是」による正反疑問文"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "翌朝、長老に呼ばれた健・飛虎・玲。「云海先生の記録を調べた」という長老から衝撃の報告——到着のたった前日に城を去っていた。「一日の差！」と悔しがる健。飛虎が「先生は父と知り合いでは？」と直接問いかけると、長老が旧友だったと認める。「有縁の者に見せよ」と残された絵——それは昨日すでに見た絵だった。部屋を出た瞬間、飛虎が「あの絵の山、行ったことがある」と初めて口にした。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson24/panel_01.jpg",
+      "caption": "長老の部屋に集まる健・飛虎・玲。重要イベント開幕。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson24/panel_02.jpg",
+      "caption": "「到着の前日に去った」と聞いて立ち上がる健。「たった一日の差！」"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson24/panel_03.jpg",
+      "caption": "「先生は父と知り合いでは？」と直接問いかける飛虎。長老が驚く。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson24/panel_04.jpg",
+      "caption": "部屋を出た直後「あの絵の山、行ったことがある」と口にする飛虎。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "我让人去查了云海先生的记录。",
+      "pinyin": "Wǒ ràng rén qù chá le Yúnhǎi xiānsheng de jìlù.",
+      "japanese": "云海先生の記録を調べるよう人に指示しました。",
+      "audio": "/audio/lesson24/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "查到什么了吗？",
+      "pinyin": "Chá dào shénme le ma?",
+      "japanese": "何かわかりましたか？",
+      "audio": "/audio/lesson24/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "真遗憾。他在你们到来的前一天，离开了龙泉城。",
+      "pinyin": "Zhēn yíhàn. Tā zài nǐmen dào lái de qián yī tiān, líkāi le Lóngquán Chéng.",
+      "japanese": "残念ながら。あなた方が到着する前日に、城を去られました。",
+      "audio": "/audio/lesson24/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "一天之差！真遗憾，我没见到他！",
+      "pinyin": "Yī tiān zhī chā! Zhēn yíhàn, wǒ méi jiàndào tā!",
+      "japanese": "たった一日の差！本当に残念、会えなかった！",
+      "audio": "/audio/lesson24/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "他是不是和我父亲认识？",
+      "pinyin": "Tā shì bu shì hé wǒ fùqīn rènshi?",
+      "japanese": "先生は私の父と知り合いではありませんか？",
+      "audio": "/audio/lesson24/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "云海先生和你父亲，是旧友。",
+      "pinyin": "Yúnhǎi xiānsheng hé nǐ fùqīn, shì jiùyǒu.",
+      "japanese": "云海先生とあなたのお父様は旧友でした。",
+      "audio": "/audio/lesson24/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "云海先生一定留下了什么。",
+      "pinyin": "Yúnhǎi xiānsheng yīdìng liú xia le shénme.",
+      "japanese": "云海先生は必ず何かを残したと思います。",
+      "audio": "/audio/lesson24/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "他让人留下一幅画，说「等有缘人来，让他看那幅画」。",
+      "pinyin": "Tā ràng rén liú xià yī fú huà, shuō \"děng yǒuyuán rén lái, ràng tā kàn nà fú huà\".",
+      "japanese": "絵を一枚残して「ご縁のある者に見せよ」と言っておられました。",
+      "audio": "/audio/lesson24/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "昨天我让人去查了云海先生的记录。",
+      "pinyin": "Zuótiān wǒ ràng rén qù chá le Yúnhǎi xiānsheng de jìlù.",
+      "japanese": "昨日、云海先生の記録を調べるよう人に指示しました。",
+      "audio": "/audio/lesson24/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "查到什么了吗？",
+      "pinyin": "Chá dào shénme le ma?",
+      "japanese": "何かわかりましたか？",
+      "audio": "/audio/lesson24/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "真遗憾。他在你们到来的前一天，离开了龙泉城。",
+      "pinyin": "Zhēn yíhàn. Tā zài nǐmen dào lái de qián yī tiān, líkāi le Lóngquán Chéng.",
+      "japanese": "残念ながら。あなた方が到着する前日に、城を去られました。",
+      "audio": "/audio/lesson24/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "一天之差！真遗憾，我没见到他！",
+      "pinyin": "Yī tiān zhī chā! Zhēn yíhàn, wǒ méi jiàndào tā!",
+      "japanese": "たった一日の差！本当に残念、会えなかった！",
+      "audio": "/audio/lesson24/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "他是不是和我父亲认识？",
+      "pinyin": "Tā shì bu shì hé wǒ fùqīn rènshi?",
+      "japanese": "先生は私の父と知り合いではありませんか？",
+      "audio": "/audio/lesson24/conv_05.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c6",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "……是的。云海先生和你父亲，是旧友。你父亲去世的消息……他很伤心。我认为，云海先生一定留下了什么。",
+      "pinyin": "……Shì de. Yúnhǎi xiānsheng hé nǐ fùqīn, shì jiùyǒu. Nǐ fùqīn qùshì de xiāoxi……tā hěn shāngxīn. Wǒ rènwéi, Yúnhǎi xiānsheng yīdìng liú xia le shénme.",
+      "japanese": "……そうです。旧友でした。訃報をとても悲しまれていました。云海先生は必ず何かを残したと思います。",
+      "audio": "/audio/lesson24/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……他去哪里了？",
+      "pinyin": "……Tā qù nǎlǐ le?",
+      "japanese": "……どこへ行かれたのですか？",
+      "audio": "/audio/lesson24/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "他让人留下一幅画，说「等有缘人来，让他看那幅画」。那幅画……你们昨天已经看到了。",
+      "pinyin": "Tā ràng rén liú xià yī fú huà, shuō \"děng yǒuyuán rén lái, ràng tā kàn nà fú huà\". Nà fú huà……nǐmen zuótiān yǐjīng kàndào le.",
+      "japanese": "絵を一枚残して「ご縁のある者に見せよ」と言っておられました。あの絵は……昨日もう見ましたね。",
+      "audio": "/audio/lesson24/conv_08.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「让人去查」＝人に調べさせた。「让人留下」＝人に残させた。兼語句チート、どんどん使いこなせてきた。「是不是～？」の正反疑問文——飛虎が長老に直接ぶつけた一言。その重さが会話全体に漂ってた。「失望（shīwàng）失望」はしないで済んだ。「认为（rènwéi）思う」がスキル登録。長老の「必ず残した何か」……これがフラグだ。",
+
+  "study_notes": [
+    "「让」を用いた兼語句：「让人去查」＝人に調べさせた（使役）",
+    "「是不是～？」＝～ではありませんか？（正反疑問文・確認）",
+    "「真遗憾」＝本当に残念",
+    "「一天之差」＝たった一日の差",
+    "【新出未使用語彙】失望（shīwàng）失望する、认为（rènwéi）〜と思う"
+  ]
+}

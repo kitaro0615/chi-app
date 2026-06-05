@@ -1,0 +1,200 @@
+{
+  "id": 6,
+  "title": "你的生日是几月几号",
+  "theme": "日時",
+  "grammar": [
+    "名詞謂語文",
+    "年月日・曜日の表し方"
+  ],
+  "hsk_level": 2,
+
+  "scene_description": "翌朝、玲の家に快活な笑顔の少女・鈴鐺が訪ねてきた。飛虎の妹で、陽キャ全開の正反対キャラ。健のスマホをすぐに発見し興味津々。日付や誕生日の話で盛り上がるうち、二人が同じ8月生まれと判明して大はしゃぎ。写真を撮ろうとしたらスマホの電池が切れていた。そして「お兄ちゃんに見せてもいい？」と言いかけた瞬間、遠くから大きな爆発音が響いた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson06/panel_01.jpg",
+      "caption": "元気よく登場する鈴鐺。飛虎とは真逆の雰囲気。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson06/panel_02.jpg",
+      "caption": "健のスマホを指さして目を輝かせる鈴鐺。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson06/panel_03.jpg",
+      "caption": "同じ8月生まれと判明して二人で喜ぶ。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson06/panel_04.jpg",
+      "caption": "電池切れのスマホを見せながら苦笑いする健。遠くから爆発音。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "今天是几月几号？",
+      "pinyin": "Jīntiān shì jǐ yuè jǐ hào?",
+      "japanese": "今日は何月何日ですか？",
+      "audio": "/audio/lesson06/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "今天是三月十五号，星期三。",
+      "pinyin": "Jīntiān shì sān yuè shíwǔ hào, xīngqīsān.",
+      "japanese": "今日は3月15日、水曜日です。",
+      "audio": "/audio/lesson06/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "你的生日是几月几号？",
+      "pinyin": "Nǐ de shēngrì shì jǐ yuè jǐ hào?",
+      "japanese": "誕生日は何月何日ですか？",
+      "audio": "/audio/lesson06/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "我的生日是八月二十日，星期五。",
+      "pinyin": "Wǒ de shēngrì shì bā yuè èrshí hào, xīngqīwǔ.",
+      "japanese": "誕生日は8月20日、金曜日です。",
+      "audio": "/audio/lesson06/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "那是什么？是手机吗？",
+      "pinyin": "Nà shì shénme? Shì shǒujī ma?",
+      "japanese": "あれは何ですか？携帯電話ですか？",
+      "audio": "/audio/lesson06/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "没有信号，不能用。",
+      "pinyin": "Méiyǒu xìnhào, bù néng yòng.",
+      "japanese": "電波がなくて、使えません。",
+      "audio": "/audio/lesson06/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "我们都是八月！",
+      "pinyin": "Wǒmen dōu shì bā yuè!",
+      "japanese": "二人とも8月生まれ！",
+      "audio": "/audio/lesson06/shadow_07.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "大家好！我是铃铛，飞虎的妹妹！",
+      "pinyin": "Dàjiā hǎo! Wǒ shì Líng Dāng, Fēi Hǔ de mèimei!",
+      "japanese": "みなさんこんにちは！鈴鐺です！",
+      "audio": "/audio/lesson06/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "你好！我叫健。哥哥说你要来，真高兴！",
+      "pinyin": "Nǐ hǎo! Wǒ jiào Jiàn. Gēgē shuō nǐ yào lái, zhēn gāoxìng!",
+      "japanese": "こんにちは、健といいます。会えて嬉しい！",
+      "audio": "/audio/lesson06/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "那是什么？是手机吗？",
+      "pinyin": "Nà shì shénme? Shì shǒujī ma?",
+      "japanese": "あれは何ですか？携帯電話ですか？",
+      "audio": "/audio/lesson06/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "对，是手机……但是没有信号。不能用。",
+      "pinyin": "Duì, shì shǒujī……dànshì méiyǒu xìnhào. Bù néng yòng.",
+      "japanese": "そうです、携帯ですが……電波がなくて。使えません。",
+      "audio": "/audio/lesson06/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "哇！今天是几月几号？",
+      "pinyin": "Wā! Jīntiān shì jǐ yuè jǐ hào?",
+      "japanese": "わあ！今日は何月何日ですか？",
+      "audio": "/audio/lesson06/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "今天是三月十五号，星期三。",
+      "pinyin": "Jīntiān shì sān yuè shíwǔ hào, xīngqīsān.",
+      "japanese": "今日は3月15日、水曜日です。",
+      "audio": "/audio/lesson06/conv_06.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c7",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "那你的生日是几月几号？",
+      "pinyin": "Nà nǐ de shēngrì shì jǐ yuè jǐ hào?",
+      "japanese": "誕生日は何月何日ですか？",
+      "audio": "/audio/lesson06/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我的生日是八月二十日，星期五。",
+      "pinyin": "Wǒ de shēngrì shì bā yuè èrshí hào, xīngqīwǔ.",
+      "japanese": "誕生日は8月20日、金曜日です。",
+      "audio": "/audio/lesson06/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "我的生日是八月十号！我们都是八月！",
+      "pinyin": "Wǒ de shēngrì shì bā yuè shí hào! Wǒmen dōu shì bā yuè!",
+      "japanese": "私は8月10日！二人とも8月！",
+      "audio": "/audio/lesson06/conv_09.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c10",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "等一下，用手机拍照？……哦，没有电了。",
+      "pinyin": "Děng yīxià, yòng shǒujī pāizhào?……ó, méiyǒu diàn le.",
+      "japanese": "ちょっと待って、スマホで写真撮ろうとした？……あ、電池切れだ。",
+      "audio": "/audio/lesson06/conv_10.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "鈴鐺、予告通りに登場。飛虎がダークソウル系なら、鈴鐺はゼルダの伝説の村人みたいな元気さ。日付は「○月○号」、曜日は「星期＋数字」。月曜が星期一スタートなのが要注意ゾーン。「手机（shǒujī）携帯電話」がスキル登録。この世界じゃ使えないけど……語彙としてはレベルアップ！",
+
+  "study_notes": [
+    "「今天是几月几号？」＝今日は何月何日ですか？",
+    "「我的生日是○月○号」＝誕生日は○月○日（名詞謂語文）",
+    "曜日：星期一（月）〜星期六（土）、星期天/日（日）",
+    "「那是什么？是～吗？」＝あれは何ですか？〜ですか？",
+    "【新出未使用語彙】手机（shǒujī）携帯電話"
+  ]
+}

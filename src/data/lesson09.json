@@ -1,0 +1,207 @@
+{
+  "id": 9,
+  "title": "你的宿舍在哪儿",
+  "theme": "場所",
+  "grammar": [
+    "在字句（場所の存在）",
+    "方位詞"
+  ],
+  "hsk_level": 2,
+
+  "scene_description": "昨日から飛虎の姿が見当たらない。GPSもマップUIもない中、健は村人に「飞虎在哪儿？」と繰り返し聞いて回る。東側の大木のそばでついに飛虎を発見。黙々と型を続ける飛虎に「話がしたかった」と正直に伝えると、しばらく沈黙した後「座れ」の一言。飛虎の心が少し開いた瞬間、「実はお前に頼みがある」と言いかけたとき、遠くの空から黒い影が降りてきた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson09/panel_01.jpg",
+      "caption": "GPSもなく村を歩き回り、村人に場所を聞く健。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson09/panel_02.jpg",
+      "caption": "「村の東側、大木のそば」と教える村人たち。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson09/panel_03.jpg",
+      "caption": "大木の前で型を続ける飛虎を発見する健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson09/panel_04.jpg",
+      "caption": "「座れ」と静かに言う飛虎。遠くの空に黒い影。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "飞虎在哪儿？",
+      "pinyin": "Fēi Hǔ zài nǎr?",
+      "japanese": "飛虎はどこにいますか？",
+      "audio": "/audio/lesson09/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "他在村子的东边。",
+      "pinyin": "Tā zài cūnzi de dōngbiān.",
+      "japanese": "村の東側にいますよ。",
+      "audio": "/audio/lesson09/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "左边还是右边？",
+      "pinyin": "Zuǒbiān háishi yòubiān?",
+      "japanese": "左側ですか、右側ですか？",
+      "audio": "/audio/lesson09/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "在那棵大树的旁边。",
+      "pinyin": "Zài nà kē dà shù de pángbiān.",
+      "japanese": "あの大きな木のそばですよ。",
+      "audio": "/audio/lesson09/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "你在这儿啊！",
+      "pinyin": "Nǐ zài zhèr a!",
+      "japanese": "ここにいたんですか！",
+      "audio": "/audio/lesson09/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "你来这里做什么？",
+      "pinyin": "Nǐ lái zhèlǐ zuò shénme?",
+      "japanese": "ここに何をしに来ましたか？",
+      "audio": "/audio/lesson09/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "我找你找了很久。",
+      "pinyin": "Wǒ zhǎo nǐ zhǎo le hěn jiǔ.",
+      "japanese": "ずっと探していました。",
+      "audio": "/audio/lesson09/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "我想跟你说话。",
+      "pinyin": "Wǒ xiǎng gēn nǐ shuōhuà.",
+      "japanese": "あなたと話がしたかったんです。",
+      "audio": "/audio/lesson09/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "请问，飞虎在哪儿？",
+      "pinyin": "Qǐngwèn, Fēi Hǔ zài nǎr?",
+      "japanese": "すみません、飛虎はどこにいますか？",
+      "audio": "/audio/lesson09/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "村人A",
+      "is_learner": false,
+      "chinese": "飞虎？他在村子的东边。",
+      "pinyin": "Fēi Hǔ? Tā zài cūnzi de dōngbiān.",
+      "japanese": "飛虎？村の東側にいますよ。",
+      "audio": "/audio/lesson09/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "他在哪个地方？左边还是右边？",
+      "pinyin": "Tā zài nǎge dìfang? Zuǒbiān háishi yòubiān?",
+      "japanese": "どのあたりですか？左側ですか、右側ですか？",
+      "audio": "/audio/lesson09/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "村人B",
+      "is_learner": false,
+      "chinese": "在那棵大树的旁边。",
+      "pinyin": "Zài nà kē dà shù de pángbiān.",
+      "japanese": "あの大きな木のそばですよ。",
+      "audio": "/audio/lesson09/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "飞虎！你在这儿啊！",
+      "pinyin": "Fēi Hǔ! Nǐ zài zhèr a!",
+      "japanese": "飛虎！ここにいたんですか！",
+      "audio": "/audio/lesson09/conv_05.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c6",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……你来这里做什么？",
+      "pinyin": "……Nǐ lái zhèlǐ zuò shénme?",
+      "japanese": "ここに何をしに来た？",
+      "audio": "/audio/lesson09/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我找你找了很久。你的修炼场就在这儿吗？",
+      "pinyin": "Wǒ zhǎo nǐ zhǎo le hěn jiǔ. Nǐ de xiūliàn chǎng jiù zài zhèr ma?",
+      "japanese": "ずっと探してました。修練場はここですか？",
+      "audio": "/audio/lesson09/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……你一个人找到这里来了？",
+      "pinyin": "……Nǐ yīgè rén zhǎodào zhèlǐ lái le?",
+      "japanese": "……一人でここまで探してきたのか？",
+      "audio": "/audio/lesson09/conv_08.mp3",
+      "panel_id": 4
+    },
+    {
+      "id": "c9",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "对。我想跟你说话。",
+      "pinyin": "Duì. Wǒ xiǎng gēn nǐ shuōhuà.",
+      "japanese": "はい。あなたと話がしたかったんです。",
+      "audio": "/audio/lesson09/conv_09.mp3",
+      "panel_id": 4
+    },
+    {
+      "id": "c10",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……坐下吧。",
+      "pinyin": "……Zuòxia ba.",
+      "japanese": "……座れ。",
+      "audio": "/audio/lesson09/conv_10.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「在哪儿」「在这里」「在那里」「在○○的东边／旁边」——「在」一枚で場所表現が全部できる。バフ効果がエグい。飛虎、「坐下吧」の一言だけで「心を開いた」感が伝わってきた。ゲームでいうと好感度バーが上がった効果音がした。「旁边（pángbiān）そば」「左边（zuǒbiān）左側」「右边（yòubiān）右側」がスキル登録。方向チートが解放された！",
+
+  "study_notes": [
+    "「在哪儿／哪里？」＝どこにありますか？",
+    "「在○○的东边／旁边」＝○○の東側／そばにある",
+    "方位詞：东西南北、前後上下里外、旁边、左边、右边",
+    "「我找你找了很久」＝ずっと探していた",
+    "【新出未使用語彙】旁边（pángbiān）そば・横、左边（zuǒbiān）左側、右边（yòubiān）右側"
+  ]
+}

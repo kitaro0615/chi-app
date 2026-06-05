@@ -1,0 +1,47 @@
+{
+  "id": 30,
+  "title": "请你慢点儿说",
+  "theme": "言語",
+  "grammar": [
+    "時量補語②",
+    "「除了……以外」"
+  ],
+  "hsk_level": 4,
+  "scene_description": "翌朝の朝食に昨夜の謎の旅人・陳先生が登場。碧玉谷を二十数年研究してきた学者で、地図と古代文献を持つ。しかし話し方が速くて方言まじりで健には難易度EXTREME。「一言も聞き取れなかった」と鈴鐺に助けを求め、勇気を出して「ゆっくり話してください」とお願いする。陳先生が「数ヶ月でこれだけ話せるとはすごい！」と感心。地図を広げた瞬間、飛虎の顔色が変わった。「この印……父の手帳に同じ記号があった」",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson30/panel_01.jpg", "caption": "朝食に現れた陳先生。碧玉谷を研究してきた謎の学者。"},
+    {"panel_id": 2, "image": "/images/lesson30/panel_02.jpg", "caption": "速い方言まじりの陳先生の話に固まる健。鈴鐺に小声で助けを求める。"},
+    {"panel_id": 3, "image": "/images/lesson30/panel_03.jpg", "caption": "「ゆっくり話してください！」と勇気を出して頼む健。陳先生が感心する。"},
+    {"panel_id": 4, "image": "/images/lesson30/panel_04.jpg", "caption": "地図を広げた瞬間、「父の手帳と同じ記号が」と顔色が変わる飛虎。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "除了你们以外，好久没见到年轻的旅人了！", "pinyin": "Chúle nǐmen yǐwài, hǎo jiǔ méi jiàn dào niánqīng de lǚrén le!", "japanese": "あなたたち以外に、若い旅人を久しく見ていなかったよ！", "audio": "/audio/lesson30/shadow_01.mp3"},
+    {"id": "s2", "chinese": "我研究那个地方研究了有二十多年了！", "pinyin": "Wǒ yánjiū nàge dìfang yánjiū le yǒu èrshí duō nián le!", "japanese": "その場所を二十数年研究してきた！", "audio": "/audio/lesson30/shadow_02.mp3"},
+    {"id": "s3", "chinese": "除了地图以外，我还有一份古代文献！", "pinyin": "Chúle dìtú yǐwài, wǒ hái yǒu yī fèn gǔdài wénxiàn!", "japanese": "地図の他に古代文献もある！", "audio": "/audio/lesson30/shadow_03.mp3"},
+    {"id": "s4", "chinese": "他说什么？我一个字都没听懂！", "pinyin": "Tā shuō shénme? Wǒ yī ge zì dōu méi tīng dǒng!", "japanese": "何を言ってるの？一言も聞き取れなかった！", "audio": "/audio/lesson30/shadow_04.mp3"},
+    {"id": "s5", "chinese": "请您说慢一点儿！我学中文才学了几个月。", "pinyin": "Qǐng nín shuō màn yīdiǎnr! Wǒ xué Zhōngwén cái xué le jǐ ge yuè.", "japanese": "ゆっくり話してください！中国語を学んで数ヶ月しか経ちません。", "audio": "/audio/lesson30/shadow_05.mp3"},
+    {"id": "s6", "chinese": "你学了几个月就能这样说，真了不起！", "pinyin": "Nǐ xué le jǐ ge yuè jiù néng zhèyàng shuō, zhēn liǎobuqǐ!", "japanese": "数ヶ月でこれだけ話せるとは、すごい！", "audio": "/audio/lesson30/shadow_06.mp3"},
+    {"id": "s7", "chinese": "我在碧玉谷附近住了有五年了。", "pinyin": "Wǒ zài Bìyù Gǔ fùjìn zhù le yǒu wǔ nián le.", "japanese": "碧玉谷の近くに五年住んだ。", "audio": "/audio/lesson30/shadow_07.mp3"},
+    {"id": "s8", "chinese": "除了这里的人以外，没有人能完全听懂我说话！", "pinyin": "Chúle zhèlǐ de rén yǐwài, méiyǒu rén néng wánquán tīng dǒng wǒ shuōhuà!", "japanese": "ここの人以外に私の話を完全に聞き取れる人はいない！", "audio": "/audio/lesson30/shadow_08.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "陳先生", "is_learner": false, "chinese": "早啊！你们是外地来的吧？除了你们以外，好久没见到年轻的旅人了！", "pinyin": "Zǎo a! Nǐmen shì wài dì lái de ba? Chúle nǐmen yǐwài, hǎo jiǔ méi jiàn dào niánqīng de lǚrén le!", "japanese": "おはよう！よそから来たんでしょ？あなたたち以外に、若い旅人を久しく見ていなかったよ！", "audio": "/audio/lesson30/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "飛虎", "is_learner": false, "chinese": "是的，我们从南边的村子出发，打算去碧玉谷。", "pinyin": "Shì de, wǒmen cóng nánbiān de cūnzi chūfā, dǎsuàn qù Bìyù Gǔ.", "japanese": "そうです。南の村から出発して、碧玉谷へ行くつもりです。", "audio": "/audio/lesson30/conv_02.mp3", "panel_id": 1},
+    {"id": "c3", "speaker": "陳先生", "is_learner": false, "chinese": "哦！碧玉谷！我研究那个地方研究了有二十多年了！除了地图以外，我还有一份古代文献！", "pinyin": "Ó! Bìyù Gǔ! Wǒ yánjiū nàge dìfang yánjiū le yǒu èrshí duō nián le! Chúle dìtú yǐwài, wǒ hái yǒu yī fèn gǔdài wénxiàn!", "japanese": "碧玉谷！その場所を二十数年研究してきた！地図の他に古代文献もある！", "audio": "/audio/lesson30/conv_03.mp3", "panel_id": 1},
+    {"id": "c4", "speaker": "陳先生", "is_learner": false, "chinese": "这个谷地的位置非常特殊，除了特定季节以外根本进不去，而且……", "pinyin": "Zhège gǔdì de wèizhì fēicháng tèshū, chúle tèdìng jìjié yǐwài gēnběn jìn bù qù, érqiě……", "japanese": "この谷の位置は非常に特殊で、特定の季節以外は全く入れなくて、さらに……", "audio": "/audio/lesson30/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "健", "is_learner": true, "chinese": "他说什么？我一个字都没听懂！字典在哪里！", "pinyin": "Tā shuō shénme? Wǒ yī ge zì dōu méi tīng dǒng! Zìdiǎn zài nǎlǐ!", "japanese": "何を言ってるの？一言も聞き取れなかった！辞書どこ！", "audio": "/audio/lesson30/conv_05.mp3", "panel_id": 2},
+    {"id": "c6", "speaker": "鈴鐺", "is_learner": false, "chinese": "他说除了特定季节以外进不去。而且他语速太快了！", "pinyin": "Tā shuō chúle tèdìng jìjié yǐwài jìn bù qù. Érqiě tā yǔsù tài kuài le!", "japanese": "特定の季節以外は入れないって言ってる。話すのが速すぎる！", "audio": "/audio/lesson30/conv_06.mp3", "panel_id": 2},
+    {"id": "c7", "speaker": "健", "is_learner": true, "chinese": "陈先生，对不起，请您说慢一点儿！我学中文才学了几个月。", "pinyin": "Chén Xiānsheng, duìbuqǐ, qǐng nín shuō màn yīdiǎnr! Wǒ xué Zhōngwén cái xué le jǐ ge yuè.", "japanese": "陳先生、すみません、ゆっくり話してください！中国語を学んで数ヶ月しか経ちません。", "audio": "/audio/lesson30/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "陳先生", "is_learner": false, "chinese": "啊！对不起，我说太快了！你学了几个月就能这样说，真了不起！", "pinyin": "Ā! Duìbuqǐ, wǒ shuō tài kuài le! Nǐ xué le jǐ ge yuè jiù néng zhèyàng shuō, zhēn liǎobuqǐ!", "japanese": "あ！ごめん、速すぎた！数ヶ月でこれだけ話せるとは、すごい！", "audio": "/audio/lesson30/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "老王", "is_learner": false, "chinese": "除了语速快以外，您的口音也有点特别，是哪里的方言？", "pinyin": "Chúle yǔsù kuài yǐwài, nín de kǒuyīn yě yǒudiǎn tèbié, shì nǎlǐ de fāngyán?", "japanese": "速さの他に、アクセントも少し変わってますね。どこの方言ですか？", "audio": "/audio/lesson30/conv_09.mp3", "panel_id": 3},
+    {"id": "c10", "speaker": "陳先生", "is_learner": false, "chinese": "我在碧玉谷附近住了有五年了，染上了当地的口音。除了这里的人以外，没有人能完全听懂我说话！", "pinyin": "Wǒ zài Bìyù Gǔ fùjìn zhù le yǒu wǔ nián le, rǎn shàng le dāngdì de kǒuyīn. Chúle zhèlǐ de rén yǐwài, méiyǒu rén néng wánquán tīng dǒng wǒ shuōhuà!", "japanese": "碧玉谷の近くに五年住んで、地元のなまりが染みついた。ここの人以外に私の話を完全に聞き取れる人はいない！", "audio": "/audio/lesson30/conv_10.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "時量補語②！「研究了二十多年」「住了五年」——継続してきたことは「動詞＋了＋時間量」で表す。キャラ経歴欄みたいに使える。「除了〜以外，还〜」は追加（〜の他にも）。「除了〜以外，都〜」は除外（〜以外はみんな）。万能構文すぎる。「字典（zìdiǎn）辞書」「认真（rènzhēn）まじめな」がスキル登録。陳先生、五年も碧玉谷に住んでた——完全に攻略済みキャラじゃん！",
+  "study_notes": [
+    "時量補語②：継続時間。「住了五年（五年住んだ）」「研究了二十多年（二十数年研究した）」",
+    "「除了〜以外，还〜」：〜の他にも〜（追加）",
+    "「除了〜以外，都〜」：〜以外はみな〜（除外）",
+    "「才〜就〜」：〜しかないのにもう〜",
+    "【新出未使用語彙】字典（zìdiǎn）辞書、认真（rènzhēn）まじめな"
+  ]
+}

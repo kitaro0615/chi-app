@@ -1,0 +1,46 @@
+{
+  "id": 27,
+  "title": "你别抽烟了",
+  "theme": "忠告",
+  "grammar": [
+    "「有点儿」が状語",
+    "存現文"
+  ],
+  "hsk_level": 4,
+  "scene_description": "収穫祭の翌朝、飛虎の兄・飛龍が体調不良と聞いて薬婆の小屋へお見舞いへ。薬草の香り漂う中、老王がこっそりタバコに手を伸ばして薬婆に一喝される。健が隅に動くものを発見して妖怪かと怯えるも、それは薬婆の助手の小狐仙だった。テーブルの猫、地面の小狐と動物たちに囲まれた和やかな空気の中、薬婆が「あんたたちが向かう山、昔云海先生も行ったことがある」と告げた。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson27/panel_01.jpg", "caption": "薬草の香り漂う薬婆の小屋。飛龍のお見舞いに集まる一行。"},
+    {"panel_id": 2, "image": "/images/lesson27/panel_02.jpg", "caption": "タバコに手を伸ばす老王を薬婆が一喝。「ここでは禁止！」"},
+    {"panel_id": 3, "image": "/images/lesson27/panel_03.jpg", "caption": "隅に動くものを発見して怯える健。正体は小狐仙だった。"},
+    {"panel_id": 4, "image": "/images/lesson27/panel_04.jpg", "caption": "薬婆が「あの山、云海先生も行ったことがある」と告げる。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "飞龙这两天有点儿发烧，需要好好休息。", "pinyin": "Fēi Lóng zhè liǎng tiān yǒu diǎnr fāshāo, xūyào hǎohǎo xiūxi.", "japanese": "飛龍はこの二日少し熱があって、ゆっくり休まないとね。", "audio": "/audio/lesson27/shadow_01.mp3"},
+    {"id": "s2", "chinese": "脸色有点儿不好看。", "pinyin": "Liǎnsè yǒu diǎnr bù hǎokàn.", "japanese": "顔色が少し悪そうだ。", "audio": "/audio/lesson27/shadow_02.mp3"},
+    {"id": "s3", "chinese": "这里不准抽烟！药草会吸收烟味的！", "pinyin": "Zhèlǐ bù zhǔn chōuyān! Yàocǎo huì xīshōu yānwèi de!", "japanese": "ここでタバコは禁止！薬草が臭いを吸うだろ！", "audio": "/audio/lesson27/shadow_03.mp3"},
+    {"id": "s4", "chinese": "那边有个东西在动！墙角里有什么！", "pinyin": "Nàbiān yǒu ge dōngxi zài dòng! Qiángjiǎo lǐ yǒu shénme!", "japanese": "あそこに何かが動いてる！隅に何かいる！", "audio": "/audio/lesson27/shadow_04.mp3"},
+    {"id": "s5", "chinese": "桌上还有只猫在睡觉呢。", "pinyin": "Zhuō shàng hái yǒu zhī māo zài shuìjiào ne.", "japanese": "テーブルの上にも猫が寝てるよ。", "audio": "/audio/lesson27/shadow_05.mp3"},
+    {"id": "s6", "chinese": "地上还趴着两只小狐狸！", "pinyin": "Dì shàng hái pā zhe liǎng zhī xiǎo húlí!", "japanese": "地面にも小狐が二匹うつぶせで寝てる！", "audio": "/audio/lesson27/shadow_06.mp3"},
+    {"id": "s7", "chinese": "你要按时吃药，生病的时候最要紧是休息。", "pinyin": "Nǐ yào ànshí chī yào, shēng bìng de shíhou zuì yàojǐn shì xiūxi.", "japanese": "薬は時間通りに飲んで、病気の時は休むのが一番大事。", "audio": "/audio/lesson27/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "薬婆", "is_learner": false, "chinese": "你们来了，好。飞龙这两天有点儿发烧，需要好好休息。医生说了，要静养三天。", "pinyin": "Nǐmen lái le, hǎo. Fēi Lóng zhè liǎng tiān yǒu diǎnr fāshāo, xūyào hǎohǎo xiūxi. Yīshēng shuō le, yào jìngyǎng sān tiān.", "japanese": "来たかい、よかった。飛龍はこの二日少し熱があって、ゆっくり休まないとね。医者が言うには三日静養が必要だよ。", "audio": "/audio/lesson27/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "飛虎", "is_learner": false, "chinese": "哥，你感觉怎么样？脸色有点儿不好看。", "pinyin": "Gē, nǐ gǎnjué zěnmeyàng? Liǎnsè yǒu diǎnr bù hǎokàn.", "japanese": "兄さん、どんな感じ？顔色が少し悪そうだ。", "audio": "/audio/lesson27/conv_02.mp3", "panel_id": 1},
+    {"id": "c3", "speaker": "飛龍", "is_learner": false, "chinese": "没事，就是有点儿累。谢谢大家来看我。", "pinyin": "Méi shì, jiùshì yǒu diǎnr lèi. Xièxiè dàjiā lái kàn wǒ.", "japanese": "大丈夫、少し疲れただけ。来てくれてありがとう。", "audio": "/audio/lesson27/conv_03.mp3", "panel_id": 1},
+    {"id": "c4", "speaker": "薬婆", "is_learner": false, "chinese": "你！这里不准抽烟！药草会吸收烟味的！", "pinyin": "Nǐ! Zhèlǐ bù zhǔn chōuyān! Yàocǎo huì xīshōu yānwèi de!", "japanese": "あんた！ここでタバコは禁止！薬草が臭いを吸うだろ！", "audio": "/audio/lesson27/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "老王", "is_learner": false, "chinese": "啊，对不起对不起……有点儿忍不住……", "pinyin": "Ā, duìbuqǐ duìbuqǐ…… yǒu diǎnr rěn bu zhù……", "japanese": "あ、ごめんなさいごめんなさい……少し我慢できなくて……", "audio": "/audio/lesson27/conv_05.mp3", "panel_id": 2},
+    {"id": "c6", "speaker": "健", "is_learner": true, "chinese": "等等！那边有个东西在动！墙角里有什么！", "pinyin": "Děngdeng! Nàbiān yǒu ge dōngxi zài dòng! Qiángjiǎo lǐ yǒu shénme!", "japanese": "ちょっと待って！あそこに何かが動いてる！隅に何かいる！", "audio": "/audio/lesson27/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "薬婆", "is_learner": false, "chinese": "那是小狐仙，是我的助手。桌上还有只猫在睡觉呢。", "pinyin": "Nà shì xiǎo hú xiān, shì wǒ de zhùshǒu. Zhuō shàng hái yǒu zhī māo zài shuìjiào ne.", "japanese": "あれは小狐仙、私の助手だよ。テーブルの上にも猫が寝てるよ。", "audio": "/audio/lesson27/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "鈴鐺", "is_learner": false, "chinese": "哇，好可爱！地上还趴着两只小狐狸！", "pinyin": "Wā, hǎo kě'ài! Dì shàng hái pā zhe liǎng zhī xiǎo húlí!", "japanese": "わあ、かわいい！地面にも小狐が二匹うつぶせで寝てる！", "audio": "/audio/lesson27/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "健", "is_learner": true, "chinese": "原来是这样……我还以为是妖怪……", "pinyin": "Yuánlái shì zhèyàng…… wǒ hái yǐwéi shì yāoguài……", "japanese": "そういうことか……妖怪かと思った……", "audio": "/audio/lesson27/conv_09.mp3", "panel_id": 3},
+    {"id": "c10", "speaker": "薬婆", "is_learner": false, "chinese": "你要按时吃药，身体有点儿虚，需要静养三天。生病的时候最要紧是休息。", "pinyin": "Nǐ yào ànshí chī yào, shēntǐ yǒu diǎnr xū, xūyào jìngyǎng sān tiān. Shēng bìng de shíhou zuì yàojǐn shì xiūxi.", "japanese": "薬は時間通りに飲んで、体が少し弱ってるから三日静養が必要だよ。病気の時は休むのが一番大事。", "audio": "/audio/lesson27/conv_10.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "「有点儿」ってちょっとネガティブな文脈で使うやつか！「有点儿累」「有点儿不好看」——マイナス感情・状態と相性がいい。存現文！「墙角里有什么」＝隅に何かがある、「場所＋有＋物」の型。ホラゲーの「！？」演出と同じ構造してた。「医生（yīshēng）医者」「生病（shēng bìng）病気になる」がスキル登録。薬婆の助手が狐の仙人……チートサブキャラ確定。",
+  "study_notes": [
+    "有点儿＋形容詞：「少し〜」という状語。ネガティブな形容詞と相性よし",
+    "存現文：「場所＋有／在＋人・物」。「墙角里有什么（隅に何かある）」",
+    "「桌上还有只猫在睡觉」：場所＋有＋数量＋名詞＋状態",
+    "「按时」：時間通りに（副詞として状語）",
+    "【新出未使用語彙】医生（yīshēng）医者、生病（shēng bìng）病気になる"
+  ]
+}

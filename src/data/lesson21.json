@@ -1,0 +1,189 @@
+{
+  "id": 21,
+  "title": "请你参加",
+  "theme": "招待",
+  "grammar": [
+    "動作の進行（動態助詞「在」/「正在」）"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "翌朝、龍泉城の広場から太鼓の音。武術大会が開催中だった。玲が月見台に誘う直後に鈴鐺が武術大会への参加を勧めるという二択イベント発生。飛虎は「参加しない」と観戦するだけ。鈴鐺が「お兄さんは云海先生のことをずっと考え込んでいる」と健にそっと打ち明ける。武術大会の歓声が遠ざかる中、飛虎が「あの試合に出ているやつを知っている」とぽつり。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson21/panel_01.jpg",
+      "caption": "広場から太鼓の音。玲が健の袖をそっと引く。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson21/panel_02.jpg",
+      "caption": "玲に月見台を誘われた直後、鈴鐺が武術大会への参加を勧めてくる。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson21/panel_03.jpg",
+      "caption": "「参加しない」と試合を見続ける飛虎。鈴鐺が健に耳打ち。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson21/panel_04.jpg",
+      "caption": "「あの試合に出ているやつを知っている」とぽつり言う飛虎。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "今晚你有空吗？",
+      "pinyin": "Jīnwǎn nǐ yǒu kòng ma?",
+      "japanese": "今夜空いてる？",
+      "audio": "/audio/lesson21/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "广场正在举行武术大会！",
+      "pinyin": "Guǎngchǎng zhèngzài jǔxíng wǔshù dàhuì!",
+      "japanese": "広場でちょうど武術大会が開かれてるよ！",
+      "audio": "/audio/lesson21/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "飞虎也正在看比赛。",
+      "pinyin": "Fēi Hǔ yě zhèngzài kàn bǐsài.",
+      "japanese": "飛虎も試合を見ているよ。",
+      "audio": "/audio/lesson21/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "你在看吗？你参加吗？",
+      "pinyin": "Nǐ zài kàn ma? Nǐ cānjiā ma?",
+      "japanese": "見てるの？参加する？",
+      "audio": "/audio/lesson21/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "哥哥最近在想一件事。",
+      "pinyin": "Gēgē zuìjìn zài xiǎng yī jiàn shì.",
+      "japanese": "お兄さん最近ずっと考え込んでるの。",
+      "audio": "/audio/lesson21/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "关于云海先生的事。",
+      "pinyin": "Guānyú Yúnhǎi xiānsheng de shì.",
+      "japanese": "云海先生のことだよ。",
+      "audio": "/audio/lesson21/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "我想去东边的赏月台看月亮。一起去，好吗？",
+      "pinyin": "Wǒ xiǎng qù dōngbiān de shǎngyuè tái kàn yuèliang. Yīqǐ qù, hǎo ma?",
+      "japanese": "東側の月見台に月を見に行きたい。一緒に行かない？",
+      "audio": "/audio/lesson21/shadow_07.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "健，今晚你有空吗？我想去东边的赏月台看月亮。一起去，好吗？",
+      "pinyin": "Jiàn, jīnwǎn nǐ yǒu kòng ma? Wǒ xiǎng qù dōngbiān de shǎngyuè tái kàn yuèliang. Yīqǐ qù, hǎo ma?",
+      "japanese": "健、今夜空いてる？東側の月見台に月を見に行きたいんだけど。一緒に行かない？",
+      "audio": "/audio/lesson21/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "好！今晚一起去！",
+      "pinyin": "Hǎo! Jīnwǎn yīqǐ qù!",
+      "japanese": "いいよ！今夜一緒に行こう！",
+      "audio": "/audio/lesson21/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "健！你看！广场正在举行武术大会！你要不要参加？",
+      "pinyin": "Jiàn! Nǐ kàn! Guǎngchǎng zhèngzài jǔxíng wǔshù dàhuì! Nǐ yào bu yào cānjiā?",
+      "japanese": "健！見て！広場でちょうど武術大会が開かれてるよ！参加する？",
+      "audio": "/audio/lesson21/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "……正在举行？今天？",
+      "pinyin": "……Zhèngzài jǔxíng? Jīntiān?",
+      "japanese": "……今開かれてるの？今日？",
+      "audio": "/audio/lesson21/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "对！飞虎也正在看比赛。广场上花很多，真热闹！",
+      "pinyin": "Duì! Fēi Hǔ yě zhèngzài kàn bǐsài. Guǎngchǎng shàng huā hěn duō, zhēn rènao!",
+      "japanese": "そう！飛虎も試合を見てるよ。広場には花もたくさん、本当ににぎやか！",
+      "audio": "/audio/lesson21/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "飞虎，你在看吗？你参加吗？",
+      "pinyin": "Fēi Hǔ, nǐ zài kàn ma? Nǐ cānjiā ma?",
+      "japanese": "飛虎、見てるの？参加する？",
+      "audio": "/audio/lesson21/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……我不参加。",
+      "pinyin": "……Wǒ bù cānjiā.",
+      "japanese": "……参加しない。",
+      "audio": "/audio/lesson21/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "哥哥最近在想一件事。你知道吗，关于云海先生的事。",
+      "pinyin": "Gēgē zuìjìn zài xiǎng yī jiàn shì. Nǐ zhīdào ma, guānyú Yúnhǎi xiānsheng de shì.",
+      "japanese": "お兄さん最近ずっと考え込んでるの。云海先生のことだよ。",
+      "audio": "/audio/lesson21/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……我认识那个参加比赛的人。",
+      "pinyin": "……Wǒ rènshi nàge cānjiā bǐsài de rén.",
+      "japanese": "……あの試合に出ているやつを知っている。",
+      "audio": "/audio/lesson21/conv_09.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「正在举行」「在看」「在想」——進行形は「（正）在＋動詞」。英語のing形と同じ感覚でスパッと使える。問題が起きた。玲との月見台の約束と、武術大会観戦。同時に来た二択イベント……どちらを選ぶ？セーブポイントが欲しい。「花（huā）花」「安静（ānjìng）静かな」がスキル登録。広場は全然静かじゃなかったけど。",
+
+  "study_notes": [
+    "動態助詞「在」/「正在」：「正在举行」＝ちょうど開催中、「在看」＝見ている（進行）",
+    "「请你参加」＝参加してほしい（依頼・招待）",
+    "「最近在想」＝最近ずっと考えている（継続進行）",
+    "「关于～」＝～について",
+    "【新出未使用語彙】花（huā）花、安静（ānjìng）静かな"
+  ]
+}

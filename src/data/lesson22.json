@@ -1,0 +1,187 @@
+{
+  "id": 22,
+  "title": "我不能去",
+  "theme": "断り",
+  "grammar": [
+    "時段詞語が状語となる場合",
+    "動態助詞「了」"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "武術大会観戦の後、健は飛虎を修練場の外で待った。夕暮れ時、どこか辛そうな顔で出てきた飛虎に「なぜ参加しなかった？」と問いかける。三年前の試合で勝利した直後、観客席の父が突然倒れた——そのあの日以来、飛虎は一度も試合に出ていない。「三年間練り続けたが、もう一度舞台に立つ勇気が出なかった」という飛虎に、健が言葉をかける。「是吧」の二文字に三年分が詰まっていた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson22/panel_01.jpg",
+      "caption": "修練場の外で飛虎を待つ健。夕暮れ時。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson22/panel_02.jpg",
+      "caption": "「三年前、試合に出たことがある」と静かに話し始める飛虎。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson22/panel_03.jpg",
+      "caption": "「父が観客席で突然倒れた」——息を飲む健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson22/panel_04.jpg",
+      "caption": "健の言葉を受けて「……是吧」とつぶやく飛虎。広場から謎の声。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "你为什么不参加？",
+      "pinyin": "Nǐ wèishénme bù cānjiā?",
+      "japanese": "なぜ参加しなかったの？",
+      "audio": "/audio/lesson22/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "三年前，我参加过一次武术比赛。",
+      "pinyin": "Sān nián qián, wǒ cānjiā guo yī cì wǔshù bǐsài.",
+      "japanese": "三年前、武術の試合に一度出たことがある。",
+      "audio": "/audio/lesson22/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "父亲在看台上，突然倒下了。",
+      "pinyin": "Fùqīn zài kàntái shàng, tūrán dǎo xia le.",
+      "japanese": "父が観客席で突然倒れた。",
+      "audio": "/audio/lesson22/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "那一天以后，我再没有参加比赛了。",
+      "pinyin": "Nà yī tiān yǐhòu, wǒ zài méiyǒu cānjiā bǐsài le.",
+      "japanese": "あの日以来、試合に出ていない。",
+      "audio": "/audio/lesson22/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "我练了三年了。",
+      "pinyin": "Wǒ liàn le sān nián le.",
+      "japanese": "三年間練り続けてきた。",
+      "audio": "/audio/lesson22/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "一直没有勇气再站上去。",
+      "pinyin": "Yīzhí méiyǒu yǒngqì zài zhàn shàngqù.",
+      "japanese": "もう一度舞台に立つ勇気がずっと出なかった。",
+      "audio": "/audio/lesson22/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "难过的事，要坚持下去才能过去。",
+      "pinyin": "Nánguò de shì, yào jiānchí xiàqù cái néng guòqù.",
+      "japanese": "つらいことも、続けていけばいつか乗り越えられる。",
+      "audio": "/audio/lesson22/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "你父亲，肯定希望你继续练。",
+      "pinyin": "Nǐ fùqīn, kěndìng xīwàng nǐ jìxù liàn.",
+      "japanese": "お父さんはきっと続けてほしいと思ってる。",
+      "audio": "/audio/lesson22/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "飞虎，你为什么不参加？你的功夫比他们都好。",
+      "pinyin": "Fēi Hǔ, nǐ wèishénme bù cānjiā? Nǐ de gōngfu bǐ tāmen dōu hǎo.",
+      "japanese": "飛虎、なぜ参加しなかった？あなたの武術は誰よりも上手だよ。",
+      "audio": "/audio/lesson22/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……三年前，我参加过一次武术比赛。",
+      "pinyin": "……Sān nián qián, wǒ cānjiā guo yī cì wǔshù bǐsài.",
+      "japanese": "……三年前、武術の試合に一度出たことがある。",
+      "audio": "/audio/lesson22/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "那时候……怎么了？",
+      "pinyin": "Nà shíhòu……zěnme le?",
+      "japanese": "その時……どうなったの？",
+      "audio": "/audio/lesson22/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "我赢了。但是……父亲在看台上，突然倒下了。那一天以后，我再没有参加比赛了。",
+      "pinyin": "Wǒ yíng le. Dànshì……fùqīn zài kàntái shàng, tūrán dǎo xia le. Nà yī tiān yǐhòu, wǒ zài méiyǒu cānjiā bǐsài le.",
+      "japanese": "勝った。でも……父が観客席で突然倒れた。あの日以来、試合に出ていない。",
+      "audio": "/audio/lesson22/conv_04.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c5",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "飞虎……",
+      "pinyin": "Fēi Hǔ……",
+      "japanese": "飛虎……",
+      "audio": "/audio/lesson22/conv_05.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c6",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "我练了三年了，但是……一直没有勇气再站上去。",
+      "pinyin": "Wǒ liàn le sān nián le, dànshì……yīzhí méiyǒu yǒngqì zài zhàn shàngqù.",
+      "japanese": "三年練り続けてきたが……もう一度舞台に立つ勇気がずっと出なかった。",
+      "audio": "/audio/lesson22/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "难过的事，要坚持下去才能过去。你父亲，肯定希望你继续练。",
+      "pinyin": "Nánguò de shì, yào jiānchí xiàqù cái néng guòqù. Nǐ fùqīn, kěndìng xīwàng nǐ jìxù liàn.",
+      "japanese": "つらいことも、続けていけばいつか乗り越えられる。お父さんはきっと続けてほしいと思ってる。",
+      "audio": "/audio/lesson22/conv_07.mp3",
+      "panel_id": 4
+    },
+    {
+      "id": "c8",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……是吧。",
+      "pinyin": "……Shì ba.",
+      "japanese": "……そうだな。",
+      "audio": "/audio/lesson22/conv_08.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「三年前」「那一天以后」「练了三年了」——時間表現が状語として文を包む。時間の流れを文に乗せる感覚。「再没有参加了」の「了」は状態変化。「赢了」「倒下了」で動作の完了を示す。「难过（nánguò）悲しい・つらい」「坚持（jiānchí）続ける」がスキル登録。飛虎の「是吧」……二文字に三年分が詰まってた。",
+
+  "study_notes": [
+    "時段詞語が状語：「三年前」「那一天以后」「一直」が時間軸で修飾",
+    "動態助詞「了」：「赢了」「倒下了」で動作の完了",
+    "「再没有～了」＝それ以来ずっと～していない",
+    "「练了三年了」＝三年間練ってきた（継続）",
+    "【新出未使用語彙】难过（nánguò）悲しい・つらい、坚持（jiānchí）続ける"
+  ]
+}

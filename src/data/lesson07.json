@@ -1,0 +1,197 @@
+{
+  "id": 7,
+  "title": "你家有几口人",
+  "theme": "家族",
+  "grammar": [
+    "有字句",
+    "疑問代詞の用法"
+  ],
+  "hsk_level": 2,
+
+  "scene_description": "夕食後、居間でくつろいでいると鈴鐺が隣に座ってきた。目をきらきらさせながら質問攻め開始。玲は「仕方ないな」という顔でお茶を飲んでいる。家族の人数・兄弟について話すうち、鈴鐺が飛虎と二人きりの家族であること、両親はもういないことがそっと明かされる。感動的な空気が流れた瞬間、外で何かが倒れる音がした。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson07/panel_01.jpg",
+      "caption": "夕食後の居間。隣に座ってくる鈴鐺、お茶を飲む玲。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson07/panel_02.jpg",
+      "caption": "家族の人数について話す健と鈴鐺。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson07/panel_03.jpg",
+      "caption": "「娘はいますか？」に苦笑いで返す健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson07/panel_04.jpg",
+      "caption": "「だからお兄ちゃんが大切」と静かに語る鈴鐺。外で何かが倒れる音。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "你家有几口人？",
+      "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+      "japanese": "ご家族は何人ですか？",
+      "audio": "/audio/lesson07/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "我家有四口人。",
+      "pinyin": "Wǒ jiā yǒu sì kǒu rén.",
+      "japanese": "うちは四人家族です。",
+      "audio": "/audio/lesson07/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "你有没有弟弟？",
+      "pinyin": "Nǐ yǒu méiyǒu dìdi?",
+      "japanese": "弟はいますか？",
+      "audio": "/audio/lesson07/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "没有弟弟，也没有妹妹。",
+      "pinyin": "Méiyǒu dìdi, yě méiyǒu mèimei.",
+      "japanese": "弟もいないし、妹もいません。",
+      "audio": "/audio/lesson07/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "你有没有女儿？",
+      "pinyin": "Nǐ yǒu méiyǒu nǚér?",
+      "japanese": "娘はいますか？",
+      "audio": "/audio/lesson07/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "我才二十二岁！怎么可能有女儿！",
+      "pinyin": "Wǒ cái èrshí èr suì! Zěnme kěnéng yǒu nǚér!",
+      "japanese": "まだ22歳ですよ！娘がいるわけない！",
+      "audio": "/audio/lesson07/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "家里就我们两个人。",
+      "pinyin": "Jiā lǐ jiù wǒmen liǎng gè rén.",
+      "japanese": "家は二人だけです。",
+      "audio": "/audio/lesson07/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "不在了。所以哥哥很重要。",
+      "pinyin": "Bú zài le. Suǒyǐ gēgē hěn zhòngyào.",
+      "japanese": "もういません。だからお兄ちゃんがとても大切。",
+      "audio": "/audio/lesson07/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "健，你家有几口人？",
+      "pinyin": "Jiàn, nǐ jiā yǒu jǐ kǒu rén?",
+      "japanese": "健、ご家族は何人ですか？",
+      "audio": "/audio/lesson07/conv_01.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我家有四口人。爸爸、妈妈、哥哥和我。",
+      "pinyin": "Wǒ jiā yǒu sì kǒu rén. Bàba、māma、gēgē hé wǒ.",
+      "japanese": "四人です。父、母、兄、そして私。",
+      "audio": "/audio/lesson07/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "哇，有哥哥！你有没有弟弟？",
+      "pinyin": "Wā, yǒu gēgē! Nǐ yǒu méiyǒu dìdi?",
+      "japanese": "わあ、お兄さんがいるんだ！弟はいますか？",
+      "audio": "/audio/lesson07/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "没有弟弟，也没有妹妹。",
+      "pinyin": "Méiyǒu dìdi, yě méiyǒu mèimei.",
+      "japanese": "弟もいないし、妹もいません。",
+      "audio": "/audio/lesson07/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "你有没有女儿？",
+      "pinyin": "Nǐ yǒu méiyǒu nǚér?",
+      "japanese": "娘はいますか？",
+      "audio": "/audio/lesson07/conv_05.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c6",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我才二十二岁！怎么可能有女儿！",
+      "pinyin": "Wǒ cái èrshí èr suì! Zěnme kěnéng yǒu nǚér!",
+      "japanese": "まだ22歳ですよ！娘がいるわけない！",
+      "audio": "/audio/lesson07/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "我有哥哥，就是飞虎。家里就我们两个人。",
+      "pinyin": "Wǒ yǒu gēgē, jiùshì Fēi Hǔ. Jiā lǐ jiù wǒmen liǎng gè rén.",
+      "japanese": "飛虎お兄ちゃんだけ。家は二人だけです。",
+      "audio": "/audio/lesson07/conv_07.mp3",
+      "panel_id": 4
+    },
+    {
+      "id": "c8",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "……你们的爸爸妈妈呢？",
+      "pinyin": "……Nǐmen de bàba māma ne?",
+      "japanese": "……お父さんとお母さんは？",
+      "audio": "/audio/lesson07/conv_08.mp3",
+      "panel_id": 4
+    },
+    {
+      "id": "c9",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "……不在了。所以哥哥很重要。",
+      "pinyin": "……Bú zài le. Suǒyǐ gēgē hěn zhòngyào.",
+      "japanese": "……もういません。だからお兄ちゃんがとても大切。",
+      "audio": "/audio/lesson07/conv_09.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「有字句」——「家有四口人」「有哥哥」「没有弟弟」。あるかないかは「有」と「没有」でシンプルに表せる。飛虎と鈴鐺の過去が少し見えた。二人だけの家族……クールキャラに深い理由があった。ストーリーが急にエグくなってきた。「弟弟（dìdi）弟」「女儿（nǚér）娘」「岁（suì）歳」がスキル登録。家族語彙パック、完全解放！",
+
+  "study_notes": [
+    "「你家有几口人？」＝ご家族は何人ですか？（家族人数を聞く表現）",
+    "「我家有○口人」＝うちは○人家族（有字句）",
+    "「有没有～？」＝～はいますか？（正反疑問文）",
+    "「也没有」＝〜もいない（「也」で否定を並列）",
+    "【新出未使用語彙】弟弟（dìdi）弟、女儿（nǚér）娘、岁（suì）歳"
+  ]
+}

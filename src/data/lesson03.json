@@ -1,0 +1,197 @@
+{
+  "id": 3,
+  "title": "你工作忙吗",
+  "theme": "問候③",
+  "grammar": [
+    "声母・韻母③",
+    "ピンイン③"
+  ],
+  "hsk_level": 2,
+
+  "scene_description": "翌日、玲に市場へ連れて行ってもらった健。香辛料・果物・布地が並ぶ賑やかな市場は、まるでRPGの道具屋のよう。ひときわ大きな声で客を呼ぶ商人・老王に玲が手招きで近づく。陽気でパワフルな老王との会話で、仕事の忙しさや中国語学習について話が広がっていく。そして笑いながら振り向いた老王の背後、市場の入り口に黒い影が見えた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson03/panel_01.jpg",
+      "caption": "色とりどりの市場に圧倒される健。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson03/panel_02.jpg",
+      "caption": "でかい声で客を呼ぶ老王に玲が近づく。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson03/panel_03.jpg",
+      "caption": "「独学です」と苦笑いで答える健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson03/panel_04.jpg",
+      "caption": "豪快に笑う老王の背後、市場の入り口に黒い影が見える。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "来来来！新鲜的水果！",
+      "pinyin": "Lái lái lái! Xīnxiān de shuǐguǒ!",
+      "japanese": "いらっしゃい！新鮮な果物！",
+      "audio": "/audio/lesson03/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "你工作忙吗？",
+      "pinyin": "Nǐ gōngzuò máng ma?",
+      "japanese": "お仕事は忙しいですか？",
+      "audio": "/audio/lesson03/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "忙！非常忙！",
+      "pinyin": "Máng! Fēicháng máng!",
+      "japanese": "忙しい！すごく忙しい！",
+      "audio": "/audio/lesson03/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "你是哪儿的人？",
+      "pinyin": "Nǐ shì nǎr de rén?",
+      "japanese": "どこの人ですか？",
+      "audio": "/audio/lesson03/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "你学习中文了吗？",
+      "pinyin": "Nǐ xuéxí zhōngwén le ma?",
+      "japanese": "中国語を勉強していますか？",
+      "audio": "/audio/lesson03/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "我在学习汉语。",
+      "pinyin": "Wǒ zài xuéxí Hànyǔ.",
+      "japanese": "私は中国語を学んでいます。",
+      "audio": "/audio/lesson03/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "我没有学校。我是自学。",
+      "pinyin": "Wǒ méiyǒu xuéxiào. Wǒ shì zìxué.",
+      "japanese": "学校はありません。独学です。",
+      "audio": "/audio/lesson03/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "年轻人要努力！",
+      "pinyin": "Niánqīng rén yào nǔlì!",
+      "japanese": "若者は頑張らないとな！",
+      "audio": "/audio/lesson03/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "来来来！新鲜的水果！",
+      "pinyin": "Lái lái lái! Xīnxiān de shuǐguǒ!",
+      "japanese": "いらっしゃい！新鮮な果物！",
+      "audio": "/audio/lesson03/conv_01.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c2",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "老王，你工作忙吗？",
+      "pinyin": "Lǎo Wáng, nǐ gōngzuò máng ma?",
+      "japanese": "老王さん、お仕事は忙しいですか？",
+      "audio": "/audio/lesson03/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "忙！非常忙！做生意嘛！",
+      "pinyin": "Máng! Fēicháng máng! Zuò shēngyi ma!",
+      "japanese": "忙しい！すごく忙しい！商売だから！",
+      "audio": "/audio/lesson03/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "你好，我叫健。",
+      "pinyin": "Nǐ hǎo, wǒ jiào Jiàn.",
+      "japanese": "こんにちは、健といいます。",
+      "audio": "/audio/lesson03/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "哦？你是哪儿的人？你学习中文了吗？",
+      "pinyin": "Ó? Nǐ shì nǎr de rén? Nǐ xuéxí zhōngwén le ma?",
+      "japanese": "ほう？どこの人だ？中国語を勉強しているのか？",
+      "audio": "/audio/lesson03/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我是日本人。我……在学习汉语。",
+      "pinyin": "Wǒ shì Rìběn rén. Wǒ……zài xuéxí Hànyǔ.",
+      "japanese": "日本人です。今……中国語を学んでいます。",
+      "audio": "/audio/lesson03/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "好！学校在哪儿？",
+      "pinyin": "Hǎo! Xuéxiào zài nǎr?",
+      "japanese": "いいね！学校はどこだ？",
+      "audio": "/audio/lesson03/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我……没有学校。我是自学。",
+      "pinyin": "Wǒ……méiyǒu xuéxiào. Wǒ shì zìxué.",
+      "japanese": "学校は……ありません。独学です。",
+      "audio": "/audio/lesson03/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "哈哈！年轻人要努力！",
+      "pinyin": "Hāhā! Niánqīng rén yào nǔlì!",
+      "japanese": "若者は頑張らないとな！",
+      "audio": "/audio/lesson03/conv_09.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "老王、完全に「賑やかし担当NPC」の見た目してるけど、意外と深いセリフを吐く。「年轻人要努力」——異世界でも説教はある。でもスキルUIが「经验值+20！」って表示した。ありがたや。「学习（xuéxí）勉強する」「汉语（Hànyǔ）中国語」「学校（xuéxiào）学校」もスキル登録。まさに現場習得。",
+
+  "study_notes": [
+    "「你工作忙吗？」＝仕事は忙しいですか？",
+    "「非常忙」＝とても忙しい（程度の強調）",
+    "「在学习汉语」＝中国語を学んでいる（進行形の先取り）",
+    "「我是自学」＝独学です",
+    "【新出未使用語彙】学习（xuéxí）勉強する、汉语（Hànyǔ）中国語、学校（xuéxiào）学校"
+  ]
+}

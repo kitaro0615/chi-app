@@ -1,0 +1,46 @@
+{
+  "id": 40,
+  "title": "祝你一路平安",
+  "theme": "見送り②",
+  "grammar": [
+    "各種表現の総まとめ"
+  ],
+  "hsk_level": 4,
+  "scene_description": "言語習得システムのゲージが満タンに到達。「帰還条件達成——転送ポイント：天水城の北門外」とスキルUIに表示された。北門へ向かう途中、飛虎が現れ、続いて玲、老王と全員が集まってくる。「なんでみんな来たの？」と感動する健に「だってあなたは友達だもの」と玲が涙をこらえながら答える。老王の豪快な感想、飛虎の静かな「一路平安」——全員の「祝你一路平安！」に送られ光に包まれる健。スキルUIに「次のミッション：???」が浮かんだ。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson40/panel_01.jpg", "caption": "言語習得ゲージMAX！「帰還条件達成」のスキルUI。北門へ向かう健。"},
+    {"panel_id": 2, "image": "/images/lesson40/panel_02.jpg", "caption": "飛虎・玲・老王が次々に現れる。「全員集合の送別イベント！」"},
+    {"panel_id": 3, "image": "/images/lesson40/panel_03.jpg", "caption": "「友情は変わらない」と涙をこらえる玲。老王が豪快に感動を語る。"},
+    {"panel_id": 4, "image": "/images/lesson40/panel_04.jpg", "caption": "「祝你一路平安！」全員の声に送られ光に包まれる健。「次のミッション：???」"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "你的问题解决了吗？怎么回来了？", "pinyin": "Nǐ de wèntí jiějué le ma? Zěnme huílai le?", "japanese": "問題は解決したの？なぜ戻ってきたの？", "audio": "/audio/lesson40/shadow_01.mp3"},
+    {"id": "s2", "chinese": "我特意来送你！", "pinyin": "Wǒ tèyì lái sòng nǐ!", "japanese": "わざわざ見送りに来たよ！", "audio": "/audio/lesson40/shadow_02.mp3"},
+    {"id": "s3", "chinese": "因为你是我们的朋友啊！", "pinyin": "Yīnwèi nǐ shì wǒmen de péngyǒu a!", "japanese": "だってあなたは友達だもの！", "audio": "/audio/lesson40/shadow_03.mp3"},
+    {"id": "s4", "chinese": "不管路有多远，我们的友谊不会变的。", "pinyin": "Bùguǎn lù yǒu duō yuǎn, wǒmen de yǒuyì bù huì biàn de.", "japanese": "どれだけ遠くても、友情は変わらない。", "audio": "/audio/lesson40/shadow_04.mp3"},
+    {"id": "s5", "chinese": "一路平安，健。", "pinyin": "Yīlù píng'ān, Jiàn.", "japanese": "道中ご無事で、健。", "audio": "/audio/lesson40/shadow_05.mp3"},
+    {"id": "s6", "chinese": "我在中原大陆学到的不只是语言，而且是做人的道理。", "pinyin": "Wǒ zài Zhōngyuán Dàlù xuédào de bùzhǐ shì yǔyán, érqiě shì zuòrén de dàolǐ.", "japanese": "中原大陸で学んだのは言語だけじゃなくて、人として大切なことも。", "audio": "/audio/lesson40/shadow_06.mp3"},
+    {"id": "s7", "chinese": "祝你一路平安！", "pinyin": "Zhù nǐ yīlù píng'ān!", "japanese": "道中ご無事で！", "audio": "/audio/lesson40/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "飛虎", "is_learner": false, "chinese": "健，你的事情解决了吗？", "pinyin": "Jiàn, nǐ de shìqíng jiějué le ma?", "japanese": "健、解決しましたか？", "audio": "/audio/lesson40/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "健", "is_learner": true, "chinese": "飞虎！你的问题解决了吗？怎么回来了？", "pinyin": "Fēi Hǔ! Nǐ de wèntí jiějué le ma? Zěnme huílai le?", "japanese": "飛虎！問題は解決したの？なぜ戻ってきたの？", "audio": "/audio/lesson40/conv_02.mp3", "panel_id": 1},
+    {"id": "c3", "speaker": "飛虎", "is_learner": false, "chinese": "我想到了一个好办法。", "pinyin": "Wǒ xiǎng dào le yīgè hǎo bànfǎ.", "japanese": "いい方法を思いついた。", "audio": "/audio/lesson40/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "玲", "is_learner": false, "chinese": "健！我特意来送你！", "pinyin": "Jiàn! Wǒ tèyì lái sòng nǐ!", "japanese": "健！わざわざ見送りに来たよ！", "audio": "/audio/lesson40/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "老王", "is_learner": false, "chinese": "哎，等等我！我也来了！说真的，这次旅行，是我总是难忘的收获！", "pinyin": "Āi, děngdeng wǒ! Wǒ yě lái le! Shuō zhēn de, zhè cì lǚxíng, shì wǒ zǒngshì nánwàng de shōuhuò!", "japanese": "ちょっと待って！私も来た！本当に、この旅はいつまでも忘れられない収穫だ！", "audio": "/audio/lesson40/conv_05.mp3", "panel_id": 2},
+    {"id": "c6", "speaker": "健", "is_learner": true, "chinese": "你们……为什么都来了？", "pinyin": "Nǐmen……wèishénme dōu lái le?", "japanese": "みんな……なんでみんな来たの？", "audio": "/audio/lesson40/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "玲", "is_learner": false, "chinese": "因为你是我们的朋友啊！不管路有多远，我们的友谊不会变的。", "pinyin": "Yīnwèi nǐ shì wǒmen de péngyǒu a! Bùguǎn lù yǒu duō yuǎn, wǒmen de yǒuyì bù huì biàn de.", "japanese": "だってあなたは友達だもの！どれだけ遠くても、友情は変わらない。", "audio": "/audio/lesson40/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "老王", "is_learner": false, "chinese": "我觉得，你是我见过最努力的客人！", "pinyin": "Wǒ juéde, nǐ shì wǒ jiànguò zuì nǔlì de kèrén!", "japanese": "あなたは私が会った中で一番頑張った客だよ！", "audio": "/audio/lesson40/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "飛虎", "is_learner": false, "chinese": "一路平安，健。", "pinyin": "Yīlù píng'ān, Jiàn.", "japanese": "道中ご無事で、健。", "audio": "/audio/lesson40/conv_09.mp3", "panel_id": 4},
+    {"id": "c10", "speaker": "健", "is_learner": true, "chinese": "谢谢你们。我在中原大陆学到的不只是语言，而且是做人的道理。", "pinyin": "Xièxiè nǐmen. Wǒ zài Zhōngyuán Dàlù xuédào de bùzhǐ shì yǔyán, érqiě shì zuòrén de dàolǐ.", "japanese": "ありがとう。中原大陸で学んだのは言語だけじゃなくて、人として大切なことも。", "audio": "/audio/lesson40/conv_10.mp3", "panel_id": 4},
+    {"id": "c11", "speaker": "全員", "is_learner": false, "chinese": "祝你一路平安！", "pinyin": "Zhù nǐ yīlù píng'ān!", "japanese": "道中ご無事で！", "audio": "/audio/lesson40/conv_11.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "「不管…都…」「不只是…而且…」——全スキルが繋がって、帰還フラグが立った！ゲームで言うと「全スキル解放エンディング」じゃないか。老王が「总是难忘的收获」って言った……商人がそう言うのは最上級の褒め言葉。「总是（zǒngshì）いつも」「收获（shōuhuò）収穫」がスキル登録。この世界の人たちと培った絆は、ゲームのクリアデータより何倍も大事なものになっていた。また会いに来るよ、中原大陸。",
+  "study_notes": [
+    "「不管…都…」：「〜にかかわらず…」（条件を問わず成立）",
+    "「不只是…而且…」：「〜だけでなく、そのうえ…」",
+    "「语言」（yǔyán）：「言語」",
+    "「不管」（bùguǎn）：「〜にかかわらず」",
+    "【新出未使用語彙】总是（zǒngshì）いつも〜する、收获（shōuhuò）成果・収穫"
+  ]
+}

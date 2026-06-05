@@ -1,0 +1,47 @@
+{
+  "id": 29,
+  "title": "我也喜欢游泳",
+  "theme": "趣味",
+  "grammar": [
+    "「有」「没有」による比較",
+    "時量補語①",
+    "「吧」による疑問文"
+  ],
+  "hsk_level": 4,
+  "scene_description": "山越えの後にたどり着いた温泉の村・暖泉郷。老王のHPも回復し、温泉に浸かりながら各自の趣味トーク。一時間近く浸かる健に鈴鐺がツッコミ。飛虎が珍しく「趣味を話そう」と促す。鈴鐺は水泳週三回、飛虎は武術十年、健は「旅行とゲーム？」と答えて鈴鐺に「今まさに旅行してるじゃない！」とツッコまれる。就寝前、宿の謎の旅人が静かに立ち上がり「碧玉谷を探しているのか？」と声をかけてきた。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson29/panel_01.jpg", "caption": "温泉の村・暖泉郷に到着。老王が生き返る。"},
+    {"panel_id": 2, "image": "/images/lesson29/panel_02.jpg", "caption": "温泉で一時間浸かる健。鈴鐺にツッコまれる。"},
+    {"panel_id": 3, "image": "/images/lesson29/panel_03.jpg", "caption": "食事しながら趣味トーク。「旅行が趣味？今まさに旅行してるじゃない！」"},
+    {"panel_id": 4, "image": "/images/lesson29/panel_04.jpg", "caption": "就寝前、謎の旅人が「碧玉谷を探しているのか？」と声をかけてくる。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "感觉没有比这更舒服的事了！", "pinyin": "Gǎnjué méiyǒu bǐ zhè gèng shūfu de shì le!", "japanese": "これより気持ちいいことはないな！", "audio": "/audio/lesson29/shadow_01.mp3"},
+    {"id": "s2", "chinese": "你已经泡了一个小时了吧？", "pinyin": "Nǐ yǐjīng pào le yī ge xiǎoshí le ba?", "japanese": "もう一時間浸かったんでしょ？", "audio": "/audio/lesson29/shadow_02.mp3"},
+    {"id": "s3", "chinese": "你们有什么爱好？聊聊吧。", "pinyin": "Nǐmen yǒu shénme àihào? Liáo liáo ba.", "japanese": "趣味は何？話しましょう。", "audio": "/audio/lesson29/shadow_03.mp3"},
+    {"id": "s4", "chinese": "每周游三次，每次游一个多小时。", "pinyin": "Měi zhōu yóu sān cì, měi cì yóu yī ge duō xiǎoshí.", "japanese": "週三回、毎回一時間以上泳ぐ。", "audio": "/audio/lesson29/shadow_04.mp3"},
+    {"id": "s5", "chinese": "我没有铃铛游得久，但武术练了有十年了。", "pinyin": "Wǒ méiyǒu Líng Dāng yóu de jiǔ, dàn wǔshù liàn le yǒu shí nián le.", "japanese": "铃铛ほど長く泳がないが、武術は十年練習してきた。", "audio": "/audio/lesson29/shadow_05.mp3"},
+    {"id": "s6", "chinese": "从小学开始，大概玩了有十几年了吧……", "pinyin": "Cóng xiǎoxué kāishǐ, dàgài wán le yǒu shí jǐ nián le ba……", "japanese": "小学校から始めて、だいたい十数年かな……", "audio": "/audio/lesson29/shadow_06.mp3"},
+    {"id": "s7", "chinese": "异世界的旅游比普通旅游有趣多了！", "pinyin": "Yìshìjiè de lǚyóu bǐ pǔtōng lǚyóu yǒuqù duō le!", "japanese": "異世界旅行が普通の旅行より面白いとは思わなかった！", "audio": "/audio/lesson29/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "健", "is_learner": true, "chinese": "泡了快一个小时了，感觉没有比这更舒服的事了！", "pinyin": "Pào le kuài yī ge xiǎoshí le, gǎnjué méiyǒu bǐ zhè gèng shūfu de shì le!", "japanese": "もう一時間近く浸かった、これより気持ちいいことはないな！", "audio": "/audio/lesson29/conv_01.mp3", "panel_id": 2},
+    {"id": "c2", "speaker": "鈴鐺", "is_learner": false, "chinese": "你已经泡了一个小时了吧？我才泡了二十分钟。", "pinyin": "Nǐ yǐjīng pào le yī ge xiǎoshí le ba? Wǒ cái pào le èrshí fēnzhōng.", "japanese": "もう一時間浸かったんでしょ？私は二十分しか入ってない。", "audio": "/audio/lesson29/conv_02.mp3", "panel_id": 2},
+    {"id": "c3", "speaker": "飛虎", "is_learner": false, "chinese": "够了，该吃饭了。你们有什么爱好？聊聊吧。", "pinyin": "Gòu le, gāi chīfàn le. Nǐmen yǒu shénme àihào? Liáo liáo ba.", "japanese": "いいかげんにして、ご飯の時間だ。趣味は何？話しましょう。", "audio": "/audio/lesson29/conv_03.mp3", "panel_id": 3},
+    {"id": "c4", "speaker": "鈴鐺", "is_learner": false, "chinese": "我喜欢游泳！在家的时候，每周游三次，每次游一个多小时。", "pinyin": "Wǒ xǐhuān yóuyǒng! Zài jiā de shíhou, měi zhōu yóu sān cì, měi cì yóu yī ge duō xiǎoshí.", "japanese": "水泳が好き！家にいる時は週三回、毎回一時間以上泳ぐ。", "audio": "/audio/lesson29/conv_04.mp3", "panel_id": 3},
+    {"id": "c5", "speaker": "飛虎", "is_learner": false, "chinese": "我没有铃铛游得久，但武术练了有十年了。", "pinyin": "Wǒ méiyǒu Líng Dāng yóu de jiǔ, dàn wǔshù liàn le yǒu shí nián le.", "japanese": "铃铛ほど長く泳がないが、武術は十年練習してきた。", "audio": "/audio/lesson29/conv_05.mp3", "panel_id": 3},
+    {"id": "c6", "speaker": "健", "is_learner": true, "chinese": "哇，练了十年吧？那你肯定比我厉害一百倍！我的爱好是……旅游？打游戏？", "pinyin": "Wā, liàn le shí nián ba? Nà nǐ kěndìng bǐ wǒ lìhài yī bǎi bèi! Wǒ de àihào shì…… lǚyóu? Dǎ yóuxì?", "japanese": "わあ、十年練習したんでしょ？じゃあ私の百倍はすごいね！私の趣味は……旅行？ゲーム？", "audio": "/audio/lesson29/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "鈴鐺", "is_learner": false, "chinese": "旅游！那你现在不就在旅游吗？", "pinyin": "Lǚyóu! Nà nǐ xiànzài bú jiù zài lǚyóu ma?", "japanese": "旅行！今まさに旅行してるじゃない？", "audio": "/audio/lesson29/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "健", "is_learner": true, "chinese": "对啊……没想到异世界的旅游比普通旅游有趣多了！", "pinyin": "Duì a…… méi xiǎngdào yìshìjiè de lǚyóu bǐ pǔtōng lǚyóu yǒuqù duō le!", "japanese": "そうだね……異世界旅行が普通の旅行より面白いとは思わなかった！", "audio": "/audio/lesson29/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "飛虎", "is_learner": false, "chinese": "你玩这个玩了多久了？", "pinyin": "Nǐ wán zhège wán le duō jiǔ le?", "japanese": "ゲームはどのくらいやってるんだ？", "audio": "/audio/lesson29/conv_09.mp3", "panel_id": 3},
+    {"id": "c10", "speaker": "健", "is_learner": true, "chinese": "从小学开始，大概玩了有十几年了吧……", "pinyin": "Cóng xiǎoxué kāishǐ, dàgài wán le yǒu shí jǐ nián le ba……", "japanese": "小学校から始めて、だいたい十数年かな……", "audio": "/audio/lesson29/conv_10.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "時量補語！「泡了一个小时（一時間浸かった）」「练了十年（十年練習した）」——動詞の後に「了＋時間」をつけるだけ。「没有铃铛游得久」は「没有」による比較。「〜ほどは〜しない」という柔らかい否定比較。「旅游（lǚyóu）旅行する」「跑步（pǎobù）走る」がスキル登録。気づいたら「旅行が趣味」になってた。異世界転生の副作用かな。",
+  "study_notes": [
+    "時量補語①：動詞＋了＋時間。「泡了一个小时」「练了十年」",
+    "「没有A＋動詞＋得＋形容詞」：AほどはBしない。「没有铃铛游得久」",
+    "「吧」による確認疑問：「练了十年吧？（十年練習したんでしょ？）」",
+    "「好几个小时」：何時間も",
+    "【新出未使用語彙】旅游（lǚyóu）旅行する、跑步（pǎobù）走る"
+  ]
+}

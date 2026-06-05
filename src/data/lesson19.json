@@ -1,0 +1,218 @@
+{
+  "id": 19,
+  "title": "欢迎你",
+  "theme": "出迎え②",
+  "grammar": [
+    "「从」「在」の目的語と「这儿」「那儿」",
+    "動量補語",
+    "動詞・動詞句・主謂句が定語となる場合"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "龍泉城の迎賓館——RPGで言えば国王城の謁見室クラスの豪華さ。長老が丁寧に案内する中、飛虎が「云海先生はどこへ?」と遮って問いかける。「父から聞いた」という飛虎の一言で長老の顔が変わる。云海先生は行方不明で、残された絵があると告げられた。翌朝、長老が案内した部屋の壁の絵を見た飛虎が絶句して固まった。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson19/panel_01.jpg",
+      "caption": "豪華な迎賓館をきょろきょろ見回す健。長老が丁寧に案内。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson19/panel_02.jpg",
+      "caption": "城の歴史300年を聞いて驚く一行。鈴鐺が「何度来ましたか？」と質問。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson19/panel_03.jpg",
+      "caption": "「云海先生はどこへ？」と遮って問いかける飛虎。長老の顔が変わる。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson19/panel_04.jpg",
+      "caption": "壁の絵を見て絶句し固まる飛虎。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "欢迎你们来到龙泉城！",
+      "pinyin": "Huānyíng nǐmen lái dào Lóngquán Chéng!",
+      "japanese": "龍泉城へようこそ！",
+      "audio": "/audio/lesson19/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "从这儿到那儿，都是你们的地方。",
+      "pinyin": "Cóng zhèr dào nàr, dōu shì nǐmen de dìfang.",
+      "japanese": "ここからあそこまで、すべてあなた方の場所です。",
+      "audio": "/audio/lesson19/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "这座城建了三百年了。",
+      "pinyin": "Zhè zuò chéng jiàn le sānbǎi nián le.",
+      "japanese": "この城は建てられて三百年です。",
+      "audio": "/audio/lesson19/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "您来过多少次？",
+      "pinyin": "Nín lái guo duōshao cì?",
+      "japanese": "何度来られましたか？",
+      "audio": "/audio/lesson19/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "这座城是我们的根。",
+      "pinyin": "Zhè zuò chéng shì wǒmen de gēn.",
+      "japanese": "この城は私たちのよりどころです。",
+      "audio": "/audio/lesson19/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "云海先生……他去哪里了？",
+      "pinyin": "Yúnhǎi xiānsheng……tā qù nǎlǐ le?",
+      "japanese": "云海先生は……どこへ行かれたのですか？",
+      "audio": "/audio/lesson19/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "听父亲提起过。",
+      "pinyin": "Tīng fùqīn tígǐ guo.",
+      "japanese": "父から聞いたことがあります。",
+      "audio": "/audio/lesson19/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "那幅画，是他留下的。明天我带你们去看。",
+      "pinyin": "Nà fú huà, shì tā liú xià de. Míngtiān wǒ dài nǐmen qù kàn.",
+      "japanese": "あの絵は先生が残されたもの。明日お連れします。",
+      "audio": "/audio/lesson19/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "欢迎你们来到龙泉城！从这儿到那儿，都是你们的地方。",
+      "pinyin": "Huānyíng nǐmen lái dào Lóngquán Chéng! Cóng zhèr dào nàr, dōu shì nǐmen de dìfang.",
+      "japanese": "龍泉城へようこそ！ここからあそこまで、すべてあなた方の場所です。",
+      "audio": "/audio/lesson19/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "哇……真宽敞。这座城有什么历史？",
+      "pinyin": "Wā……zhēn kuānchǎng. Zhè zuò chéng yǒu shénme lìshǐ?",
+      "japanese": "わあ……本当に広い。この城にはどんな歴史があるんですか？",
+      "audio": "/audio/lesson19/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "这座城建了三百年了。我来过这里很多次。",
+      "pinyin": "Zhè zuò chéng jiàn le sānbǎi nián le. Wǒ lái guo zhèlǐ hěn duō cì.",
+      "japanese": "この城は建てられて三百年です。私も何度も来ています。",
+      "audio": "/audio/lesson19/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "元老，您来过多少次？",
+      "pinyin": "Yuánlǎo, nín lái guo duōshao cì?",
+      "japanese": "元老、何度来られましたか？",
+      "audio": "/audio/lesson19/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "记不清了。来了很多次。",
+      "pinyin": "Jì bù qīng le. Lái le hěn duō cì.",
+      "japanese": "覚えていません。たくさん来ました。",
+      "audio": "/audio/lesson19/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "元老，您很关心这座城，对吗？",
+      "pinyin": "Yuánlǎo, nín hěn guānxīn zhè zuò chéng, duì ma?",
+      "japanese": "元老、この城をとても大切にしておられますね？",
+      "audio": "/audio/lesson19/conv_06.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c7",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "是的。这座城是我们的根。",
+      "pinyin": "Shì de. Zhè zuò chéng shì wǒmen de gēn.",
+      "japanese": "そうです。この城は私たちのよりどころです。",
+      "audio": "/audio/lesson19/conv_07.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c8",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "元老，云海先生……他去哪里了？",
+      "pinyin": "Yuánlǎo, Yúnhǎi xiānsheng……tā qù nǎlǐ le?",
+      "japanese": "元老、云海先生は……どこへ行かれたのですか？",
+      "audio": "/audio/lesson19/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "飞虎……你认识云海先生？",
+      "pinyin": "Fēi Hǔ……nǐ rènshi Yúnhǎi xiānsheng?",
+      "japanese": "飛虎……云海先生をご存知ですか？",
+      "audio": "/audio/lesson19/conv_09.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c10",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……听父亲提起过。",
+      "pinyin": "……Tīng fùqīn tígǐ guo.",
+      "japanese": "……父から聞いたことがあります。",
+      "audio": "/audio/lesson19/conv_10.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c11",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "云海先生是位了不起的武术大师，从城里去向不明。但那幅画，是他留下的。明天我带你们去看。",
+      "pinyin": "Yúnhǎi xiānsheng shì wèi liǎobuqǐ de wǔshù dàshī, cóng chéng lǐ qùxiàng bùmíng. Dàn nà fú huà, shì tā liú xià de. Míngtiān wǒ dài nǐmen qù kàn.",
+      "japanese": "云海先生は偉大な武術大師で、城から行方不明です。しかしあの絵は先生が残されたもの。明日お連れします。",
+      "audio": "/audio/lesson19/conv_11.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「从这儿到那儿」——「从」は起点、「在」は位置状態。「動き（から）」か「状態（で）」かで使い分ける。飛虎が「父から聞いた」と言った瞬間、長老の顔が変わった気がした。ここ絶対フラグ回収される。「历史（lìshǐ）歴史」「关心（guānxīn）気にかける」がスキル登録。ストーリーの奥行きが一気に増した。",
+
+  "study_notes": [
+    "「从○○到○○」＝○○から○○まで（起点と終点）",
+    "動量補語：「来过很多次」＝何度も来たことがある（回数補語）",
+    "定語：「云海先生留下的画」＝云海先生が残した絵（動詞句が定語）",
+    "「去向不明」＝行方不明",
+    "【新出未使用語彙】历史（lìshǐ）歴史、关心（guānxīn）気にかける"
+  ]
+}

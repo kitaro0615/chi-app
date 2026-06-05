@@ -1,0 +1,208 @@
+{
+  "id": 16,
+  "title": "你看过京剧吗",
+  "theme": "約束①",
+  "grammar": [
+    "動態助詞「过」",
+    "無主文",
+    "「还没（有）……呢」"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "龍泉城への道中、草原の木陰で休憩。水筒を回し飲みしながら京劇の話になった。日本では聞いたことしかない健、見たことがないと言う玲、そして飛虎が「父に連れて行ってもらった」と珍しく過去を語る。鈴鐺は「私もまだ見たことない、あの頃は小さかったから」と静かに言った。健が「龍泉城で一緒に初めて見よう」と提案した直後、鈴鐺の目がかすかに赤くなった気がした。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson16/panel_01.jpg",
+      "caption": "草原の木陰で休憩する四人。夕焼けが空を染め始める。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson16/panel_02.jpg",
+      "caption": "京劇の話で盛り上がる玲と鈴鐺。興味を持ち始める健。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson16/panel_03.jpg",
+      "caption": "「父に連れて行ってもらった」と静かに語る飛虎。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson16/panel_04.jpg",
+      "caption": "「一緒に行こう！」と提案する健。鈴鐺の目がかすかに赤くなる。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "你看过京剧吗？",
+      "pinyin": "Nǐ kàn guo jīngjù ma?",
+      "japanese": "京劇を見たことがありますか？",
+      "audio": "/audio/lesson16/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "听说过，但没看过。",
+      "pinyin": "Tīngshuō guo, dàn méi kàn guo.",
+      "japanese": "聞いたことはあるけど、見たことはないです。",
+      "audio": "/audio/lesson16/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "你还没看过京剧呢！太可惜了！",
+      "pinyin": "Nǐ hái méi kàn guo jīngjù ne! Tài kěxī le!",
+      "japanese": "まだ見たことがないんですね！もったいない！",
+      "audio": "/audio/lesson16/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "服装很漂亮，声音也很特别！",
+      "pinyin": "Fúzhuāng hěn piàoliang, shēngyīn yě hěn tèbié!",
+      "japanese": "衣装がきれいで、声も独特！",
+      "audio": "/audio/lesson16/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "到了以后可以去看看。",
+      "pinyin": "Dào le yǐhòu kěyǐ qù kànkan.",
+      "japanese": "着いたら見に行けますよ。",
+      "audio": "/audio/lesson16/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "以前……父亲带我去看过。",
+      "pinyin": "Yǐqián……fùqīn dài wǒ qù kàn guo.",
+      "japanese": "以前……父が連れて行ってくれた。",
+      "audio": "/audio/lesson16/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "那时候太小了。",
+      "pinyin": "Nà shíhòu tài xiǎo le.",
+      "japanese": "あの頃はまだ小さかったから。",
+      "audio": "/audio/lesson16/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "一起去看吧！第一次一起看！",
+      "pinyin": "Yīqǐ qù kàn ba! Dìyī cì yīqǐ kàn!",
+      "japanese": "一緒に見に行きましょう！初めて一緒に！",
+      "audio": "/audio/lesson16/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "健，你看过京剧吗？",
+      "pinyin": "Jiàn, nǐ kàn guo jīngjù ma?",
+      "japanese": "健、京劇を見たことがありますか？",
+      "audio": "/audio/lesson16/conv_01.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "京剧？……没看过。在日本，听说过，但没看过。",
+      "pinyin": "Jīngjù?……Méi kàn guo. Zài Rìběn, tīngshuō guo, dàn méi kàn guo.",
+      "japanese": "京劇？……見たことないです。日本では聞いたことあるけど。",
+      "audio": "/audio/lesson16/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "那你还没看过京剧呢！太可惜了！",
+      "pinyin": "Nà nǐ hái méi kàn guo jīngjù ne! Tài kěxī le!",
+      "japanese": "まだ見たことがないんですね！もったいない！",
+      "audio": "/audio/lesson16/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "京剧是什么文化？有趣吗？",
+      "pinyin": "Jīngjù shì shénme wénhuà? Yǒuqù ma?",
+      "japanese": "京劇ってどんな文化ですか？面白いですか？",
+      "audio": "/audio/lesson16/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "有趣！特别有趣！服装很漂亮，声音也很特别！",
+      "pinyin": "Yǒuqù! Tèbié yǒuqù! Fúzhuāng hěn piàoliang, shēngyīn yě hěn tèbié!",
+      "japanese": "面白い！すごく面白いよ！衣装がきれいで、声も独特！",
+      "audio": "/audio/lesson16/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "龙泉城有京剧班。到了以后可以去看看。",
+      "pinyin": "Lóngquán Chéng yǒu jīngjù bān. Dào le yǐhòu kěyǐ qù kànkan.",
+      "japanese": "龍泉城に劇団がある。着いたら見に行けるぞ。",
+      "audio": "/audio/lesson16/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "飞虎，你看过吗？",
+      "pinyin": "Fēi Hǔ, nǐ kàn guo ma?",
+      "japanese": "飛虎、見たことある？",
+      "audio": "/audio/lesson16/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "看过。以前……父亲带我去看过。",
+      "pinyin": "Kàn guo. Yǐqián……fùqīn dài wǒ qù kàn guo.",
+      "japanese": "ある。前に……父が連れて行ってくれた。",
+      "audio": "/audio/lesson16/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "……那我也没看过呢。那时候太小了。",
+      "pinyin": "……Nà wǒ yě méi kàn guo ne. Nà shíhòu tài xiǎo le.",
+      "japanese": "……私も見たことない。あの頃はまだ小さかったから。",
+      "audio": "/audio/lesson16/conv_09.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c10",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "龙泉城到了，一起去看吧！第一次一起看！",
+      "pinyin": "Lóngquán Chéng dào le, yīqǐ qù kàn ba! Dìyī cì yīqǐ kàn!",
+      "japanese": "龍泉城に着いたら、一緒に行きましょう！初めて一緒に！",
+      "audio": "/audio/lesson16/conv_10.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "動態助詞「过」——経験チートカード。「看过」＝見たことがある、「没看过」＝見たことがない。無主文「太可惜了！」「到了！」——主語なしでも通じる。日本語の「もったいない！」「着いた！」と同じだ。「有趣（yǒuqù）面白い」「文化（wénhuà）文化」がスキル登録。飛虎の「父に連れて行ってもらった」……ここに深いストーリーがある。",
+
+  "study_notes": [
+    "動態助詞「过」：動詞の後につけて経験を表す（「看过」＝見たことがある）",
+    "「还没（有）……呢」＝まだ～したことがない（未経験の強調）",
+    "無主文：「太可惜了！」「到了！」など主語なしで完結する文",
+    "「以前」＝以前、昔",
+    "【新出未使用語彙】有趣（yǒuqù）面白い、文化（wénhuà）文化"
+  ]
+}

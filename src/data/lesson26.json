@@ -1,0 +1,208 @@
+{
+  "id": 26,
+  "title": "祝贺你",
+  "theme": "祝賀",
+  "grammar": [
+    "「开」「下」が結果補語",
+    "可能補語①",
+    "「了」が可能補語"
+  ],
+  "hsk_level": 4,
+
+  "scene_description": "収穫祭の夜。赤い提灯で満たされた広場で飛虎が演武を披露し観客が沸き立つ。老王の露店では二十年封印の老酒の壺の蓋が普通の方法では開けられないと判明。鈴鐺に頼まれた飛虎が一発で開けてしまい健が大感動。老王の音頭で「飛虎の演武を祝い！」、さらに玲が「健の中国語の上達も祝おう！」と続ける。乾杯の後、老王が急に顔を曇らせ「飛虎の兄、最近体の調子が悪いらしい」とつぶやいた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson26/panel_01.jpg",
+      "caption": "赤い提灯の収穫祭。広場で演武を披露する飛虎に観客が沸く。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson26/panel_02.jpg",
+      "caption": "二十年封印の老酒の壺。「開けられない」と言う老王。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson26/panel_03.jpg",
+      "caption": "飛虎が一手で壺を開ける。「かっこよすぎる！」と感動する健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson26/panel_04.jpg",
+      "caption": "乾杯の後、顔を曇らせた老王が「飛虎の体の調子が」とつぶやく。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "你今天的功夫表演真精彩！",
+      "pinyin": "Nǐ jīntiān de gōngfu biǎoyǎn zhēn jīngcǎi!",
+      "japanese": "今日の演武は素晴らしかった！",
+      "audio": "/audio/lesson26/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "今晚我喝不了太多酒，要保持状态。",
+      "pinyin": "Jīnwǎn wǒ hē bu liǎo tài duō jiǔ, yào bǎochí zhuàngtài.",
+      "japanese": "今夜は酒を飲めない、状態を維持しないと。",
+      "audio": "/audio/lesson26/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "那个酒壶的盖子怎么开不了？",
+      "pinyin": "Nàge jiǔhú de gàizi zěnme kāi bu liǎo?",
+      "japanese": "その酒壺の蓋がなぜ開けられないの？",
+      "audio": "/audio/lesson26/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "普通方法打不开。但是，运动运动就开了！",
+      "pinyin": "Pǔtōng fāngfǎ dǎ bu kāi. Dànshì, yùndong yùndong jiù kāi le!",
+      "japanese": "普通の方法では開けられない。でもちょっと動かせば開く！",
+      "audio": "/audio/lesson26/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "用武功能开得了吗？",
+      "pinyin": "Yòng wūgōng néng kāi de liǎo ma?",
+      "japanese": "武術で開けられる？",
+      "audio": "/audio/lesson26/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "祝贺飞虎今晚的精彩演出！",
+      "pinyin": "Zhùhè Fēi Hǔ jīnwǎn de jīngcǎi yǎnchū!",
+      "japanese": "飛虎の今夜の素晴らしい演武を祝おう！",
+      "audio": "/audio/lesson26/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "坚持下去就能学好！",
+      "pinyin": "Jiānchí xiàqù jiù néng xuéhǎo!",
+      "japanese": "続ければ必ず上手くなる！",
+      "audio": "/audio/lesson26/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "我还有很多学不完的东西……",
+      "pinyin": "Wǒ hái yǒu hěn duō xué bu wán de dōngxi……",
+      "japanese": "まだ学び終えられないことが山積みで……",
+      "audio": "/audio/lesson26/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "飞虎，你今天的功夫表演真精彩！大家都为你鼓掌。",
+      "pinyin": "Fēi Hǔ, nǐ jīntiān de gōngfu biǎoyǎn zhēn jīngcǎi! Dàjiā dōu wèi nǐ gǔzhǎng.",
+      "japanese": "飛虎、今日の演武は素晴らしかった！みんなが拍手してたよ。",
+      "audio": "/audio/lesson26/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "谢谢大家。不过，今晚我喝不了太多酒，要保持状态。",
+      "pinyin": "Xièxiè dàjiā. Búguò, jīnwǎn wǒ hē bu liǎo tài duō jiǔ, yào bǎochí zhuàngtài.",
+      "japanese": "ありがとう。でも今夜は酒を飲めない、状態を維持しないと。",
+      "audio": "/audio/lesson26/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "老王，那个酒壶的盖子怎么开不了？",
+      "pinyin": "Lǎo Wáng, nàge jiǔhú de gàizi zěnme kāi bu liǎo?",
+      "japanese": "老王、その酒壺の蓋がなぜ開けられないの？",
+      "audio": "/audio/lesson26/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "这个老酒封存了二十年，盖子已经封下去了，普通方法打不开。但是，运动运动就开了！",
+      "pinyin": "Zhège lǎojiǔ fēngcún le èrshí nián, gàizi yǐjīng fēng xià qù le, pǔtōng fāngfǎ dǎ bu kāi. Dànshì, yùndong yùndong jiù kāi le!",
+      "japanese": "このお酒は二十年封印されて蓋が封じられた。普通の方法では開けられない。でもちょっと動かせば開く！",
+      "audio": "/audio/lesson26/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "哥，你有办法打开吗？用武功能开得了吗？",
+      "pinyin": "Gē, nǐ yǒu bànfǎ dǎkāi ma? Yòng wūgōng néng kāi de liǎo ma?",
+      "japanese": "お兄さん、開けられる？武術で開けられる？",
+      "audio": "/audio/lesson26/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "我试试。先把它放下来，别用蛮力。",
+      "pinyin": "Wǒ shì shi. Xiān bǎ tā fàng xià lái, bié yòng mán lì.",
+      "japanese": "やってみる。まず下に置いて、力任せはダメだ。",
+      "audio": "/audio/lesson26/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "哇，他一手就开了！这也太帅了吧？！",
+      "pinyin": "Wā, tā yī shǒu jiù kāi le! Zhè yě tài shuài le ba?!",
+      "japanese": "わあ、一発で開けた！かっこよすぎる！",
+      "audio": "/audio/lesson26/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "好酒！来，大家举杯，祝贺飞虎今晚的精彩演出！",
+      "pinyin": "Hǎo jiǔ! Lái, dàjiā jǔbēi, zhùhè Fēi Hǔ jīnwǎn de jīngcǎi yǎnchū!",
+      "japanese": "いい酒！さあ、杯を上げて、飛虎の演武を祝おう！",
+      "audio": "/audio/lesson26/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "还有，祝贺健的中文越来越好！坚持下去就能学好！",
+      "pinyin": "Hái yǒu, zhùhè Jiàn de Zhōngwén yuè lái yuè hǎo! Jiānchí xiàqù jiù néng xuéhǎo!",
+      "japanese": "そして、健の中国語がどんどん上手になってること！続ければ必ず上手くなる！",
+      "audio": "/audio/lesson26/conv_09.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c10",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "啊，谢谢！不过我还有很多学不完的东西……",
+      "pinyin": "A, xièxiè! Búguò wǒ hái yǒu hěn duō xué bu wán de dōngxi……",
+      "japanese": "あ、ありがとう！でもまだ学び終えられないことが山積みで……",
+      "audio": "/audio/lesson26/conv_10.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "可能補語ってやつ、完全に把握した。「开不了（開けられない）」「开得了（開けられる）」——「不」か「得」を挟むだけで可否が一発で言える。ゲームのスキルツリーの解放と封鎖みたいな感覚。「封下去」は結果補語「下」で状態固定。ラスボスが封印されたイメージ。「运动（yùndòng）運動する」「健康（jiànkāng）健康」がスキル登録。玲の「坚持」……第22課で覚えた語彙が活きてる！",
+
+  "study_notes": [
+    "可能補語①：動詞＋得了／不了。「开得了（開けられる）」「喝不了（飲めない）」",
+    "結果補語「开」：動作が完了して「開いた」状態",
+    "結果補語「下」：動作によって固定・定着した状態（「封下去」）",
+    "「学不完」：量が多すぎて終わらない可能補語",
+    "【新出未使用語彙】运动（yùndòng）運動する、健康（jiànkāng）健康"
+  ]
+}

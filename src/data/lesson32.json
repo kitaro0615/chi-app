@@ -1,0 +1,46 @@
+{
+  "id": 32,
+  "title": "你的地图忘在这儿了",
+  "theme": "旅行②",
+  "grammar": [
+    "「把」字句",
+    "結果補語の拡張"
+  ],
+  "hsk_level": 4,
+  "scene_description": "碧玉谷へ出発して三十分、健が地図を宿に忘れてきたことに気づく。「把」字句フル活用で状況を説明しながら急いで戻る一行。老王が全員の荷物を点検し、飛虎が冷静に指示を出す。宿に戻ると親切な宿屋主人がカウンターにしまっておいてくれていた。神対応に感動する健。地図を手に宿を出た瞬間、飛虎が「この地図……少し書き足されている」と立ち止まった。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson32/panel_01.jpg", "caption": "宿を出て三十分で青ざめる健。「地図を忘れた！」"},
+    {"panel_id": 2, "image": "/images/lesson32/panel_02.jpg", "caption": "冷静に指示を出す飛虎。老王が荷物を一通り点検。"},
+    {"panel_id": 3, "image": "/images/lesson32/panel_03.jpg", "caption": "宿に戻ると地図はカウンターに保管されていた。感動する健。"},
+    {"panel_id": 4, "image": "/images/lesson32/panel_04.jpg", "caption": "地図を手に出発した直後、「地図が書き足されている」と立ち止まる飛虎。"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "我把地图忘在宿舍了！就放在桌子上！", "pinyin": "Wǒ bǎ dìtú wàng zài sùshè le! Jiù fàng zài zhuōzi shàng!", "japanese": "地図を宿に忘れてきた！テーブルの上に置いたまま！", "audio": "/audio/lesson32/shadow_01.mp3"},
+    {"id": "s2", "chinese": "我们先把行李放到路边，马上回去取。", "pinyin": "Wǒmen xiān bǎ xíngli fàng dào lù biān, mǎshàng huí qù qǔ.", "japanese": "まず荷物を道端に置いて、すぐ取りに戻ろう。", "audio": "/audio/lesson32/shadow_02.mp3"},
+    {"id": "s3", "chinese": "我来把大家的包和水壶检查一遍。", "pinyin": "Wǒ lái bǎ dàjiā de bāo hé shuǐhú jiǎnchá yī biàn.", "japanese": "みんなのバッグと水筒を一通り確認するよ。", "audio": "/audio/lesson32/shadow_03.mp3"},
+    {"id": "s4", "chinese": "把最重要的东西忘了……", "pinyin": "Bǎ zuì zhòngyào de dōngxi wàng le……", "japanese": "一番大事なものを忘れた……", "audio": "/audio/lesson32/shadow_04.mp3"},
+    {"id": "s5", "chinese": "把所有东西列成清单检查一遍。", "pinyin": "Bǎ suǒyǒu dōngxi liè chéng qīngdān jiǎnchá yī biàn.", "japanese": "全部リストにまとめて確認すること。", "audio": "/audio/lesson32/shadow_05.mp3"},
+    {"id": "s6", "chinese": "我已经把它收好了放柜台里了。", "pinyin": "Wǒ yǐjīng bǎ tā shōu hǎo le fàng guìtái lǐ le.", "japanese": "もうきちんとしまってカウンターに置きましたよ。", "audio": "/audio/lesson32/shadow_06.mp3"},
+    {"id": "s7", "chinese": "快把地图带出来，我们出发吧。", "pinyin": "Kuài bǎ dìtú dài chū lái, wǒmen chūfā ba.", "japanese": "早く地図を持ち出して、出発しよう。", "audio": "/audio/lesson32/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "健", "is_learner": true, "chinese": "啊！我把地图忘在宿舍了！就放在桌子上！", "pinyin": "A! Wǒ bǎ dìtú wàng zài sùshè le! Jiù fàng zài zhuōzi shàng!", "japanese": "あ！地図を宿に忘れてきた！テーブルの上に置いたまま！", "audio": "/audio/lesson32/conv_01.mp3", "panel_id": 1},
+    {"id": "c2", "speaker": "鈴鐺", "is_learner": false, "chinese": "什么！？那可是我们唯一的地图！赶快回去拿！", "pinyin": "Shénme!? Nà kěshì wǒmen wéiyī de dìtú! Gǎnkuài huí qù ná!", "japanese": "えっ！？あれが唯一の地図なのに！急いで取りに戻って！", "audio": "/audio/lesson32/conv_02.mp3", "panel_id": 1},
+    {"id": "c3", "speaker": "飛虎", "is_learner": false, "chinese": "别慌。我们先把行李放到路边，马上回去取。", "pinyin": "Bié huāng. Wǒmen xiān bǎ xíngli fàng dào lù biān, mǎshàng huí qù qǔ.", "japanese": "慌てるな。まず荷物を道端に置いて、すぐ取りに戻ろう。", "audio": "/audio/lesson32/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "老王", "is_learner": false, "chinese": "好，我来把大家的包和水壶检查一遍，确认好了再出发。这次别再漏掉什么！", "pinyin": "Hǎo, wǒ lái bǎ dàjiā de bāo hé shuǐhú jiǎnchá yī biàn, quèrèn hǎo le zài chūfā. Zhè cì bié zài lòudiào shénme!", "japanese": "わかった、みんなのバッグと水筒を一通り確認して、確認できたら出発しよう。今度は何も漏らさないで！", "audio": "/audio/lesson32/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "健", "is_learner": true, "chinese": "我真是太粗心了……把最重要的东西忘了。", "pinyin": "Wǒ zhēnshi tài cūxīn le…… bǎ zuì zhòngyào de dōngxi wàng le.", "japanese": "本当に不注意すぎる……一番大事なものを忘れた。", "audio": "/audio/lesson32/conv_05.mp3", "panel_id": 2},
+    {"id": "c6", "speaker": "飛虎", "is_learner": false, "chinese": "下次出发前，把所有东西列成清单检查一遍。", "pinyin": "Xià cì chūfā qián, bǎ suǒyǒu dōngxi liè chéng qīngdān jiǎnchá yī biàn.", "japanese": "次の出発前に、全部リストにまとめて確認すること。", "audio": "/audio/lesson32/conv_06.mp3", "panel_id": 2},
+    {"id": "c7", "speaker": "健", "is_learner": true, "chinese": "啊！地图还在！没被人拿走！", "pinyin": "A! Dìtú hái zài! Méi bèi rén ná zǒu!", "japanese": "あ！地図がまだある！誰かに持って行かれてなかった！", "audio": "/audio/lesson32/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "宿屋主人", "is_learner": false, "chinese": "你们回来了？我已经把它收好了放柜台里了。", "pinyin": "Nǐmen huí lái le? Wǒ yǐjīng bǎ tā shōu hǎo le fàng guìtái lǐ le.", "japanese": "戻ってきたの？もうきちんとしまってカウンターに置きましたよ。", "audio": "/audio/lesson32/conv_08.mp3", "panel_id": 3},
+    {"id": "c9", "speaker": "健", "is_learner": true, "chinese": "谢谢！您真是太好了！我把感谢写进心里了！", "pinyin": "Xièxiè! Nín zhēnshi tài hǎo le! Wǒ bǎ gǎnxiè xiě jìn xīnlǐ le!", "japanese": "ありがとうございます！本当に良い方！感謝を心に刻みました！", "audio": "/audio/lesson32/conv_09.mp3", "panel_id": 3},
+    {"id": "c10", "speaker": "飛虎", "is_learner": false, "chinese": "拿到了吗？快把地图带出来，我们出发吧。", "pinyin": "Ná dào le ma? Kuài bǎ dìtú dài chū lái, wǒmen chūfā ba.", "japanese": "取れたか？早く地図を持ち出して、出発しよう。", "audio": "/audio/lesson32/conv_10.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "「把」字句チート確定！普通の「我忘了地图」より「我把地图忘在宿舍了」の方がどこに何をどうしたかまで強調できる。ゲームの行動ログ表示みたい——[健]は[地図]を[テーブル]の上に[置き忘れた]。UIで完全可視化されてる感じ。「包（bāo）バッグ」「马上（mǎshàng）すぐに」がスキル登録。宿屋のおじさん、神対応すぎて経験値が爆上がりした。",
+  "study_notes": [
+    "「把」字句の基本形：主語＋把＋目的語＋動詞＋補語。「把地图忘在宿舍了」",
+    "「把」字句＋結果補語：「把〜收好」「把〜列成〜」",
+    "「把」字句＋複合趨向補語：「把地图带出来（持ち出す）」",
+    "結果補語「走」：移動して去る結果。「被人拿走（持って行かれた）」",
+    "【新出未使用語彙】包（bāo）バッグ、马上（mǎshàng）すぐに"
+  ]
+}

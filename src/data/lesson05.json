@@ -1,0 +1,188 @@
+{
+  "id": 5,
+  "title": "我介绍一下儿",
+  "theme": "相識",
+  "grammar": [
+    "動詞謂語文",
+    "領属関係を表す定語（的）",
+    "是字句①"
+  ],
+  "hsk_level": 2,
+
+  "scene_description": "老王の店に、黒い武術着の若者・飛虎が入ってきた。全身から「一匹狼」オーラが漂うクールキャラで、老王とは顔なじみらしい。老王の紹介で健と対面することになるが、飛虎は最低限の言葉しか返さない。しかし玲が妹・鈴鐺の話を振ると、その表情がわずかに和らいだ。翌日、鈴鐺がこの村に来るという話に、健のスキルUIが「イベントフラグ：解放」と点滅する。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson05/panel_01.jpg",
+      "caption": "黒い武術着の飛虎が老王の店に入ってくる。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson05/panel_02.jpg",
+      "caption": "老王が健と飛虎を紹介し合う。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson05/panel_03.jpg",
+      "caption": "妹・鈴鐺の話を振られ、表情が和らぐ飛虎。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson05/panel_04.jpg",
+      "caption": "スキルUIに「イベントフラグ：解放」が点滅する。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "我介绍一下儿。",
+      "pinyin": "Wǒ jièshào yīxiàr.",
+      "japanese": "紹介します。",
+      "audio": "/audio/lesson05/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "这是健，他是日本人。",
+      "pinyin": "Zhè shì Jiàn, tā shì Rìběn rén.",
+      "japanese": "こちらは健、日本人です。",
+      "audio": "/audio/lesson05/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "你是做什么的？",
+      "pinyin": "Nǐ shì zuò shénme de?",
+      "japanese": "何をしている人ですか？",
+      "audio": "/audio/lesson05/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "我是学生。",
+      "pinyin": "Wǒ shì xuésheng.",
+      "japanese": "私は学生です。",
+      "audio": "/audio/lesson05/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "你是武术家吗？",
+      "pinyin": "Nǐ shì wǔshùjiā ma?",
+      "japanese": "あなたは武術家ですか？",
+      "audio": "/audio/lesson05/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "你的妹妹最近在哪儿？",
+      "pinyin": "Nǐ de mèimei zuìjìn zài nǎr?",
+      "japanese": "妹さんは最近どこにいますか？",
+      "audio": "/audio/lesson05/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "虽然路很长，她一定能来。",
+      "pinyin": "Suīrán lù hěn cháng, tā yīdìng néng lái.",
+      "japanese": "道は長いが、必ず来るだろう。",
+      "audio": "/audio/lesson05/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "别客气。",
+      "pinyin": "Bié kèqi.",
+      "japanese": "遠慮しないでください。",
+      "audio": "/audio/lesson05/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "哎，飞虎！你来啦！",
+      "pinyin": "Āi, Fēi Hǔ! Nǐ lái la!",
+      "japanese": "おい、飛虎！来たか！",
+      "audio": "/audio/lesson05/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "嗯。老王，最近生意怎么样？",
+      "pinyin": "Ń. Lǎo Wáng, zuìjìn shēngyi zěnmeyàng?",
+      "japanese": "ああ。最近商売はどうだ？",
+      "audio": "/audio/lesson05/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "很好！来，我介绍一下儿。这是健，他是日本人。",
+      "pinyin": "Hěn hǎo! Lái, wǒ jièshào yīxiàr. Zhè shì Jiàn, tā shì Rìběn rén.",
+      "japanese": "いいぞ！紹介しよう。こちらは健、日本人だ。",
+      "audio": "/audio/lesson05/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……别客气。你是做什么的？",
+      "pinyin": "……Bié kèqi. Nǐ shì zuò shénme de?",
+      "japanese": "……遠慮するな。何をしている者だ？",
+      "audio": "/audio/lesson05/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "我是学生。你是武术家吗？",
+      "pinyin": "Wǒ shì xuésheng. Nǐ shì wǔshùjiā ma?",
+      "japanese": "学生です。あなたは武術家ですか？",
+      "audio": "/audio/lesson05/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……算是吧。",
+      "pinyin": "……Suànshì ba.",
+      "japanese": "……まあ、そんなところだ。",
+      "audio": "/audio/lesson05/conv_06.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c7",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "飞虎，你的妹妹最近在哪儿？",
+      "pinyin": "Fēi Hǔ, nǐ de mèimei zuìjìn zài nǎr?",
+      "japanese": "飛虎、妹さんは最近どこにいるの？",
+      "audio": "/audio/lesson05/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "铃铛吗……她说明天要来这个村子。虽然路很长，她一定能来。",
+      "pinyin": "Líng Dāng ma……tā shuō míngtiān yào lái zhège cūnzi. Suīrán lù hěn cháng, tā yīdìng néng lái.",
+      "japanese": "鈴鐺か……明日この村に来ると言っていた。道は長いが、必ず来るだろう。",
+      "audio": "/audio/lesson05/conv_08.mp3",
+      "panel_id": 3
+    }
+  ],
+
+  "ken_monologue": "飛虎、初対面から「ラスボス予備軍」オーラだったけど、妹の話で一瞬だけ普通の顔になった。「クールキャラだけど妹には弱い」フラグ、ガチで回収されてる……。「别（bié）するな」「虽然（suīrán）〜だが」「长（cháng）長い」がスキル登録。語彙が広がってきた！",
+
+  "study_notes": [
+    "「我介绍一下儿」＝紹介します（「一下儿」でソフトに）",
+    "「这是○○，他/她是○○」＝こちらは○○（是字句）",
+    "「你是做什么的？」＝何をしている人ですか？",
+    "「你的妹妹」＝あなたの妹（「的」で所属を表す）",
+    "【新出未使用語彙】别（bié）するな、虽然（suīrán）〜だが、长（cháng）長い"
+  ]
+}

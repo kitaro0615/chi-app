@@ -1,0 +1,47 @@
+{
+  "id": 39,
+  "title": "不能送你去机场了",
+  "theme": "見送り①",
+  "grammar": [
+    "複合補語",
+    "能願動詞の応用"
+  ],
+  "hsk_level": 4,
+  "scene_description": "天水城に到着した一行。スキルUIの言語習得レベルがあと一歩でMAX。そのとき城内の掲示板に飛虎の名前が書かれた張り紙を発見。飛虎が「先に進んでいけるか？」と問いかけると健は「できる！こんなところで止まれない」と答える。飛虎は通行証を渡し「必ず戻ってこられる」と言い残して去って行く。飛虎が去った後、スキルUIに「最終フェーズ：開始」と表示された。",
+  "manga_panels": [
+    {"panel_id": 1, "image": "/images/lesson39/panel_01.jpg", "caption": "天水城の掲示板に飛虎の名前が。険しい顔の飛虎。"},
+    {"panel_id": 2, "image": "/images/lesson39/panel_02.jpg", "caption": "「次の目的地まで送れなくなった」と告げる飛虎。驚く健。"},
+    {"panel_id": 3, "image": "/images/lesson39/panel_03.jpg", "caption": "「一人で進んでいけるか？」「できる！止まれない！」"},
+    {"panel_id": 4, "image": "/images/lesson39/panel_04.jpg", "caption": "通行証を渡して去る飛虎。「必ず戻ってこられる」スキルUIに「最終フェーズ」"}
+  ],
+  "shadowing_base": [
+    {"id": "s1", "chinese": "我不能送你到下一个目的地了。", "pinyin": "Wǒ bù néng sòng nǐ dào xià yīgè mùdìdì le.", "japanese": "次の目的地まで送って行けなくなった。", "audio": "/audio/lesson39/shadow_01.mp3"},
+    {"id": "s2", "chinese": "我必须先解决这件事。", "pinyin": "Wǒ bìxū xiān jiějué zhè jiàn shì.", "japanese": "まずこの件を解決しなければならない。", "audio": "/audio/lesson39/shadow_02.mp3"},
+    {"id": "s3", "chinese": "你能一个人继续走下去吗？", "pinyin": "Nǐ néng yīgèrén jìxù zǒu xiàqù ma?", "japanese": "一人で先に進んでいけるか？", "audio": "/audio/lesson39/shadow_03.mp3"},
+    {"id": "s4", "chinese": "我学了这么多中文，不能就这样停下来！要达到最后的目标！", "pinyin": "Wǒ xuéle zhème duō zhōngwén, bù néng jiù zhèyàng tíng xiàlái! Yào dádào zuìhòu de mùbiāo!", "japanese": "こんなに中国語を学んできた。こんなところで止まれない！最後の目標を達成するんだ！", "audio": "/audio/lesson39/shadow_04.mp3"},
+    {"id": "s5", "chinese": "一个人走不进城里的禁区。", "pinyin": "Yīgèrén zǒu bù jìn chénglǐ de jìnqū.", "japanese": "一人では城内の禁区に入れない。", "audio": "/audio/lesson39/shadow_05.mp3"},
+    {"id": "s6", "chinese": "这是我的通行证，你拿得进去。", "pinyin": "Zhè shì wǒ de tōngxíngzhèng, nǐ ná de jìnqù.", "japanese": "私の通行証だ。これがあれば入れる。", "audio": "/audio/lesson39/shadow_06.mp3"},
+    {"id": "s7", "chinese": "放心。我一定回得来。", "pinyin": "Fàngxīn. Wǒ yīdìng huí de lái.", "japanese": "安心しろ。必ず戻ってこられる。", "audio": "/audio/lesson39/shadow_07.mp3"}
+  ],
+  "conversation": [
+    {"id": "c1", "speaker": "飛虎", "is_learner": false, "chinese": "健，我不能送你到下一个目的地了。", "pinyin": "Jiàn, wǒ bù néng sòng nǐ dào xià yīgè mùdìdì le.", "japanese": "健、次の目的地まで送って行けなくなった。", "audio": "/audio/lesson39/conv_01.mp3", "panel_id": 2},
+    {"id": "c2", "speaker": "健", "is_learner": true, "chinese": "什么？为什么突然这样？", "pinyin": "Shénme? Wèishénme tūrán zhèyàng?", "japanese": "何？なぜ急に？", "audio": "/audio/lesson39/conv_02.mp3", "panel_id": 2},
+    {"id": "c3", "speaker": "飛虎", "is_learner": false, "chinese": "那是我的名字。我必须先解决这件事。", "pinyin": "Nà shì wǒ de míngzi. Wǒ bìxū xiān jiějué zhè jiàn shì.", "japanese": "あれは私の名前だ。まずこの件を解決しなければならない。", "audio": "/audio/lesson39/conv_03.mp3", "panel_id": 2},
+    {"id": "c4", "speaker": "健", "is_learner": true, "chinese": "飞虎，你到底是什么人？", "pinyin": "Fēi Hǔ, nǐ dàodǐ shì shénme rén?", "japanese": "飛虎、一体何者なんだ？", "audio": "/audio/lesson39/conv_04.mp3", "panel_id": 2},
+    {"id": "c5", "speaker": "飛虎", "is_learner": false, "chinese": "以后再说。现在，你能一个人继续走下去吗？", "pinyin": "Yǐhòu zài shuō. Xiànzài, nǐ néng yīgèrén jìxù zǒu xiàqù ma?", "japanese": "後で話す。一人で先に進んでいけるか？", "audio": "/audio/lesson39/conv_05.mp3", "panel_id": 3},
+    {"id": "c6", "speaker": "健", "is_learner": true, "chinese": "……能！我学了这么多中文，不能就这样停下来！要达到最后的目标！", "pinyin": "……Néng! Wǒ xuéle zhème duō zhōngwén, bù néng jiù zhèyàng tíng xiàlái! Yào dádào zuìhòu de mùbiāo!", "japanese": "……できる！こんなに中国語を学んできた。こんなところで止まれない！最後の目標を達成するんだ！", "audio": "/audio/lesson39/conv_06.mp3", "panel_id": 3},
+    {"id": "c7", "speaker": "飛虎", "is_learner": false, "chinese": "好。但是要小心，一个人走不进城里的禁区。", "pinyin": "Hǎo. Dànshì yào xiǎoxīn, yīgèrén zǒu bù jìn chénglǐ de jìnqū.", "japanese": "よし。ただし一人では城内の禁区に入れない。", "audio": "/audio/lesson39/conv_07.mp3", "panel_id": 3},
+    {"id": "c8", "speaker": "健", "is_learner": true, "chinese": "走不进去？", "pinyin": "Zǒu bù jìnqù?", "japanese": "入っていけないの？", "audio": "/audio/lesson39/conv_08.mp3", "panel_id": 4},
+    {"id": "c9", "speaker": "飛虎", "is_learner": false, "chinese": "拿着这个。这是我的通行证，你拿得进去。", "pinyin": "Názhe zhège. Zhè shì wǒ de tōngxíngzhèng, nǐ ná de jìnqù.", "japanese": "これを持っていけ。私の通行証だ。これがあれば入れる。", "audio": "/audio/lesson39/conv_09.mp3", "panel_id": 4},
+    {"id": "c10", "speaker": "健", "is_learner": true, "chinese": "……飞虎，你一定要回来！", "pinyin": "……Fēi Hǔ, nǐ yīdìng yào huílai!", "japanese": "飛虎、必ず戻ってきて！", "audio": "/audio/lesson39/conv_10.mp3", "panel_id": 4},
+    {"id": "c11", "speaker": "飛虎", "is_learner": false, "chinese": "放心。我一定回得来。", "pinyin": "Fàngxīn. Wǒ yīdìng huí de lái.", "japanese": "安心しろ。必ず戻ってこられる。", "audio": "/audio/lesson39/conv_11.mp3", "panel_id": 4}
+  ],
+  "ken_monologue": "「走不进去」「回得来」——複合補語が実戦で炸裂した。方向補語と結果補語が組み合わさった最高難度スキル。飛虎との別れ……これ絶対後半で再登場するフラグだよ。俺のパーティー、壮絶な展開になってきた。「达到（dádào）達する」「最后（zuìhòu）最後」がスキル登録。「最後の目標を達成する」——この一言が健の全てだ。",
+  "study_notes": [
+    "複合補語：方向補語＋結果の意味が重なる（走进去・拿进来）",
+    "能願動詞の応用：「能」は能力・可能性、「必须」は義務・強制",
+    "可能補語の肯定/否定：「走得进去」vs「走不进去」",
+    "「必须」（bìxū）：「必ず〜しなければならない」",
+    "【新出未使用語彙】达到（dádào）達する・到達する"
+  ]
+}

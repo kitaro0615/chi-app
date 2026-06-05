@@ -1,0 +1,200 @@
+{
+  "id": 20,
+  "title": "为我们的友谊干杯",
+  "theme": "もてなし",
+  "grammar": [
+    "状態補語",
+    "程度補語と目的語"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "夕刻、迎賓館の宴会場に灯りが灯った。扉が開き豪快な笑い声とともに老王が到着——パーティ全員集合。長老の音頭で「友情のために乾杯！」。ぴりっと辛い酒にむせながらも健は「楽しく飲めてる！」と笑う。飛虎が珍しく微笑み「本当に楽しそうに笑っているな」と声をかける。老王がプレゼントの布を広げた瞬間、健は息を飲んだ——そこには見覚えのある文字が刻まれていた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson20/panel_01.jpg",
+      "caption": "老王が豪快な笑い声とともに宴会場に登場。全員集合！"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson20/panel_02.jpg",
+      "caption": "長老の音頭で「友情のために乾杯！」全員が杯を上げる。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson20/panel_03.jpg",
+      "caption": "辛い酒にむせながら「楽しく飲めてる！」と笑う健。飛虎が珍しく微笑む。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson20/panel_04.jpg",
+      "caption": "老王が広げた布に見覚えのある文字。健が息を飲む。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "大家都到了！太好了！",
+      "pinyin": "Dàjiā dōu dào le! Tài hǎo le!",
+      "japanese": "みんな揃ったか！よかった！",
+      "audio": "/audio/lesson20/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "做得非常顺利！",
+      "pinyin": "Zuò de fēicháng shùnlì!",
+      "japanese": "とても順調にできました！",
+      "audio": "/audio/lesson20/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "为大家的友谊，干杯！",
+      "pinyin": "Wèi dàjiā de yǒuyì, gānbēi!",
+      "japanese": "皆さんの友情のために、乾杯！",
+      "audio": "/audio/lesson20/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "你喝得怎么样？好喝吗？",
+      "pinyin": "Nǐ hē de zěnmeyàng? Hǎohē ma?",
+      "japanese": "飲んでみてどう？おいしい？",
+      "audio": "/audio/lesson20/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "辣得很！但是……喝得很高兴！",
+      "pinyin": "Là de hěn! Dànshì……hē de hěn gāoxìng!",
+      "japanese": "辛い！でも……楽しく飲めてる！",
+      "audio": "/audio/lesson20/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "你笑得真开心。",
+      "pinyin": "Nǐ xiào de zhēn kāixīn.",
+      "japanese": "本当に楽しそうに笑っているな。",
+      "audio": "/audio/lesson20/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "因为大家都在这里。真的很开心！谢谢大家！",
+      "pinyin": "Yīnwèi dàjiā dōu zài zhèlǐ. Zhēn de hěn kāixīn! Xièxiè dàjiā!",
+      "japanese": "みんながいるから。本当に嬉しい！ありがとう！",
+      "audio": "/audio/lesson20/shadow_07.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "哈哈！大家都到了！太好了！",
+      "pinyin": "Hāhā! Dàjiā dōu dào le! Tài hǎo le!",
+      "japanese": "はは！みんな揃ったか！よかった！",
+      "audio": "/audio/lesson20/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "老王！商务顺利吗？",
+      "pinyin": "Lǎo Wáng! Shāngwù shùnlì ma?",
+      "japanese": "老王！商談はうまくいきましたか？",
+      "audio": "/audio/lesson20/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "当然！做得非常顺利！今天我请客！",
+      "pinyin": "Dāngrán! Zuò de fēicháng shùnlì! Jīntiān wǒ qǐngkè!",
+      "japanese": "もちろん！とても順調！今日は私のおごりだ！",
+      "audio": "/audio/lesson20/conv_03.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c4",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "那么，我们举杯。为大家的友谊，干杯！",
+      "pinyin": "Nàme, wǒmen jǔ bēi. Wèi dàjiā de yǒuyì, gānbēi!",
+      "japanese": "では、杯を上げましょう。皆さんの友情のために、乾杯！",
+      "audio": "/audio/lesson20/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "全員",
+      "is_learner": false,
+      "chinese": "干杯！",
+      "pinyin": "Gānbēi!",
+      "japanese": "乾杯！",
+      "audio": "/audio/lesson20/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "鈴鐺",
+      "is_learner": false,
+      "chinese": "健，你喝得怎么样？好喝吗？",
+      "pinyin": "Jiàn, nǐ hē de zěnmeyàng? Hǎohē ma?",
+      "japanese": "健、飲んでみてどう？おいしい？",
+      "audio": "/audio/lesson20/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "辣得很！但是……喝得很高兴！满意！",
+      "pinyin": "Là de hěn! Dànshì……hē de hěn gāoxìng! Mǎnyì!",
+      "japanese": "辛い！でも……楽しく飲めてる！満足！",
+      "audio": "/audio/lesson20/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "这次旅途，给大家带来了礼物！",
+      "pinyin": "Zhè cì lǚtú, gěi dàjiā dài lái le lǐwù!",
+      "japanese": "今回の旅路、みんなへのプレゼントを持ってきたぞ！",
+      "audio": "/audio/lesson20/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……你笑得真开心。",
+      "pinyin": "……Nǐ xiào de zhēn kāixīn.",
+      "japanese": "……本当に楽しそうに笑っているな。",
+      "audio": "/audio/lesson20/conv_09.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c10",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "是啊！因为大家都在这里。真的很开心！谢谢大家！",
+      "pinyin": "Shì a! Yīnwèi dàjiā dōu zài zhèlǐ. Zhēn de hěn kāixīn! Xièxiè dàjiā!",
+      "japanese": "そうだよ！みんながいるから。本当に嬉しい！ありがとう！",
+      "audio": "/audio/lesson20/conv_10.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「辣得很」「喝得很高兴」「笑得真开心」——状態補語の三連コンボ。「动词＋得＋状态」でどのように〜しているかを表す。飛虎が笑った……！ガチで笑った！スキルUIに「飛虎好感度：大幅UP」が表示された（妄想込み）。「满意（mǎnyì）満足する」「礼物（lǐwù）プレゼント」がスキル登録。これにて上巻完了。次のステージへ！",
+
+  "study_notes": [
+    "状態補語：「动词＋得＋形容词」＝どのように～している（「喝得很高兴」）",
+    "程度補語と目的語：「辣得很」＝とても辛い",
+    "「为……干杯」＝～のために乾杯",
+    "「做得非常顺利」＝とても順調にできました",
+    "【新出未使用語彙】满意（mǎnyì）満足する、礼物（lǐwù）プレゼント"
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": 4,
+  "title": "（問候・相識）",
+  "theme": "問候・相識",
+  "grammar": [
+    "形容詞謂語文"
+  ],
+  "hsk_level": 2,
+
+  "scene_description": "老王の店に連れて行ってもらった健。雑多な商品でぎっしりの店内はまるでアイテムショップ。老王が誇らしそうに商品を見せ始めると、スキルUIに「形容詞謂語文」チュートリアルがポップアップ。布地の手触り、色、値段……形容詞を使いながらの買い物会話が始まる。そして老王が「ちょっと待て」と手を上げた瞬間、店の扉が乱暴に開いた。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson04/panel_01.jpg",
+      "caption": "商品ぎっしりの老王の店。スキルUIに「形容詞謂語文」が浮かぶ。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson04/panel_02.jpg",
+      "caption": "布地を触りながら「很软！」と感想を言う健。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson04/panel_03.jpg",
+      "caption": "香辛料を嗅いで「太香了！」と仰け反る健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson04/panel_04.jpg",
+      "caption": "老王が手を上げた瞬間、店の扉が乱暴に開く。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "这个很软。",
+      "pinyin": "Zhège hěn ruǎn.",
+      "japanese": "これはとても柔らかい。",
+      "audio": "/audio/lesson04/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "这个布很贵，但是很好！",
+      "pinyin": "Zhège bù hěn guì, dànshì hěn hǎo!",
+      "japanese": "この布は高いが品質がいい！",
+      "audio": "/audio/lesson04/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "那个是什么颜色？",
+      "pinyin": "Nàge shì shénme yánsè?",
+      "japanese": "あれは何色ですか？",
+      "audio": "/audio/lesson04/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "是红色还是黑色？",
+      "pinyin": "Shì hóngsè háishi hēisè?",
+      "japanese": "赤ですか、それとも黒ですか？",
+      "audio": "/audio/lesson04/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "不贵，很便宜！",
+      "pinyin": "Bú guì, hěn piányi!",
+      "japanese": "高くない、安い！",
+      "audio": "/audio/lesson04/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "这个怎么样？",
+      "pinyin": "Zhège zěnmeyàng?",
+      "japanese": "これはどうですか？",
+      "audio": "/audio/lesson04/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "非常香！太香了！",
+      "pinyin": "Fēicháng xiāng! Tài xiāng le!",
+      "japanese": "すごくいい香り！香りが強すぎる！",
+      "audio": "/audio/lesson04/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "没关系，慢慢学！",
+      "pinyin": "Méiguānxi, mànman xué!",
+      "japanese": "大丈夫、少しずつ覚えなさい！",
+      "audio": "/audio/lesson04/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "来，看看！这个怎么样？",
+      "pinyin": "Lái, kànkan! Zhège zěnmeyàng?",
+      "japanese": "さあ、見てみろ！これはどうだ？",
+      "audio": "/audio/lesson04/conv_01.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c2",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "这个很软。",
+      "pinyin": "Zhège hěn ruǎn.",
+      "japanese": "これはとても柔らかい。",
+      "audio": "/audio/lesson04/conv_02.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c3",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "对！这个布很贵，但是很好！",
+      "pinyin": "Duì! Zhège bù hěn guì, dànshì hěn hǎo!",
+      "japanese": "その通り！高いが品質がいい！",
+      "audio": "/audio/lesson04/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "那个是什么颜色？是红色还是黑色？",
+      "pinyin": "Nàge shì shénme yánsè? Shì hóngsè háishi hēisè?",
+      "japanese": "あれは何色ですか？赤ですか、それとも黒ですか？",
+      "audio": "/audio/lesson04/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "那个是黑色的，而且很新！不贵，很便宜！",
+      "pinyin": "Nàge shì hēisè de, érqiě hěn xīn! Bú guì, hěn piányi!",
+      "japanese": "あれは黒で、しかも新しい！高くない、安い！",
+      "audio": "/audio/lesson04/conv_05.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c6",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "……贵还是便宜，我不太清楚。",
+      "pinyin": "……guì háishi piányi, wǒ bú tài qīngchǔ.",
+      "japanese": "高いのか安いのか、よくわかりません。",
+      "audio": "/audio/lesson04/conv_06.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c7",
+      "speaker": "老王",
+      "is_learner": false,
+      "chinese": "哈哈！没关系，慢慢学！",
+      "pinyin": "Hāhā! Méiguānxi, mànman xué!",
+      "japanese": "大丈夫、少しずつ覚えなさい！",
+      "audio": "/audio/lesson04/conv_07.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c8",
+      "speaker": "玲",
+      "is_learner": false,
+      "chinese": "健，这个香料香不香？",
+      "pinyin": "Jiàn, zhège xiāngliào xiāng bu xiāng?",
+      "japanese": "健、この香辛料、いい香り？",
+      "audio": "/audio/lesson04/conv_08.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c9",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "非常香！太香了！",
+      "pinyin": "Fēicháng xiāng! Tài xiāng le!",
+      "japanese": "すごくいい！香りが強すぎる！",
+      "audio": "/audio/lesson04/conv_09.mp3",
+      "panel_id": 3
+    }
+  ],
+
+  "ken_monologue": "形容詞謂語文——「这个很贵」で「これ＝高い」が成立。日本語の「は」「が」の代わりに「很」を挟むだけ。形容詞に「很」がデフォルトで付いてくるゲームシステム。これ、バフ効果みたいなもんだ。「红（hóng）赤」「黑（hēi）黒」「新（xīn）新しい」がスキル登録。色彩スキルが開放された！",
+
+  "study_notes": [
+    "形容詞謂語文：「主語＋很＋形容詞」が基本形",
+    "「这个很贵／很便宜」＝これは高い／安い",
+    "「不贵」＝高くない（「不」で形容詞を否定）",
+    "「～怎么样？」＝～はどうですか？",
+    "【新出未使用語彙】红（hóng）赤い、黑（hēi）黒い、新（xīn）新しい"
+  ]
+}

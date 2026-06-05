@@ -1,0 +1,207 @@
+{
+  "id": 18,
+  "title": "路上辛苦了",
+  "theme": "出迎え①",
+  "grammar": [
+    "「要……了」",
+    "「是……的」構文"
+  ],
+  "hsk_level": 3,
+
+  "scene_description": "ついに龍泉城の城門が見えてきた。城門の前に白い長衣を纏った長老が立って待っていた。「運命で決まっていた」という長老の言葉に頭が真っ白になる健。「是……的」構文で日本から来た経緯を確認され、この都市の物語の一部になったと告げられる。さらに武術大師・云海先生の存在も明かされる。「云海先生」という名前を聞いた瞬間、飛虎の表情が微かに変わった。",
+
+  "manga_panels": [
+    {
+      "panel_id": 1,
+      "image": "/images/lesson18/panel_01.jpg",
+      "caption": "龍泉城の城門。白い長衣の長老が待ち構えている。"
+    },
+    {
+      "panel_id": 2,
+      "image": "/images/lesson18/panel_02.jpg",
+      "caption": "「運命で決まっていた」という長老の言葉に固まる健。"
+    },
+    {
+      "panel_id": 3,
+      "image": "/images/lesson18/panel_03.jpg",
+      "caption": "「是从日本来的」と経緯を確認される健。"
+    },
+    {
+      "panel_id": 4,
+      "image": "/images/lesson18/panel_04.jpg",
+      "caption": "「云海先生」の名前を聞いた瞬間、飛虎の表情が微かに変わる。"
+    }
+  ],
+
+  "shadowing_base": [
+    {
+      "id": "s1",
+      "chinese": "路上辛苦了。你们终于来了。",
+      "pinyin": "Lùshàng xīnkǔ le. Nǐmen zhōngyú lái le.",
+      "japanese": "道中お疲れさまでした。ようやく来ましたね。",
+      "audio": "/audio/lesson18/shadow_01.mp3"
+    },
+    {
+      "id": "s2",
+      "chinese": "他来龙泉城，是命中注定的。",
+      "pinyin": "Tā lái Lóngquán Chéng, shì mìngzhōng zhùdìng de.",
+      "japanese": "彼が龍泉城に来るのは運命です。",
+      "audio": "/audio/lesson18/shadow_02.mp3"
+    },
+    {
+      "id": "s3",
+      "chinese": "你是从那个世界来的，是吗？",
+      "pinyin": "Nǐ shì cóng nàge shìjiè lái de, shì ma?",
+      "japanese": "あなたはあちらの世界から来た、そうですね？",
+      "audio": "/audio/lesson18/shadow_03.mp3"
+    },
+    {
+      "id": "s4",
+      "chinese": "我是从日本来的。是这样的。",
+      "pinyin": "Wǒ shì cóng Rìběn lái de. Shì zhèyàng de.",
+      "japanese": "日本から来ました。そうです。",
+      "audio": "/audio/lesson18/shadow_04.mp3"
+    },
+    {
+      "id": "s5",
+      "chinese": "你来了，就是故事的一部分。",
+      "pinyin": "Nǐ lái le, jiùshì gùshi de yī bùfen.",
+      "japanese": "あなたが来たことで、その物語の一部になった。",
+      "audio": "/audio/lesson18/shadow_05.mp3"
+    },
+    {
+      "id": "s6",
+      "chinese": "他最近出城了，不知道何时回来。",
+      "pinyin": "Tā zuìjìn chū chéng le, bù zhīdào héshí huí lái.",
+      "japanese": "最近城を出られて、いつ戻るかわかりません。",
+      "audio": "/audio/lesson18/shadow_06.mp3"
+    },
+    {
+      "id": "s7",
+      "chinese": "老王托人送来口信，说他也快到了。",
+      "pinyin": "Lǎo Wáng tuō rén sòng lái kǒuxìn, shuō tā yě kuài dào le.",
+      "japanese": "老王が伝言を送ってきました。もうすぐ到着すると。",
+      "audio": "/audio/lesson18/shadow_07.mp3"
+    },
+    {
+      "id": "s8",
+      "chinese": "今晚大家一起聚聚吧。",
+      "pinyin": "Jīnwǎn dàjiā yīqǐ jùjù ba.",
+      "japanese": "今夜みんなで集まりましょう。",
+      "audio": "/audio/lesson18/shadow_08.mp3"
+    }
+  ],
+
+  "conversation": [
+    {
+      "id": "c1",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "路上辛苦了。你们终于来了。",
+      "pinyin": "Lùshàng xīnkǔ le. Nǐmen zhōngyú lái le.",
+      "japanese": "道中お疲れさまでした。ようやく来ましたね。",
+      "audio": "/audio/lesson18/conv_01.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c2",
+      "speaker": "飛虎",
+      "is_learner": false,
+      "chinese": "……元老，你知道我们要来？",
+      "pinyin": "……Yuánlǎo, nǐ zhīdào wǒmen yào lái?",
+      "japanese": "……元老、私たちが来ることを知っていたのですか？",
+      "audio": "/audio/lesson18/conv_02.mp3",
+      "panel_id": 1
+    },
+    {
+      "id": "c3",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "是的。他来龙泉城，是命中注定的。",
+      "pinyin": "Shì de. Tā lái Lóngquán Chéng, shì mìngzhōng zhùdìng de.",
+      "japanese": "そうです。彼が龍泉城に来るのは運命です。",
+      "audio": "/audio/lesson18/conv_03.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c4",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "他……是我吗？",
+      "pinyin": "Tā……shì wǒ ma?",
+      "japanese": "彼……私のことですか？",
+      "audio": "/audio/lesson18/conv_04.mp3",
+      "panel_id": 2
+    },
+    {
+      "id": "c5",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "你是从那个世界来的，是吗？我们一直在等你。",
+      "pinyin": "Nǐ shì cóng nàge shìjiè lái de, shì ma? Wǒmen yīzhí zài děng nǐ.",
+      "japanese": "あなたはあちらの世界から来た、そうですね？ずっと待っていました。",
+      "audio": "/audio/lesson18/conv_05.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c6",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "……我是从日本来的。是这样的。",
+      "pinyin": "……Wǒ shì cóng Rìběn lái de. Shì zhèyàng de.",
+      "japanese": "……日本から来ました。そうです。",
+      "audio": "/audio/lesson18/conv_06.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c7",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "这座城市有很多故事。你来了，就是故事的一部分。",
+      "pinyin": "Zhè zuò chéngshì yǒu hěn duō gùshi. Nǐ lái le, jiùshì gùshi de yī bùfen.",
+      "japanese": "この都市には多くの物語がある。あなたが来たことで、その物語の一部になった。",
+      "audio": "/audio/lesson18/conv_07.mp3",
+      "panel_id": 3
+    },
+    {
+      "id": "c8",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "对了，我们城里有位了不起的武术大师，叫云海先生。但他最近出城了，不知道何时回来。",
+      "pinyin": "Duìle, wǒmen chéng lǐ yǒu wèi liǎobuqǐ de wǔshù dàshī, jiào Yúnhǎi xiānsheng. Dàn tā zuìjìn chū chéng le, bù zhīdào héshí huí lái.",
+      "japanese": "この城に云海先生という武術大師がいます。ですが最近城を出られて、いつ戻るかわかりません。",
+      "audio": "/audio/lesson18/conv_08.mp3",
+      "panel_id": 4
+    },
+    {
+      "id": "c9",
+      "speaker": "健",
+      "is_learner": true,
+      "chinese": "……云海先生。",
+      "pinyin": "……Yúnhǎi xiānsheng.",
+      "japanese": "……云海先生。",
+      "audio": "/audio/lesson18/conv_09.mp3",
+      "panel_id": 4
+    },
+    {
+      "id": "c10",
+      "speaker": "長老",
+      "is_learner": false,
+      "chinese": "对了，老王托人送来口信，说他也快到了。今晚大家一起聚聚吧。",
+      "pinyin": "Duìle, Lǎo Wáng tuō rén sòng lái kǒuxìn, shuō tā yě kuài dào le. Jīnwǎn dàjiā yīqǐ jùjù ba.",
+      "japanese": "老王が伝言を送ってきました。もうすぐ到着すると。今夜みんなで集まりましょう。",
+      "audio": "/audio/lesson18/conv_10.mp3",
+      "panel_id": 4
+    }
+  ],
+
+  "ken_monologue": "「是……的」構文、到着！「你是从那个世界来的」——経緯・手段を強調する最強の型。え待って。「运命」って言われた。なろう系の主人公ムーブ、ガチで来た……「チートスキル覚醒フラグ？」「城市（chéngshì）都市」「故事（gùshi）物語」がスキル登録。老王の伝言が届いてた。ネットワーク力が異常すぎる。",
+
+  "study_notes": [
+    "「要……了」＝もうすぐ～する（差し迫った変化）",
+    "「是……的」構文：過去の経緯・手段・場所を強調（「是从日本来的」）",
+    "「路上辛苦了」＝道中お疲れさまでした",
+    "「命中注定的」＝運命で決まっていること",
+    "【新出未使用語彙】城市（chéngshì）都市・町、故事（gùshi）物語・話"
+  ]
+}

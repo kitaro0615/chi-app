@@ -16,7 +16,7 @@ export function ShadowingPlayer({ items }: ShadowingPlayerProps) {
 
   if (items.length === 0) {
     return (
-      <p className="text-center text-sm text-slate-500">
+      <p className="text-center text-sm text-slate-500 dark:text-slate-400">
         シャドーイングデータがありません。
       </p>
     );
@@ -46,16 +46,16 @@ export function ShadowingPlayer({ items }: ShadowingPlayerProps) {
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="text-center text-xs font-medium text-slate-500">
+      <div className="text-center text-xs font-medium text-slate-500 dark:text-slate-400">
         {currentIndex + 1} / {items.length}
       </div>
 
-      <div className="rounded-2xl border-2 border-sky-200 bg-white px-6 py-8 text-center shadow-sm">
-        <p className="font-sc text-3xl font-bold leading-relaxed text-slate-900">
+      <div className="rounded-2xl border-2 border-sky-200 bg-white px-6 py-8 text-center shadow-sm dark:border-sky-800 dark:bg-slate-800">
+        <p className="font-sc text-3xl font-bold leading-relaxed text-slate-900 dark:text-slate-100">
           {currentItem.chinese}
         </p>
-        <p className="mt-3 text-lg text-slate-600">{currentItem.pinyin}</p>
-        <p className="mt-2 text-base text-slate-500">{currentItem.japanese}</p>
+        <p className="mt-3 text-lg text-slate-600 dark:text-slate-300">{currentItem.pinyin}</p>
+        <p className="mt-2 text-base text-slate-500 dark:text-slate-400">{currentItem.japanese}</p>
       </div>
 
       <div className="flex items-center justify-center gap-4">
@@ -65,10 +65,10 @@ export function ShadowingPlayer({ items }: ShadowingPlayerProps) {
           disabled={isFirst}
           aria-label="前のフレーズ"
           className={cn(
-            "flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white transition-colors",
+            "flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white transition-colors dark:border-slate-700 dark:bg-slate-800",
             isFirst
               ? "cursor-not-allowed opacity-40"
-              : "hover:border-sky-400 hover:bg-sky-50",
+              : "hover:border-sky-400 hover:bg-sky-50 dark:hover:border-sky-600 dark:hover:bg-sky-900/30",
           )}
         >
           <ChevronLeft className="h-6 w-6" />
@@ -94,10 +94,10 @@ export function ShadowingPlayer({ items }: ShadowingPlayerProps) {
           disabled={isLast}
           aria-label="次のフレーズ"
           className={cn(
-            "flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white transition-colors",
+            "flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white transition-colors dark:border-slate-700 dark:bg-slate-800",
             isLast
               ? "cursor-not-allowed opacity-40"
-              : "hover:border-sky-400 hover:bg-sky-50",
+              : "hover:border-sky-400 hover:bg-sky-50 dark:hover:border-sky-600 dark:hover:bg-sky-900/30",
           )}
         >
           <ChevronRight className="h-6 w-6" />
@@ -111,7 +111,7 @@ export function ShadowingPlayer({ items }: ShadowingPlayerProps) {
         className={cn(
           "w-full rounded-xl py-3 text-sm font-bold transition-colors",
           isLast
-            ? "cursor-not-allowed bg-slate-100 text-slate-400"
+            ? "cursor-not-allowed bg-slate-100 text-slate-400 dark:bg-slate-800 dark:text-slate-500"
             : "bg-emerald-500 text-white hover:bg-emerald-600",
         )}
       >

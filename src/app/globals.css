@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Tailwind v4: dark クラスが html 要素に付いたらダークモードを適用 */
+@variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #f8fafc;
   --foreground: #0f172a;

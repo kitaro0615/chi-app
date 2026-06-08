@@ -12,7 +12,7 @@ export function ProgressBar({
   const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;
 
   return (
-    <div className="w-full rounded-xl border-2 border-sky-200 bg-slate-900 p-4 text-white shadow-inner">
+    <div className="w-full rounded-xl border-2 border-sky-200 bg-slate-900 p-4 text-white shadow-inner dark:border-sky-900">
       <div className="mb-2 flex items-center justify-between text-sm">
         <span className="font-bold tracking-wide text-sky-300">{label}</span>
         <span className="text-sky-200">

@@ -42,7 +42,7 @@ export function LessonDetailClient({ lesson }: LessonDetailClientProps) {
               "rounded-xl px-2 py-2.5 text-xs font-bold transition-colors sm:text-sm",
               activeTab === tab.id
                 ? "bg-sky-500 text-white shadow-md"
-                : "border border-slate-200 bg-white text-slate-600 hover:border-sky-300",
+                : "border border-slate-200 bg-white text-slate-600 hover:border-sky-300 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:hover:border-sky-600",
             )}
           >
             <span className="mr-1">{tab.icon}</span>
@@ -54,16 +54,16 @@ export function LessonDetailClient({ lesson }: LessonDetailClientProps) {
       <div role="tabpanel" className="min-h-[200px]">
         {activeTab === "story" && (
           <div className="flex flex-col gap-6">
-            <section className="rounded-xl border border-slate-200 bg-white p-4">
-              <h2 className="mb-2 text-sm font-bold text-sky-700">場面描写</h2>
-              <p className="text-sm leading-relaxed text-slate-700">
+            <section className="rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-800">
+              <h2 className="mb-2 text-sm font-bold text-sky-700 dark:text-sky-300">場面描写</h2>
+              <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 {lesson.scene_description}
               </p>
             </section>
             <MangaPanelGrid panels={lesson.manga_panels} />
-            <section className="rounded-xl border-2 border-violet-200 bg-violet-50 p-4">
-              <h2 className="mb-2 text-sm font-bold text-violet-700">健の独白</h2>
-              <p className="text-sm leading-relaxed text-violet-900">
+            <section className="rounded-xl border-2 border-violet-200 bg-violet-50 p-4 dark:border-violet-500 dark:bg-slate-700">
+              <h2 className="mb-2 text-sm font-bold text-violet-700 dark:text-violet-300">健の独白</h2>
+              <p className="text-sm leading-relaxed text-violet-900 dark:text-slate-100">
                 {lesson.ken_monologue}
               </p>
             </section>

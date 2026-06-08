@@ -24,6 +24,7 @@ type ConversationBubbleProps = {
   line: ConversationLine;
 };
 
+// 発声ボタン：44×44pxの円形・常に左端に固定
 function ConversationAudioButton({ src }: { src: string }) {
   const { play, stop, isPlaying } = useAudio();
   const playing = isPlaying(src);
@@ -40,14 +41,20 @@ function ConversationAudioButton({ src }: { src: string }) {
     <button
       type="button"
       onClick={handleClick}
-      title="音声を再生"
       aria-label={playing ? "音声を停止" : "音声を再生"}
-      className="shrink-0 rounded-full p-1 text-slate-600 transition-colors hover:bg-black/5"
+      className={cn(
+        // 44×44px固定サイズ・円形・縮まない
+        "flex h-11 w-11 shrink-0 items-center justify-center rounded-full",
+        "border transition-colors",
+        playing
+          ? "border-blue-400 bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-300"
+          : "border-slate-300 bg-white text-slate-500 hover:border-slate-400 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:bg-slate-700",
+      )}
     >
       {playing ? (
-        <Pause className="h-4 w-4" />
+        <Pause className="h-5 w-5" />
       ) : (
-        <Volume2 className="h-4 w-4" />
+        <Volume2 className="h-5 w-5" />
       )}
     </button>
   );
@@ -58,58 +65,54 @@ function ConversationBubble({ line }: ConversationBubbleProps) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div
-      className={cn("flex w-full", isLearner ? "justify-end" : "justify-start")}
-    >
+    // ボタンと吹き出しを横並びにする・常に左端にボタン
+    <div className="flex w-full items-start gap-3">
+
+      {/* 発声ボタン：左端に固定（健もNPCも同じ位置） */}
+      <ConversationAudioButton src={line.audio} />
+
+      {/* 吹き出し：話者によって色を変える */}
       <div
         className={cn(
-          "max-w-[85%] rounded-2xl border-2 px-4 py-3 shadow-sm",
+          "flex-1 rounded-2xl border-2 px-4 py-3",
           isLearner
-            ? "rounded-br-sm border-blue-300 bg-blue-100 text-slate-900"
-            : "rounded-bl-sm border-gray-300 bg-gray-100 text-slate-900",
+            ? "border-blue-300 bg-blue-100 dark:border-blue-600 dark:bg-blue-900/50"
+            : "border-slate-200 bg-slate-100 dark:border-slate-500 dark:bg-slate-700",
         )}
       >
-        <div className="mb-2 flex w-full items-start justify-between gap-2">
-          {isLearner ? (
-            <>
-              <ConversationAudioButton src={line.audio} />
-              <span className="text-xs font-bold text-blue-700">{line.speaker}</span>
-            </>
-          ) : (
-            <>
-              <span className="text-xs font-bold text-gray-600">{line.speaker}</span>
-              <ConversationAudioButton src={line.audio} />
-            </>
+        {/* 話者名 */}
+        <p
+          className={cn(
+            "mb-1 text-xs font-bold",
+            isLearner ? "text-blue-700 dark:text-blue-300" : "text-slate-500 dark:text-slate-300",
           )}
-        </div>
+        >
+          {line.speaker}
+        </p>
 
+        {/* 中国語テキスト：タップでピンイン・日本語を展開 */}
         <button
           type="button"
-          onClick={() => setExpanded((value) => !value)}
+          onClick={() => setExpanded((v) => !v)}
           aria-expanded={expanded}
-          aria-label={
-            expanded
-              ? "ピンインと日本語訳を閉じる"
-              : "ピンインと日本語訳を表示"
-          }
+          aria-label={expanded ? "ピンインと日本語訳を閉じる" : "ピンインと日本語訳を表示"}
           className={cn(
             "w-full text-left font-sc text-lg font-bold leading-relaxed",
-            "cursor-pointer rounded-md transition-colors",
-            "hover:bg-black/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2",
+            "rounded-md transition-colors hover:bg-black/5 dark:hover:bg-white/5",
+            "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2",
             isLearner
               ? "focus-visible:outline-blue-400"
-              : "focus-visible:outline-gray-400",
+              : "focus-visible:outline-slate-400",
           )}
         >
           {line.chinese}
         </button>
 
+        {/* ピンイン・日本語訳（展開時のみ表示） */}
         {expanded && (
-          <div className="mt-2 border-t border-black/10 pt-2">
-            <p className="text-xs leading-relaxed text-gray-500">{line.pinyin}</p>
-            <p className="mt-1 text-xs leading-relaxed text-gray-600">
-              {line.japanese}
-            </p>
+          <div className="mt-2 border-t border-black/10 pt-2 dark:border-white/10">
+            <p className="text-xs leading-relaxed text-slate-500 dark:text-slate-400">{line.pinyin}</p>
+            <p className="mt-1 text-xs leading-relaxed text-slate-600 dark:text-slate-300">{line.japanese}</p>
           </div>
         )}
       </div>

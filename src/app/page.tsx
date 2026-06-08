@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { DarkModeToggle } from "@/components/DarkModeToggle";
 import { LessonListClient } from "@/components/LessonListClient";
 import { getAllLessons } from "@/lib/lessonLoader";
@@ -15,6 +16,14 @@ export default async function HomePage() {
           </div>
           <DarkModeToggle />
         </div>
+
+        {/* 単語帳・フラッシュカードへのリンク */}
+        <Link
+          href="/vocabulary"
+          className="flex items-center gap-2 rounded-xl border-2 border-emerald-200 bg-emerald-50 px-4 py-2.5 text-sm font-bold text-emerald-700 transition-colors hover:border-emerald-300 hover:bg-emerald-100 dark:border-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300 dark:hover:bg-emerald-900/50"
+        >
+          📚 単語帳・フラッシュカード
+        </Link>
       </header>
 
       <LessonListClient lessons={lessons} />

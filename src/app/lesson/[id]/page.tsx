@@ -53,7 +53,7 @@ export default async function LessonPage({ params }: LessonPageProps) {
           {lesson.grammar.map((item) => (
             <span
               key={item}
-              className="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs text-slate-600 dark:bg-slate-800 dark:text-slate-400"
+              className="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs text-slate-600 dark:bg-gray-700 dark:text-gray-100"
             >
               {item}
             </span>

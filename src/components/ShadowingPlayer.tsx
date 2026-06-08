@@ -65,10 +65,11 @@ export function ShadowingPlayer({ items }: ShadowingPlayerProps) {
           disabled={isFirst}
           aria-label="前のフレーズ"
           className={cn(
-            "flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white transition-colors dark:border-slate-700 dark:bg-slate-800",
+            "flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white transition-colors",
+            "dark:border-gray-500 dark:bg-gray-600 dark:text-white",
             isFirst
               ? "cursor-not-allowed opacity-40"
-              : "hover:border-sky-400 hover:bg-sky-50 dark:hover:border-sky-600 dark:hover:bg-sky-900/30",
+              : "hover:border-sky-400 hover:bg-sky-50 dark:hover:border-sky-400 dark:hover:bg-gray-500",
           )}
         >
           <ChevronLeft className="h-6 w-6" />
@@ -94,10 +95,11 @@ export function ShadowingPlayer({ items }: ShadowingPlayerProps) {
           disabled={isLast}
           aria-label="次のフレーズ"
           className={cn(
-            "flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white transition-colors dark:border-slate-700 dark:bg-slate-800",
+            "flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-200 bg-white transition-colors",
+            "dark:border-gray-500 dark:bg-gray-600 dark:text-white",
             isLast
               ? "cursor-not-allowed opacity-40"
-              : "hover:border-sky-400 hover:bg-sky-50 dark:hover:border-sky-600 dark:hover:bg-sky-900/30",
+              : "hover:border-sky-400 hover:bg-sky-50 dark:hover:border-sky-400 dark:hover:bg-gray-500",
           )}
         >
           <ChevronRight className="h-6 w-6" />

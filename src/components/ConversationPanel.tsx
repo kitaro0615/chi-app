@@ -77,14 +77,14 @@ function ConversationBubble({ line }: ConversationBubbleProps) {
           "flex-1 rounded-2xl border-2 px-4 py-3",
           isLearner
             ? "border-blue-300 bg-blue-100 dark:border-blue-600 dark:bg-blue-900/50"
-            : "border-slate-200 bg-slate-100 dark:border-slate-500 dark:bg-slate-700",
+            : "border-slate-200 bg-slate-100 dark:border-gray-400 dark:bg-slate-600",
         )}
       >
         {/* 話者名 */}
         <p
           className={cn(
             "mb-1 text-xs font-bold",
-            isLearner ? "text-blue-700 dark:text-blue-300" : "text-slate-500 dark:text-slate-300",
+            isLearner ? "text-blue-700 dark:text-blue-300" : "text-slate-500 dark:text-gray-100",
           )}
         >
           {line.speaker}
@@ -102,7 +102,7 @@ function ConversationBubble({ line }: ConversationBubbleProps) {
             "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2",
             isLearner
               ? "focus-visible:outline-blue-400"
-              : "focus-visible:outline-slate-400",
+              : "focus-visible:outline-slate-400 dark:text-white",
           )}
         >
           {line.chinese}

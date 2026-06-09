@@ -77,10 +77,10 @@ export function VocabularyListClient({ lessons }: VocabularyListClientProps) {
                     </span>
                   )}
                 </div>
-                <p className="font-sc font-bold text-slate-900 dark:text-slate-100 truncate">
+                <p className="font-sc font-bold text-gray-900 dark:text-white truncate">
                   {lesson.title}
                 </p>
-                <p className="text-sm text-slate-500 dark:text-slate-400 truncate">
+                <p className="text-sm text-gray-800 dark:text-gray-100 truncate">
                   {lesson.theme}
                 </p>
               </div>
@@ -95,11 +95,11 @@ export function VocabularyListClient({ lessons }: VocabularyListClientProps) {
                   }`}
                 >
                   {mastered}
-                  <span className="text-sm font-medium text-slate-400 dark:text-slate-500">
+                  <span className="text-sm font-medium text-gray-600 dark:text-gray-300">
                     {" "}/ {total}
                   </span>
                 </p>
-                <p className="text-xs text-slate-500 dark:text-slate-400">覚えた</p>
+                <p className="text-xs text-gray-700 dark:text-gray-200">覚えた</p>
               </div>
             </div>
 

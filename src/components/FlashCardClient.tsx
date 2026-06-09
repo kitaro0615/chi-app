@@ -130,7 +130,7 @@ export function FlashCardClient({ lessonId, items }: FlashCardClientProps) {
     <div className="flex flex-col gap-6">
       {/* 進捗バー */}
       <div className="flex flex-col gap-1.5">
-        <div className="flex justify-between text-xs text-slate-500 dark:text-slate-400">
+        <div className="flex justify-between text-xs text-gray-800 dark:text-gray-100">
           <span>残り {remaining} 枚</span>
           <span>覚えた {masteredIds.length} / {items.length} 語</span>
         </div>
@@ -166,7 +166,7 @@ export function FlashCardClient({ lessonId, items }: FlashCardClientProps) {
             <p className="font-sc text-4xl font-bold leading-relaxed text-slate-900 dark:text-slate-100">
               {currentCard.chinese}
             </p>
-            <p className="text-xs text-slate-400 dark:text-slate-500">
+            <p className="text-xs text-gray-600 dark:text-gray-300">
               タップして答えを確認
             </p>
           </div>
@@ -176,10 +176,10 @@ export function FlashCardClient({ lessonId, items }: FlashCardClientProps) {
             <p className="font-sc text-4xl font-bold leading-relaxed text-slate-900 dark:text-slate-100">
               {currentCard.chinese}
             </p>
-            <p className="text-xl text-slate-600 dark:text-slate-300">
+            <p className="text-xl text-gray-800 dark:text-gray-100">
               {currentCard.pinyin}
             </p>
-            <p className="text-base text-slate-500 dark:text-slate-400">
+            <p className="text-base text-gray-800 dark:text-gray-100">
               {currentCard.japanese}
             </p>
             {/* 音声再生ボタン（クリックでカードのフリップを防ぐため stopPropagation） */}
@@ -214,7 +214,7 @@ export function FlashCardClient({ lessonId, items }: FlashCardClientProps) {
           <button
             type="button"
             onClick={handleAgain}
-            className="rounded-xl border-2 border-orange-200 bg-orange-50 py-3 text-sm font-bold text-orange-700 transition-colors hover:bg-orange-100 dark:border-orange-800 dark:bg-orange-900/30 dark:text-orange-300 dark:hover:bg-orange-900/50"
+            className="rounded-xl border-2 border-orange-200 bg-orange-50 py-3 text-sm font-bold text-orange-800 transition-colors hover:bg-orange-100 dark:border-orange-700 dark:bg-orange-900/40 dark:text-white dark:hover:bg-orange-900/60"
           >
             もう一度
           </button>
@@ -232,7 +232,7 @@ export function FlashCardClient({ lessonId, items }: FlashCardClientProps) {
         <button
           type="button"
           onClick={handleReset}
-          className="flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 py-2 text-xs text-slate-500 transition-colors hover:bg-slate-50 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-800"
+          className="flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 py-2 text-xs text-gray-700 transition-colors hover:bg-slate-50 dark:border-slate-600 dark:text-gray-100 dark:hover:bg-slate-800"
         >
           <RotateCcw className="h-3 w-3" />
           最初からやり直す
@@ -262,17 +262,17 @@ function CompletionScreen({
   return (
     <div className="flex flex-col items-center gap-6 py-12 text-center">
       <p className="text-6xl">🎉</p>
-      <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100">
+      <h2 className="text-xl font-bold text-gray-900 dark:text-white">
         {message}
       </h2>
-      <p className="text-sm text-slate-600 dark:text-slate-400">
+      <p className="text-sm text-gray-800 dark:text-gray-100">
         覚えた単語：{masteredCount} / {totalCount} 語
       </p>
       {/* 「最初からやり直す」で全カードをリセットして再挑戦 */}
       <button
         type="button"
         onClick={onReset}
-        className="flex items-center gap-2 rounded-xl border-2 border-slate-200 bg-white px-6 py-3 text-sm font-bold text-slate-700 transition-colors hover:border-slate-300 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"
+        className="flex items-center gap-2 rounded-xl border-2 border-slate-200 bg-white px-6 py-3 text-sm font-bold text-gray-900 transition-colors hover:border-slate-300 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700"
       >
         <RotateCcw className="h-4 w-4" />
         最初からやり直す

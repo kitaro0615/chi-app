@@ -52,10 +52,10 @@ export default async function VocabularyLessonPage({
         </div>
 
         {/* レッスンタイトル・テーマ */}
-        <h1 className="font-sc text-2xl font-bold text-slate-900 dark:text-slate-100">
+        <h1 className="font-sc text-2xl font-bold text-gray-900 dark:text-white">
           {lesson.title}
         </h1>
-        <p className="text-sm text-slate-600 dark:text-slate-400">
+        <p className="text-sm text-gray-800 dark:text-gray-100">
           {lesson.theme}
         </p>
       </header>

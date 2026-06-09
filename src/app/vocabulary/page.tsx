@@ -27,7 +27,7 @@ export default async function VocabularyPage() {
           {/* ダークモード切り替えボタン */}
           <DarkModeToggle />
         </div>
-        <p className="text-sm text-slate-600 dark:text-slate-400">
+        <p className="text-sm text-gray-800 dark:text-gray-100">
           レッスンを選んでフラッシュカードで単語を練習しよう
         </p>
       </header>

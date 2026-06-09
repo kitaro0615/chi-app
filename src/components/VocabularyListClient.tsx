@@ -61,7 +61,7 @@ export function VocabularyListClient({ lessons }: VocabularyListClientProps) {
           <Link
             key={lesson.id}
             href={`/vocabulary/${lesson.id}`}
-            className="block rounded-xl border-2 border-slate-200 bg-white p-4 shadow-sm transition-colors hover:border-sky-400 hover:shadow-md active:scale-[0.99] dark:border-slate-700 dark:bg-slate-800 dark:hover:border-sky-600"
+            className="block rounded-xl border-2 border-slate-200 bg-white p-4 shadow-sm transition-colors hover:border-sky-400 hover:shadow-md active:scale-[0.99] dark:border-slate-700 dark:bg-gray-800 dark:hover:border-sky-600"
           >
             <div className="flex items-center gap-3">
               {/* 左側：課番号・タイトル・テーマ */}
@@ -80,7 +80,7 @@ export function VocabularyListClient({ lessons }: VocabularyListClientProps) {
                 <p className="font-sc font-bold text-gray-900 dark:text-white truncate">
                   {lesson.title}
                 </p>
-                <p className="text-sm text-gray-800 dark:text-gray-100 truncate">
+                <p className="text-sm text-gray-800 dark:text-gray-300 truncate">
                   {lesson.theme}
                 </p>
               </div>
@@ -99,7 +99,7 @@ export function VocabularyListClient({ lessons }: VocabularyListClientProps) {
                     {" "}/ {total}
                   </span>
                 </p>
-                <p className="text-xs text-gray-700 dark:text-gray-200">覚えた</p>
+                <p className="text-xs text-gray-700 dark:text-gray-300">覚えた</p>
               </div>
             </div>
 

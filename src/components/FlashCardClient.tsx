@@ -130,7 +130,7 @@ export function FlashCardClient({ lessonId, items }: FlashCardClientProps) {
     <div className="flex flex-col gap-6">
       {/* 進捗バー */}
       <div className="flex flex-col gap-1.5">
-        <div className="flex justify-between text-xs text-gray-800 dark:text-gray-100">
+        <div className="flex justify-between text-xs text-gray-800 dark:text-gray-300">
           <span>残り {remaining} 枚</span>
           <span>覚えた {masteredIds.length} / {items.length} 語</span>
         </div>
@@ -232,7 +232,7 @@ export function FlashCardClient({ lessonId, items }: FlashCardClientProps) {
         <button
           type="button"
           onClick={handleReset}
-          className="flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 py-2 text-xs text-gray-700 transition-colors hover:bg-slate-50 dark:border-slate-600 dark:text-gray-100 dark:hover:bg-slate-800"
+          className="flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-white py-2 text-xs text-gray-700 transition-colors hover:bg-slate-50 dark:border-gray-600 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-500"
         >
           <RotateCcw className="h-3 w-3" />
           最初からやり直す
@@ -272,7 +272,7 @@ function CompletionScreen({
       <button
         type="button"
         onClick={onReset}
-        className="flex items-center gap-2 rounded-xl border-2 border-slate-200 bg-white px-6 py-3 text-sm font-bold text-gray-900 transition-colors hover:border-slate-300 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700"
+        className="flex items-center gap-2 rounded-xl border-2 border-slate-200 bg-white px-6 py-3 text-sm font-bold text-gray-900 transition-colors hover:border-slate-300 hover:bg-slate-50 dark:border-gray-600 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-500"
       >
         <RotateCcw className="h-4 w-4" />
         最初からやり直す
